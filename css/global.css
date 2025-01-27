@@ -29,7 +29,7 @@ body {
         "corps corps"
         "hobbies more"
         "footer footer";
-        gap: 5px 0;
+        gap: 5px 5px;
     }
     
     .menu > ul {
@@ -60,7 +60,7 @@ body {
             "hobbies corps"
             "more corps"
             "footer footer";
-        gap: 0px 5px;
+        gap: 5px 5px;
     }
 
     .menu > ul {
@@ -350,6 +350,8 @@ li:not(.lang-item) {
 
 .footer-content {
     grid-area: footer;
+    display: flex;
+    align-items: center;
     color: #b8928c;
     font-size: 1.2rem;
     font-weight: bold;
@@ -361,6 +363,6 @@ li:not(.lang-item) {
 }
 
 .footer-content > a {
-    vertical-align: middle;
     cursor: pointer;
+    padding-top: 5px;
 }

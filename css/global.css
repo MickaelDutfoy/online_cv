@@ -362,6 +362,10 @@ li:not(.lang-item) {
     margin: 0 10px 10px 10px; padding: 10px;
 }
 
+.footer-content > span {
+    padding-right: 10px;
+}
+
 .footer-content > a {
     cursor: pointer;
     padding-top: 5px;

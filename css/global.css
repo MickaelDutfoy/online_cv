@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    width: 100%; margin: 0; padding: 0 20px;
+    width: 100%; margin: 0; padding-right: 20px;
     font-family: "Crimson Pro", sans-serif;
     overflow-x: hidden;
     background: linear-gradient(to bottom right, #29363F, #07141D);

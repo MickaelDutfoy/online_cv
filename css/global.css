@@ -1,0 +1,366 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    scroll-padding-top: 10px;
+}
+
+body {
+    width: 100%; margin: 0; padding: 0 20px;
+    font-family: "Crimson Pro", sans-serif;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom right, #29363F, #07141D);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #eeedfb;
+}
+
+@media (max-width: 639px) {
+    body {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-areas:
+        "pic menu"
+        "entete entete"
+        "coord skills"
+        "corps corps"
+        "hobbies more"
+        "footer footer";
+        gap: 5px 0;
+    }
+    
+    .menu > ul {
+        flex-direction: column;
+    }
+
+    .skills, .more { 
+        grid-area: skills;
+        text-align: left;
+        border-right: 3px solid #c8c0d8;
+    }
+
+    .lang.active.main-tabs {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 810px) {
+    body {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "pic menu"
+            "pic entete"
+            "coord corps"
+            "skills corps"
+            "hobbies corps"
+            "more corps"
+            "footer footer";
+        gap: 0px 5px;
+    }
+
+    .menu > ul {
+        flex-direction: row-reverse;
+    }
+
+    .skills, .more { 
+        grid-area: skills;
+        text-align: left;
+        border-right: 3px solid #c8c0d8;
+    }
+
+    .lang.active.main-tabs {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 811px) {
+    body {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-areas:
+            "pic entete menu"
+            "coord corps skills"
+            "hobbies corps more"
+            "footer footer footer";
+        gap: 10px;
+    }
+
+    .menu > ul {
+        flex-direction: column;
+    }
+
+    .skills, .more {
+        text-align: right;
+        border-left: 3px solid #c8c0d8; 
+    }
+}
+
+.lang {
+    display: none;
+}
+
+.lang.active {
+    display: block;
+}
+
+header, main, footer, aside {
+    display: contents;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 { 
+    color: #c8c0d8;
+    text-shadow: 2px 2px 2px black;
+    margin: 0; padding: 5px;
+}
+
+ul {
+    list-style: none;
+    margin: 0; padding: 15px;
+}
+
+.pic {
+    grid-area: pic;
+}
+
+.pic > img {
+    height: auto; width: auto;
+    max-height: 300px; max-width: 90%;
+    object-fit: contain;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.entete {
+    grid-area: entete;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: #c8c0d8;
+}
+
+.entete h2 {
+    font-size: 1.9rem;
+}
+
+.entete p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.menu {
+    grid-area: menu;
+    padding-right: 10px;
+    position: relative;
+}
+
+.menu h2 {
+    margin-top: 10px;
+}
+
+.menu > ul {
+    padding: 0;
+    display: flex;
+    position: absolute;
+    top: 10px; right: 10px;
+    opacity: 0;
+    visibility: hidden;
+    font-weight: bold;
+}
+
+.menu a, .coord a {
+    cursor: pointer;
+    color: #eeedfb;
+    text-decoration: none;
+}
+
+#lang {
+    float: right;
+}
+
+#lang, .lang-item {
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#lang a, .lang-item a {
+    display: block; width: 100%; height: 100%;
+}
+
+#lang:hover, .lang-item:hover {
+    cursor: pointer;
+    background-color: #c8c0d8;
+    box-shadow: 3px 3px 10px black;
+}
+
+#lang:hover a, .lang-item:hover a {
+    color: #29363F;
+    text-shadow: 2px 2px 2px #eeedfb;
+}
+
+#lang:target + ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+#lang:target {
+    opacity: 0;
+}
+
+.menu > ul > li {
+    font-size: 1.5rem;
+}
+
+.menu span {
+    vertical-align: middle;
+}
+
+.menu img {
+    vertical-align: middle;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.coord {
+    grid-area: coord;
+    font-size: 1.1rem;
+    line-height: 1.25;
+    border-right: 3px solid #c8c0d8; border-bottom: 3px solid #c8c0d8;
+    border-radius: 10px;
+}
+
+.coord address {
+    font-style: normal;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.coord a:hover {
+    color: #b8928c;
+    text-decoration: underline;
+}
+
+.skills { 
+    grid-area: skills;
+    font-size: 1.1rem;
+    line-height: 1.25;
+    border-bottom: 3px solid #c8c0d8;
+    border-radius: 10px;
+}
+
+.hobbies { 
+    grid-area: hobbies;
+    font-size: 1.1rem;
+    line-height: 1.25;
+    border-right: 3px solid #c8c0d8; border-bottom: 3px solid #c8c0d8;
+    border-radius: 10px;
+}
+
+.more { 
+    grid-area: more;
+    font-size: 1.1rem;
+    line-height: 1.25;
+    border-bottom: 3px solid #c8c0d8;
+    border-radius: 10px;
+}
+
+li:not(.lang-item) {
+    margin-bottom: 10px;
+}
+
+.corps { 
+    grid-area: corps;
+}
+
+.lang.active.main-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.main-tabs {
+    text-align: center;
+}
+
+.tab {
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 5px;
+    color: #29363F;
+    font-weight: bold;
+    background-color: #c8c0d8;
+    border: 3px solid #b8928c;
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px #eeedfb;
+}
+
+.tab:not(.active-but) {
+    opacity: 0.4;
+}   
+
+.tab:hover:not(.active-but) {
+    opacity: 0.7;
+}
+
+.active-but {
+    opacity: 1;
+}
+
+.tab-content {
+    display: none;
+    padding: 1rem;
+}
+
+.active-tab {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    width: 100%;
+    background-color: #eeedfb;
+    border-radius: 10px;
+    color: #b8928c;
+    font-size: 1.2rem;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    box-shadow: 3px 3px 10px black;
+}
+
+.date h2, .exp-item h2 {
+    font-size: 1.2rem;
+    color: #b8928c;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+
+.tab-content p {
+    margin-top: 0;
+    text-align: justify;
+    grid-column: span 2;
+}
+
+.footer-content {
+    grid-area: footer;
+    color: #b8928c;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    box-shadow: 3px 3px 10px black;
+    background-color: #eeedfb;
+    margin: 0 10px 10px 10px; padding: 10px;
+}
+
+.footer-content > a {
+    vertical-align: middle;
+    cursor: pointer;
+}

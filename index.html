@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mickaël Dutfoy">
+    <title>Mickaël Dutfoy</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="pic">
+            <img src="img/Profile.jpg" alt="Mickaël Dutfoy">
+        </div>
+        <div class="menu">
+            <h2 id="lang"><a href="#lang"><img src="img/FR.png" alt=""><span>Français</span></a></h2>
+            <ul>
+                <li class="lang-item"><a href="#fr"><img src="img/FR.png" alt="French flag"><span>Français</span></a></li>
+                <li class="lang-item"><a href="#en"><img src="img/UK.png" alt="UK flag"><span>English</span></a></li>
+                <li class="lang-item"><a href="#no"><img src="img/NO.png" alt="Norway flag"><span>Norsk</span></a></li>
+            </ul>
+        </div>
+        <div class="entete">
+            <h1>Mickaël Dutfoy</h1>
+            <h2 class="lang fr">Développeur Web et Professeur de mathématiques</h2>
+            <h2 class="lang en">Web developer and Math teacher</h2>
+            <h2 class="lang no">Webutvikler og Matematikklærer</h2>
+            <p class="lang fr">Déterminé, curieux et dynamique, prêt à relever tous les défis techniques</p>
+            <p class="lang en">Driven, curious and dynamic, ready to take on every tech challenge</p>
+            <p class="lang no">Motivert, nysgjerrig og dynamisk, klar for å møte alle tekniske utfordringer</p>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <div class="coord">
+                <h2 class="lang fr">Coordonnées</h2>
+                <h2 class="lang en">Contact details</h2>
+                <h2 class="lang no">Kontaktinformasjon</h2>
+                <address>
+                    1 Allée de la Selve<br>
+                    05600 Guillestre<br>
+                    France<br>
+                    <a href="tel:+33682506341">(+33)06.82.50.63.41</a><br>
+                    <a href="mailto:m.dutfoy@gmail.com">m.dutfoy@gmail.com</a>
+                </address>
+            </div>
+            <div class="hobbies">
+                <h2 class="lang fr">Loisirs et passions</h2>
+                <ul class="lang fr">
+                    <li>Activités de montagne (trail, VTT, ski de randonnée)</li>
+                    <li>Jeux (vidéos, de société, de cartes à collectionner)</li>
+                    <li>Engagement dans la protection animale</li>
+                </ul>
+                <h2 class="lang en">Hobbies and passions</h2>
+                <ul class="lang en">
+                    <li>Mountain activities (trail running, mountain biking, ski touring)</li>
+                    <li>Games (video games, board games, trading card games)</li>
+                    <li>Commitment to animal protection</li>
+                </ul>
+                <h2 class="lang no">Hobbyer og lidenskaper</h2>
+                <ul class="lang no">
+                    <li>Fjellaktiviteter (løping, terrengsykling, topptur)</li>
+                    <li>Spill (videospill, brettspill, samlekortspill)</li>
+                    <li>Engasjement for dyrevern</li>
+                </ul>
+            </div>
+        </aside>
+        <article class="corps">
+            <div class="main-tabs lang fr">
+                <button id="but-0" class="tab active-but" onclick="showTab(0)">Expérience professionnelle</button>
+                <button id="but-1" class="tab" onclick="showTab(1)">Formation et diplômes</button>
+                <button id="but-2" class="tab" onclick="showTab(2)">Mon parcours</button>
+                <button id="but-3" class="tab" onclick="showTab(3)">Mon état d'esprit</button>
+            </div>
+            <div class="main-tabs lang en">
+                <button id="but-4" class="tab" onclick="showTab(4)">Professional experience</button>
+                <button id="but-5" class="tab" onclick="showTab(5)">Training and qualifications</button>
+                <button id="but-6" class="tab" onclick="showTab(6)">My career</button>
+                <button id="but-7" class="tab" onclick="showTab(7)">My state of mind</button>
+            </div>
+            <div class="main-tabs lang no">
+                <button id="but-8" class="tab" onclick="showTab(8)">Yrkeserfaring</button>
+                <button id="but-9" class="tab" onclick="showTab(9)">Opplæring og kvalifikasjoner</button>
+                <button id="but-10" class="tab" onclick="showTab(10)">Karrieren min</button>
+                <button id="but-11" class="tab" onclick="showTab(11)">Min sinnstilstand</button>
+            </div>
+            <div class="content lang fr">
+                <div id="tab-0" class="tab-content active-tab">
+                    <div class="date"><h2>2022-2024</h2></div><div class="exp-item"><h2>Professeur certifié de mathématiques</h2></div>
+                    <div class="place">Collège Les Ecrins<br>Embrun (05)</div><div class="exp-content">En charge de tous niveaux de la 5e à la 3e, deux fois professeur principal de 3e.<br>Animation de diverses actions de soutien aux élèves en difficulté.</div>
+                    <div class="date"><h2>2015-2022</h2></div><div class="exp-item"><h2>Professeur certifié de mathématiques</h2></div>
+                    <div class="place">Collège du Verney<br>Sallanches (74)</div><div class="exp-content">En charge de tous niveaux de la 6e à la 3e, quatre fois professeur principal de 3e.<br>Animation de diverses actions de soutien aux élèves en difficulté et d'un club de cartes à collectionner (Magic the Gathering).</div>
+                    <div class="date"><h2>2013-2015</h2></div><div class="exp-item"><h2>Professeur certifié de mathématiques</h2></div>
+                    <div class="place">Collège Claude Tillier<br>Cosne-sur-Loire (58)</div><div class="exp-content">En charge de tous niveaux de la 6e à la 3e, professeur principal de 5e puis de 4e.</div>
+                    <div class="date"><h2>2012-2013</h2></div><div class="exp-item"><h2>Professeur stagiaire de mathématiques</h2></div>
+                    <div class="place">Collège du Verney<br>Sallanches (74)</div><div class="exp-content">En charge de deux classes de 6e et deux de 5e.</div>
+                </div>
+                <div id="tab-1" class="tab-content">
+                    <div class="date"><h2>2024-En cours</h2></div><div class="exp-item"><h2>Formation DWWM</h2></div>
+                    <div class="place">ESECAD<br>Montrouge (92)</div><div class="exp-content">Objectif d'obtention du titre "Développeur Web et Web Mobile" à l'automne 2025.</div>
+                    <div class="date"><h2>2012</h2></div><div class="exp-item"><h2>CAPES de mathématiques</h2></div>
+                    <div class="place">Université Rennes 2<br>Rennes (35)</div><div class="exp-content">Classement : 222<sup>e</sup>.</div>
+                    <div class="date"><h2>2012</h2></div><div class="exp-item"><h2>CLES 2 Anglais</h2></div>
+                    <div class="place">Université Rennes 2<br>Rennes (35)</div><div class="exp-content">Certification de niveau B2</div>
+                    <div class="date"><h2>2010-2012</h2></div><div class="exp-item"><h2>Master MEEF</h2></div>
+                    <div class="place">Université Rennes 2<br>Rennes (35)</div><div class="exp-content">Obtention du Master "Métiers de l'Enseignement, de l'Education et de la Formation" en mathématiques.</div>
+               </div>
+                <div id="tab-2" class="tab-content">
+                    <p>Après douze ans passés à enseigner les mathématiques dans l'Éducation Nationale, j'ai choisi en 2024 de me reconvertir dans le développement Web. Cette décision marque mon désir de relever de nouveaux défis, d'évoluer dans un cadre professionnel différent, tout en capitalisant sur les acquis de mon expérience passée.</p>
+                    <p>Ces douze années d'enseignement m'ont permis de développer des compétences transférables clés : pédagogie, communication, organisation, rigueur, et bien sûr, une patience à toute épreuve. En parallèle, elles m'ont appris à m'adapter à des publics variés et à collaborer efficacement avec différentes tranches d'âge.</p>
+                    <p>Dans le développement Web, notamment à travers la logique du code, je retrouve ce qui m'a toujours attiré dans les mathématiques : une passion pour la logique, la précision et la rigueur. Pour moi, la passerelle entre mon passé de "mathématicien" et mon avenir de développeur est évidente.</p>
+                    <p>De plus, mon goût pour les langues vivantes et mon solide niveau d'anglais, longtemps sous-exploités dans l'enseignement, représentent des atouts précieux pour m'épanouir pleinement dans ce nouveau domaine.</p>
+                </div>
+                <div id="tab-3" class="tab-content">
+                    <p>Il n'est jamais chose aisée de se définir soi-même de façon juste, humble et positive. Pourtant, au fil de mon expérience professionnelle et de mon développement personnel, j'ai appris à identifier mes points forts.</p>
+                    <p>Je suis d'un naturel persévérant, animé par une volonté inébranlable d'apprendre et de progresser. Que ce soit dans l'apprentissage du VTT ou du norvégien, je suis constamment porté par ce désir d'élargir mes compétences et de me surpasser. Je ne me contente pas de maîtriser une compétence : je cherche toujours à en repousser les limites, qu'il s'agisse de battre mon chrono en trail ou de relever des défis intellectuels. Mon virage professionnel incarne parfaitement ce besoin d'évoluer en continu.</p>
+                    <p>En outre, j'ai une nature curieuse et dynamique, profondément tournée vers la transmission des savoirs. En tant qu'ancien enseignant, j'irai toujours poser des questions aux personnes plus qualifiées que moi pour approfondir un sujet qui m'intéresse. Mon objectif est toujours clair : apprendre assez pour devenir autonome et maîtriser pleinement les outils à ma disposition. Cette quête d'autonomie et de rigueur a été un pilier tout au long de ma carrière, car être enseignant, c'est aussi savoir organiser, planifier et être à la hauteur, même face aux imprévus.</p>
+                </div>
+            </div>
+            <div class="content lang en">
+                <div id="tab-4" class="tab-content"><p>This section is under development.</p></div>
+                <div id="tab-5" class="tab-content"><p>This section is under development.</p></div>
+                <div id="tab-6" class="tab-content"><p>This section is under development.</p></div>
+                <div id="tab-7" class="tab-content"><p>This section is under development.</p></div>
+            </div>
+            <div class="content lang no">
+                <div id="tab-8" class="tab-content"><p>Denne delen er under utvikling.</p></div>
+                <div id="tab-9" class="tab-content"><p>Denne delen er under utvikling.</p></div>
+                <div id="tab-10" class="tab-content"><p>Denne delen er under utvikling.</p></div>
+                <div id="tab-11" class="tab-content"><p>Denne delen er under utvikling.</p></div>
+            </div>
+        </article>
+        <aside>
+            <div class="skills">
+                <h2 class="lang fr">Compétences</h2>
+                <ul class="lang fr">
+                    <li>Français langue maternelle</li>
+                    <li>Anglais certifié C1</li>
+                    <li>Norvégien A1/A2</li>
+                    <li>HTML/CSS avancé</li>
+                    <li>JavaScript débutant</li>
+                    <li>Mathématiques universitaires</li>
+                </ul>
+                <h2 class="lang en">Skills</h2>
+                <ul class="lang en">
+                    <li>Native French speaker</li>
+                    <li>English certified C1</li>
+                    <li>Norwegian A1/A2</li>
+                    <li>Advanced HTML/CSS</li>
+                    <li>Beginner JavaScript</li>
+                    <li>University-level Mathematics</li>
+                </ul>
+                <h2 class="lang no">Kompetanser</h2>
+                <ul class="lang no">
+                    <li>Fransk morsmål</li>
+                    <li>Engelsk sertifisert C1</li>
+                    <li>Norvegiansk A1/A2</li>
+                    <li>Avansert HTML/CSS</li>
+                    <li>Nybegynner JavaScript</li>
+                    <li>Universitetsmatematikk</li>
+                </ul>
+            </div>
+            <div class="more">
+                <h2 class="lang fr">Remarques</h2>
+                <ul class="lang fr">
+                    <li>Handicap visuel à longue distance</li>
+                    <li>Bénéficiaire de l'obligation d'emploi (RQTH)</li>
+                </ul>
+                <h2 class="lang en">Remarks</h2>
+                <ul class="lang en">
+                    <li>Visual impairment at long distance</li>
+                </ul>
+                <h2 class="lang no">Merknader</h2>
+                <ul class="lang no">
+                    <li>Synshemning på lang avstand</li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <span>Retrouvez-moi sur les réseaux : </span>
+            <a href="https://www.facebook.com/m.dutfoy.prof"><img src="img/facebook.png" alt="Logo Facebook"></a>
+            <a href="https://github.com/MickaelDutfoy"><img src="img/github.png" alt="Logo GitHub"></a>
+            <a href="https://www.linkedin.com/in/micka%C3%ABl-dutfoy-93b88531a/"><img src="img/linkedin.png" alt="Logo LinkedIn"></a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

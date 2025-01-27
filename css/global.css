@@ -119,8 +119,11 @@ h1 {
 
 h2 { 
     color: #c8c0d8;
-    text-shadow: 2px 2px 2px black;
     margin: 0; padding: 5px;
+}
+
+.coord h2, .hobbies h2, .skills h2, .more h2 {
+    text-shadow: 2px 2px 2px black;
 }
 
 ul {
@@ -329,16 +332,14 @@ li:not(.lang-item) {
     width: 100%;
     background-color: #eeedfb;
     border-radius: 10px;
-    color: #b8928c;
+    color: #07141D;
     font-size: 1.2rem;
-    text-shadow: 0.5px 0.5px 0.5px black;
     box-shadow: 3px 3px 10px black;
 }
 
 .date h2, .exp-item h2 {
     font-size: 1.2rem;
-    color: #b8928c;
-    text-shadow: 1px 1px 1px black;
+    color: #07141D;
     font-weight: bold;
 }
 
@@ -352,11 +353,10 @@ li:not(.lang-item) {
     grid-area: footer;
     display: flex;
     align-items: center;
-    color: #b8928c;
+    color: #07141D;
     font-size: 1.2rem;
     font-weight: bold;
     border-radius: 10px;
-    text-shadow: 0.5px 0.5px 0.5px black;
     box-shadow: 3px 3px 10px black;
     background-color: #eeedfb;
     margin: 0 10px 10px 10px; padding: 10px;

@@ -367,6 +367,9 @@ li:not(.lang-item) {
 
 .footer-content > a {
     cursor: pointer;
+}
+
+.footer-content img {
     padding-top: 5px;
 }
 

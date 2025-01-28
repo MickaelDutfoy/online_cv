@@ -14,14 +14,14 @@
 <body>
     <header>
         <div class="pic">
-            <img src="img/Profile.jpg" alt="Mickaël Dutfoy">
+            <img src="img/Profile.jpg" alt="Photo d'identité Mickaël Dutfoy">
         </div>
         <div class="menu">
             <h2 id="lang"><a href="#lang"><img src="img/FR.png" alt=""><span>Français</span></a></h2>
             <ul>
-                <li class="lang-item"><a href="#fr"><img src="img/FR.png" alt="French flag"><span>Français</span></a></li>
-                <li class="lang-item"><a href="#en"><img src="img/UK.png" alt="UK flag"><span>English</span></a></li>
-                <li class="lang-item"><a href="#no"><img src="img/NO.png" alt="Norway flag"><span>Norsk</span></a></li>
+                <li class="lang-item" aria-label="Changer la langue en français"><a href="#fr"><img src="img/FR.png" alt="French flag"><span>Français</span></a></li>
+                <li class="lang-item" aria-label="Set language to english"><a href="#en"><img src="img/UK.png" alt="UK flag"><span>English</span></a></li>
+                <li class="lang-item" aria-label="Endre språk til norsk"><a href="#no"><img src="img/NO.png" alt="Norway flag"><span>Norsk</span></a></li>
             </ul>
         </div>
         <div class="entete">
@@ -39,7 +39,7 @@
             <div class="coord">
                 <h2 class="lang fr">Coordonnées</h2>
                 <h2 class="lang en">Contact details</h2>
-                <h2 class="lang no">Kontaktinformasjon</h2>
+                <h2 class="lang no">Kontakt Informasjon</h2>
                 <address>
                     1 Allée de la Selve<br>
                     05600 Guillestre<br>
@@ -63,7 +63,7 @@
                 </ul>
                 <h2 class="lang no">Hobbyer og lidenskaper</h2>
                 <ul class="lang no">
-                    <li>Fjellaktiviteter (løping, terrengsykling, topptur)</li>
+                    <li>Fjellaktiviteter (løping, terrengsykling, tur på ski)</li>
                     <li>Spill (videospill, brettspill, samlekortspill)</li>
                     <li>Engasjement for dyrevern</li>
                 </ul>
@@ -71,10 +71,10 @@
         </aside>
         <article class="corps">
             <div class="main-tabs lang fr">
-                <button id="but-0" class="tab active-but" onclick="showTab(0)">Expérience professionnelle</button>
-                <button id="but-1" class="tab" onclick="showTab(1)">Formation et diplômes</button>
-                <button id="but-2" class="tab" onclick="showTab(2)">Mon parcours</button>
-                <button id="but-3" class="tab" onclick="showTab(3)">Mon état d'esprit</button>
+                <button id="but-0" class="tab active-but" onclick="showTab(0)" aria-label="Voir l'expérience professionnelle">Expérience professionnelle</button>
+                <button id="but-1" class="tab" onclick="showTab(1)" aria-label="Voir la formation et les diplômes">Formation et diplômes</button>
+                <button id="but-2" class="tab" onclick="showTab(2)" aria-label="Voir le parcours">Mon parcours</button>
+                <button id="but-3" class="tab" onclick="showTab(3)"  aria-label="Voir l'état d'esprit">Mon état d'esprit</button>
             </div>
             <div class="main-tabs lang en">
                 <button id="but-4" class="tab" onclick="showTab(4)">Professional experience</button>
@@ -158,7 +158,7 @@
                 <ul class="lang no">
                     <li>Fransk morsmål</li>
                     <li>Engelsk sertifisert C1</li>
-                    <li>Norvegiansk A1/A2</li>
+                    <li>Norsk A1/A2</li>
                     <li>Avansert HTML/CSS</li>
                     <li>Nybegynner JavaScript</li>
                     <li>Universitetsmatematikk</li>
@@ -183,12 +183,20 @@
     </main>
     <footer>
         <div class="footer-content">
-            <span class="lang fr">Retrouvez-moi sur les réseaux : </span>
-            <span class="lang en">Find me on social media: </span>
-            <span class="lang no">Finn meg på sosiale medier: </span>
-            <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank"><img src="img/facebook.png" alt="Logo Facebook"></a>
-            <a href="https://github.com/MickaelDutfoy" target="_blank"><img src="img/github.png" alt="Logo GitHub"></a>
-            <a href="https://www.linkedin.com/in/micka%C3%ABl-dutfoy-93b88531a/" target="_blank"><img src="img/linkedin.png" alt="Logo LinkedIn"></a>
+            <div class="social-media">
+                <span class="lang fr">Retrouvez-moi sur les réseaux : </span>
+                <span class="lang en">Find me on social media: </span>
+                <span class="lang no">Finn meg på sosiale medier: </span>
+                <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank"><img src="img/facebook.png" alt="Logo Facebook"></a>
+                <a href="https://github.com/MickaelDutfoy" target="_blank"><img src="img/github.png" alt="Logo GitHub"></a>
+                <a href="https://www.linkedin.com/in/micka%C3%ABl-dutfoy-93b88531a/" target="_blank"><img src="img/linkedin.png" alt="Logo LinkedIn"></a>
+            </div>
+            <div class="notes">
+                <span class="lang fr">Ce site a été éco-conçu dans un souci d'accessibilité.</span>
+                <span class="lang en">This site was eco-designed with accessibility in mind.</span>  
+                <span class="lang no">Dette nettstedet er økodesignet med tanke på tilgjengelighet.</span>
+                <span class="copyright">&copy; 2025 Mickaël Dutfoy</span>
+            </div>
         </div>
     </footer>
     <script src="js/script.js"></script>

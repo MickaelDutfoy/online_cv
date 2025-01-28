@@ -47,7 +47,7 @@ body {
     }
 }
 
-@media (min-width: 640px) and (max-width: 810px) {
+@media (min-width: 640px) and (max-width: 945px) {
     body {
         display: grid;
         grid-template-rows: auto;
@@ -78,7 +78,7 @@ body {
     }
 }
 
-@media (min-width: 811px) {
+@media (min-width: 946px) {
     body {
         display: grid;
         grid-template-rows: auto;
@@ -299,7 +299,7 @@ li:not(.lang-item) {
 .tab {
     cursor: pointer;
     font-size: 1.1rem;
-    padding: 5px;
+    padding: 10px;
     color: #29363F;
     font-weight: bold;
     background: linear-gradient(to bottom right, #c8c0d8, #f6c0b6);

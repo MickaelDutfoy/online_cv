@@ -297,7 +297,7 @@ li:not(.lang-item) {
     padding-right: 10px;
 }
 
-.footer-content > a {
+.footer-content a {
     cursor: pointer;
 }
 

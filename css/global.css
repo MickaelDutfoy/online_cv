@@ -42,7 +42,16 @@ header, main, footer, aside {
 }
 
 h1 {
+    padding-top: 25px;
     font-size: 3rem;
+}
+
+header h2 {
+    padding-top: 15px;
+}
+
+header p {
+    padding: 10px;
 }
 
 h2 { 

@@ -270,6 +270,17 @@ li:not(.lang-item) {
     box-shadow: 3px 3px 10px black;
 }
 
+.active-tab a {
+    color: #856059;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.active-tab a:hover {
+    color: #b8928c;
+    text-decoration: underline;
+}
+
 .date h2, .exp-item h2 {
     font-size: 1.2rem;
     color: #07141D;

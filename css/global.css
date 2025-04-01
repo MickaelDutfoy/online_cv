@@ -289,13 +289,13 @@ li:not(.lang-item) {
 }
 
 .active-tab a {
-    color: #634037;
+    color: #a17061;
     text-decoration: none;
     cursor: pointer;
 }
 
 .active-tab a:hover {
-    color: #b8928c;
+    color: #d4a094;
     text-decoration: underline;
 }
 

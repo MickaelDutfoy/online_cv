@@ -339,10 +339,6 @@ li:not(.lang-item) {
     align-items: center;
 }
 
-.notes {
-    padding-top: 10px;
-}
-
 .copyright {
     font-size: 0.8rem;
     opacity: 0.7;

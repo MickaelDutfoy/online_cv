@@ -158,7 +158,7 @@ const Content = ({lang}: {lang:string}) => {
                   <h3 className="title date">2024 - Ongoing</h3><h3 className="title item">Self-learning</h3>
                   <p className="place">Self-paced<br />Guillestre (France)</p>
                   <p className="details">
-                    Earned the <a href='/docs/Mimo.pdf' target="_blank" rel="noopener noreferrer">"Full-stack Developer" certificate</a> from <a href="https://mimo.org/" target="_blank">Mimo</a> (May 2025).
+                    Earned the <a href='./docs/Mimo.pdf' target="_blank" rel="noopener noreferrer">"Full-stack Developer" certificate</a> from <a href="https://mimo.org/" target="_blank">Mimo</a> (May 2025).
                     Technologies covered: HTML/CSS, TypeScript, SQL, React, Express.<br />
                     Learning Rust independently using <a href="https://doc.rust-lang.org/book/" target="_blank">The Rust Book</a> and <a href="https://github.com/rust-lang/rustlings" target="_blank">Rustlings</a>.<br />
                     Daily practice in TypeScript and Rust via <a href="https://exercism.org/profiles/MickaelDutfoy" target="_blank">Exercism</a>.
@@ -177,7 +177,7 @@ const Content = ({lang}: {lang:string}) => {
                 <div className="block">
                   <h3 className="title date">2010 - 2012</h3><h3 className="title item">Master's Degree in Mathematics Education (MEEF)</h3>
                   <p className="place">University of Rennes 2<br />Rennes (France)</p>
-                  <p className="details">Earned the <a href='/docs/Master.pdf' target="_blank" rel="noopener noreferrer">Master’s Degree in Teaching, Education, and Training</a> with a specialization in mathematics.</p>
+                  <p className="details">Earned the <a href='./docs/Master.pdf' target="_blank" rel="noopener noreferrer">Master’s Degree in Teaching, Education, and Training</a> with a specialization in mathematics.</p>
                 </div>
               </>
             );

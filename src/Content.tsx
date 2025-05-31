@@ -5,7 +5,7 @@ import TabBar from './TabBar';
 import { useState, type JSX } from 'react';
 
 const Content = ({lang}: {lang:string}) => {
-    const [tab, setTab]: [number, (tab: number) => void] = useState(1);
+    const [tab, setTab]: [number, (tab: number) => void] = useState(2);
 
     const generateContent = (lang: string, tab: number): JSX.Element => {
         if (lang === 'fr' && tab === 1) {

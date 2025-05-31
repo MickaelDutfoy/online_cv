@@ -1,0 +1,44 @@
+@import './colors.css';
+
+.language {
+    grid-area: language;
+    position: relative;
+    text-align: right;
+}
+
+.language ul {
+    list-style: none;
+    position: absolute;
+    top: 0; right: 0;
+}
+
+.language span {
+    font-size: 1.3em;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.language img {
+    height: 1.6em;
+    border: 2px solid var(--flag-border);
+    border-radius: 5px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.language h4 {
+    margin: 5px;
+    font-size: 1.3rem;
+}
+
+.language li {
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.language li:hover {
+    border: 1px solid var(--flag-border);
+    background: var(--text);
+    color: var(--background);
+}

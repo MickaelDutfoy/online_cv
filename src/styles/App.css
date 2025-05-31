@@ -1,0 +1,157 @@
+@import './colors.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Crimson Pro", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    background: var(--background);
+    color: var(--text);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: var(--title);
+}
+
+h1 {
+    font-size: 3.5rem;
+    padding-bottom: 20px;
+    text-shadow: 3px 3px 4px var(--border-shadow);
+}
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px 3px var(--border-shadow);
+}
+
+h3 {
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 2px var(--border-shadow);
+}
+
+a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+.box {
+    background: var(--box);
+    border: 2px solid var(--border-shadow);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 4px var(--border-shadow);
+    font-size: 1.2rem;
+}
+
+main {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+        "contact content skills"
+        "hobbies content remarks";
+}
+
+.contact {
+    grid-area: contact;
+    border-right: 2px solid var(--border-aside);
+    border-bottom: 2px solid var(--border-aside);
+    padding: 15px 15px 15px 0;
+    margin: 5px 5px 5px 0;
+}
+
+.hobbies {
+    grid-area: hobbies;
+    border-right: 2px solid var(--border-aside);
+    border-bottom: 2px solid var(--border-aside);
+    padding: 15px 15px 15px 0;
+    margin: 5px 5px 5px 0;
+}
+
+.skills {
+    grid-area: skills;
+    text-align: right;
+    border-left: 2px solid var(--border-aside);
+    border-bottom: 2px solid var(--border-aside);
+    padding: 15px 0 15px 15px;
+    margin: 5px 0 5px 5px;
+}
+
+.remarks {
+    grid-area: remarks;
+    text-align: right;
+    border-left: 2px solid var(--border-aside);
+    border-bottom: 2px solid var(--border-aside);
+    padding: 15px 0 15px 15px;
+    margin: 5px 0 5px 5px;
+}
+
+.content {
+    grid-area: content;
+}
+
+@media (min-width: 768px) and (max-width: 1028px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    main {
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: 
+            "contact content"
+            "skills content"
+            "hobbies content"
+            "remarks content";
+    }
+
+    .skills, .remarks {
+        text-align: left;
+        border-left: none;
+        border-right: 2px solid var(--border-aside);
+        padding: 15px 15px 15px 0;
+        margin: 5px 5px 5px 0;
+    }
+}
+
+@media (max-width: 825px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .box {
+        font-size: 1rem;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "contact skills"
+            "content content"
+            "hobbies remarks";
+    }
+}

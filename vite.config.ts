@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/cv_en_ligne/',
   plugins: [react()],
+  build: {
+    assetsInlineLimit: 0 // empêche Vite de base64-inliner les petites images
+  }  
 })

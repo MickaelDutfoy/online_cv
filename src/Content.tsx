@@ -49,7 +49,7 @@ const Content = ({lang}: {lang:string}) => {
                 <div className="block">
                     <h3 className="title date">2024 - En cours</h3><h3 className="title item">Auto-formation</h3>
                     <p className="place">En autonomie<br/>Guillestre (05)</p>
-                    <p className="details">Obtention du <a href='/docs/Mimo.pdf' target="_blank" rel="noopener noreferrer">Certificat "Développeur full-stack"</a> sur <a href="https://mimo.org/" target="_blank">Mimo</a> (mai 2025). Technologies abordées : HTML/CSS, TypeScript, SQL, React, Express.<br/>Apprentissage de Rust à titre personnel avec <a href="https://doc.rust-lang.org/book/" target="_blank">The Rust Book</a> et <a href="https://github.com/rust-lang/rustlings" target="_blank">Rustlings</a>.<br/>Entraînement quotidien sur TypeScript et Rust avec <a href="https://exercism.org/profiles/MickaelDutfoy" target="_blank">Exercism</a>.</p>
+                    <p className="details">Obtention du <a href='./docs/Mimo.pdf' target="_blank" rel="noopener noreferrer">Certificat "Développeur full-stack"</a> sur <a href="https://mimo.org/" target="_blank">Mimo</a> (mai 2025). Technologies abordées : HTML/CSS, TypeScript, SQL, React, Express.<br/>Apprentissage de Rust à titre personnel avec <a href="https://doc.rust-lang.org/book/" target="_blank">The Rust Book</a> et <a href="https://github.com/rust-lang/rustlings" target="_blank">Rustlings</a>.<br/>Entraînement quotidien sur TypeScript et Rust avec <a href="https://exercism.org/profiles/MickaelDutfoy" target="_blank">Exercism</a>.</p>
                 </div>
                 <div className="block">
                     <h3 className="title date">2012</h3><h3 className="title item">CAPES de Mathématiques</h3>
@@ -64,7 +64,7 @@ const Content = ({lang}: {lang:string}) => {
                 <div className="block">
                     <h3 className="title date">2010 - 2012</h3><h3 className="title item">Master MEEF Mathématiques</h3>
                     <p className="place">Université Rennes 2<br/>Rennes (35)</p>
-                    <p className="details">Obtention du <a href='/docs/Master.pdf' target="_blank" rel="noopener noreferrer">Master "Métiers de l'Enseignement, de l'Education et de la Formation"</a> en mathématiques.</p>
+                    <p className="details">Obtention du <a href='./docs/Master.pdf' target="_blank" rel="noopener noreferrer">Master "Métiers de l'Enseignement, de l'Education et de la Formation"</a> en mathématiques.</p>
                 </div>
             </>
           );

@@ -16,7 +16,7 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 content = ['Activités de montagne (trail, VTT, ski de randonnée)', 'Jeux (vidéos, de société, de cartes à collectionner)', 'Engagement dans la protection animale'];
             } else if (title === 'remarks') {
                 header = 'Remarques';
-                content = ['Handicap visuel (uniquement à longue distance)', "Bénéficiaire de l'obligation d'emploi (RQTH)"];
+                content = ['Utilisateur quotidien de Linux (Ubuntu)', "Exploration d'outils tels que Docker, Git et MongoDB", 'Handicap visuel (uniquement à longue distance)', "Bénéficiaire de l'obligation d'emploi (RQTH)"];
             }
         } else if (lang === 'en') {
             if (title === 'contact') {
@@ -29,7 +29,7 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 content = ['Mountain activities (trail running, mountain biking, ski touring)', 'Games (video games, board games, trading card games)', 'Commitment to animal protection'];
             } else if (title === 'remarks') {
                 header = 'Remarks';
-                content = ['Visual impairment (only at long distance)'];
+                content = ['Daily Linux user (Ubuntu)', 'Exploring tools like Docker, Git, and MongoDB', 'Visual impairment (only at long distance)'];
             }
         } else if (lang === 'no') {
             if (title === 'contact') {
@@ -42,7 +42,7 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 content = ['Fjellaktiviteter (løping, terrengsykling, tur på ski)', 'Spill (videospill, brettspill, samlekortspill)', 'Engasjement for dyrevern'];
             } else if (title === 'remarks') {
                 header = 'Merknader';
-                content = ['Synshemning (bare på lang avstand)'];
+                content = ['Daglig Linux-bruker (Ubuntu)', 'Utforsker verktøy som Docker, Git og MongoDB', 'Synshemning (bare på lang avstand)'];
             }
         }
         return {header, content};

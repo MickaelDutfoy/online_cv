@@ -13,8 +13,8 @@ const Header = ({lang, setLang}: {lang:string; setLang: (lang: string) => void})
                 {lang === 'no' && "TypeScript-utvikler (React/Express) og matematikklærer"}
             </h2>
             <div className='box short'>
-                {lang === 'fr' && "Développeur en formation, je recherche actuellement un stage en entreprise afin de mettre en œuvre les connaissances acquises tout en continuant à apprendre auprès de professionnels du secteur. Je maîtrise le front-end (HTML/CSS et React) et j'ai des bases en back-end (SQL/Express). J'explore Rust à titre personnel pour élargir mes compétences."}
-                {lang === 'en' && "Currently training as a developer, I’m looking for an internship to apply what I’ve learned and continue improving alongside experienced professionals. I’m confident in front-end development (HTML/CSS and React) and have basic knowledge in back-end (SQL/Express). I’m also exploring Rust on my own to broaden my skill set."}
+                {lang === 'fr' && "Développeur en formation, je recherche actuellement un stage afin de mettre en œuvre les connaissances acquises tout en continuant à apprendre auprès de professionnels du secteur. J'ai de réelles compétences en front-end (HTML/CSS/React), de bonnes bases en back-end (SQL/Express), et j'explore Rust à titre personnel par passion technique et curiosité professionnelle."}
+                {lang === 'en' && "Currently training as a web developer, I’m actively seeking an internship to apply the skills I’ve acquired while continuing to learn from professionals in the field. I have solid front-end skills (HTML/CSS/React), a good foundation in back-end development (SQL/Express), and I explore Rust on my own — driven by technical passion and professional curiosity."}
                 {lang === 'no' && "Denne delen skal legges snart."}
             </div>
             <Language lang={lang} setLang={setLang}/>

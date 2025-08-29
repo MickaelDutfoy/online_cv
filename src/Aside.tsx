@@ -10,39 +10,39 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 header = 'Coordonnées';
             } else if (title === 'skills') {
                 header = 'Compétences';
-                content = ['Français langue maternelle', 'Anglais certifié C1', 'Norvégien A2/B1', 'TypeScript (React/Express) et SQL intermédiaire', 'Rust débutant', 'Bases MongoDB', 'Mathématiques universitaires'];
+                content = ['Français langue maternelle', 'Anglais certifié C1', 'Norvégien B1', 'TypeScript (React/Express) et SQL avancé', 'Rust débutant', 'Docker intermédiaire', 'Mathématiques universitaires'];
             } else if (title === 'hobbies') {
                 header = 'Loisirs et passions';
                 content = ['Activités de montagne (trail, VTT, ski de randonnée)', 'Jeux (vidéos, de société, de cartes à collectionner)', 'Engagement dans la protection animale'];
             } else if (title === 'remarks') {
                 header = 'Remarques';
-                content = ['Utilisateur quotidien de Linux (Ubuntu)', "Exploration d'outils tels que Docker et Git", 'Handicap visuel (uniquement à longue distance)', "Bénéficiaire de l'obligation d'emploi (RQTH)"];
+                content = ['Utilisateur quotidien de Linux (Ubuntu)', "Exploration d'outils tels que Git et MongoDB", 'Handicap visuel (uniquement à longue distance)', "Bénéficiaire de l'obligation d'emploi (RQTH)"];
             }
         } else if (lang === 'en') {
             if (title === 'contact') {
                 header = 'Contact information';
             } else if (title === 'skills') {
                 header = 'Skills';
-                content = ['Native French speaker', 'English certified C1', 'Norwegian A2/B1', 'TypeScript (React/Express) and SQL intermediate', 'Rust beginner', 'MongoDB basics', 'University-level mathematics'];
+                content = ['Native French speaker', 'English certified C1', 'Norwegian B1', 'TypeScript (React/Express) and SQL advanced', 'Rust beginner', 'Docker intermediate', 'University-level mathematics'];
             } else if (title === 'hobbies') {
                 header = 'Hobbies and passions';
                 content = ['Mountain activities (trail running, mountain biking, ski touring)', 'Games (video games, board games, trading card games)', 'Commitment to animal protection'];
             } else if (title === 'remarks') {
                 header = 'Remarks';
-                content = ['Daily Linux user (Ubuntu)', 'Exploring tools like Docker and Git', 'Visual impairment (only at long distance)'];
+                content = ['Daily Linux user (Ubuntu)', 'Exploring tools like Git and MongoDB', 'Visual impairment (only at long distance)'];
             }
         } else if (lang === 'no') {
             if (title === 'contact') {
                 header = 'Kontakt informasjon';
             } else if (title === 'skills') {
                 header = 'Ferdigheter';
-                content = ['Fransk morsmål', 'Engelsk C1-sertifisert', 'Norsk A2/B1', 'TypeScript (React/Express) og SQL middels nivå', 'Rust nybegynner', 'MongoDB grunnleggende', 'Universitetsnivå matematikk'];
+                content = ['Fransk morsmål', 'Engelsk C1-sertifisert', 'Norsk B1', 'TypeScript (React/Express) og SQL viderekommen', 'Rust nybegynner', 'Docker mellomnivå', 'Universitetsnivå matematikk'];
             } else if (title === 'hobbies') {
                 header = 'Hobbyer og lidenskaper';
                 content = ['Fjellaktiviteter (løping, terrengsykling, tur på ski)', 'Spill (videospill, brettspill, samlekortspill)', 'Engasjement for dyrevern'];
             } else if (title === 'remarks') {
                 header = 'Merknader';
-                content = ['Daglig Linux-bruker (Ubuntu)', 'Utforsker verktøy som Docker og Git', 'Synshemning (bare på lang avstand)'];
+                content = ['Daglig Linux-bruker (Ubuntu)', 'Utforsker verktøy som Git og MongoDB', 'Synshemning (bare på lang avstand)'];
             }
         }
         return {header, content};

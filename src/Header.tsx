@@ -8,14 +8,14 @@ const Header = ({lang, setLang}: {lang:string; setLang: (lang: string) => void})
             <img className='profile' src={profile} alt="Photo Mickaël Dutfoy" />
             <h1 className='title name'>Mickaël Dutfoy</h1>
             <h2 className='title desc'>
-                {lang === 'fr' && "Développeur TypeScript (React/Express) et Professeur de mathématiques"}
-                {lang === 'en' && "TypeScript Developer (React/Express) and Math Teacher"}
-                {lang === 'no' && "TypeScript-utvikler (React/Express) og matematikklærer"}
+                {lang === 'fr' && "Développeur TypeScript (Next.js) et Professeur de mathématiques"}
+                {lang === 'en' && "TypeScript Developer (Next.js) and Math Teacher"}
+                {lang === 'nb' && "TypeScript-utvikler (Next.js) og matematikklærer"}
             </h2>
             <div className='box short'>
-                {lang === 'fr' && "Développeur en formation, je recherche actuellement un stage afin de mettre en œuvre les connaissances acquises tout en continuant à apprendre auprès de professionnels du secteur. J'ai de réelles compétences en front-end (HTML/CSS/React), de bonnes bases en back-end (SQL/Express), et j'explore Rust à titre personnel par passion technique et curiosité professionnelle."}
-                {lang === 'en' && "Currently training as a web developer, I’m actively seeking an internship to apply the skills I’ve acquired while continuing to learn from professionals in the field. I have solid front-end skills (HTML/CSS/React), a good foundation in back-end development (SQL/Express), and I explore Rust on my own — driven by technical passion and professional curiosity."}
-                {lang === 'no' && "Denne delen skal legges snart."}
+                {lang === 'fr' && "Développeur stagiaire, je suis actuellement dans ma première recherche d’emploi. Fort de douze années d'expérience comme professeur de mathématiques, j'ai gardé une nature rigoureuse et persévérante. Aujourd'hui, mon choix technique s'est porté sur Next.js pour sa vision d’ensemble, décloisonnée et moderne. Par curiosité, j’explore aussi Rust pour élargir ma culture technologique."}
+                {lang === 'en' && "Currently working as a trainee developer, I am preparing for my first job search. With twelve years of experience as a mathematics teacher, I have kept a rigorous and persistent mindset. Today, I have chosen Next.js for its comprehensive, modern, and uncloistered approach. Out of curiosity, I also explore Rust to broaden my technological horizon."}
+                {lang === 'nb' && "For tiden jobber jeg som utviklerpraktikant og forbereder meg på mitt første jobbsøk. Med tolv års erfaring som matematikklærer har jeg beholdt en natur preget av nøyaktighet og utholdenhet. I dag har jeg valgt Next.js for dets helhetlige, moderne og åpne tilnærming. Av nysgjerrighet utforsker jeg også Rust for å utvide mitt teknologiske perspektiv."}
             </div>
             <Language lang={lang} setLang={setLang}/>
         </header>

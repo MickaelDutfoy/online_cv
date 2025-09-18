@@ -10,7 +10,7 @@ const Footer = ({lang}: {lang: string}) => {
                 <span>
                     {lang === 'fr' && "Retrouvez-moi sur les réseaux :"}
                     {lang === 'en' && "Find me on social media:"}
-                    {lang === 'no' && "Finn meg på sosiale medier:"}
+                    {lang === 'nb' && "Finn meg på sosiale medier:"}
                 </span>
                 <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank"><img src={fb} alt="Logo Facebook" /></a>
                 <a href="https://github.com/MickaelDutfoy" target="_blank"><img src={gh} alt="Logo GitHub" /></a>
@@ -19,7 +19,7 @@ const Footer = ({lang}: {lang: string}) => {
             <p className="notes">
                 {lang === 'fr' && "Ce CV a été créé avec React. "}
                 {lang === 'en' && "This CV was made with React. "}
-                {lang === 'no' && "Denne CV-en var laget med React. "}
+                {lang === 'nb' && "Denne CV-en var laget med React. "}
                  &copy; 2025 Mickaël Dutfoy
             </p>
         </footer>

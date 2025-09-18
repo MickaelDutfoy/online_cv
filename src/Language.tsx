@@ -22,16 +22,16 @@ const Language = ({lang, setLang}: {lang:string; setLang: (lang: string) => void
                 <h4>
                     {lang === 'fr' && "Changer de langue :"}
                     {lang === 'en' && "Change language:"}
-                    {lang === 'no' && "Endre språk:"}
+                    {lang === 'nb' && "Endre språk:"}
                 </h4>
                 {(display || lang === 'fr') && <li onClick={() => langSwitch('fr')}>
-                    <span>{lang === 'fr' && <strong>Français</strong>}{lang === 'en' && "French"}{lang === 'no' && "Fransk"}</span><img src={fr} alt="Drapeau France" />
+                    <span>{lang === 'fr' && <strong>Français</strong>}{lang === 'en' && "French"}{lang === 'nb' && "Fransk"}</span><img src={fr} alt="Drapeau français" />
                 </li>}
                 {(display || lang === 'en') && <li onClick={() => langSwitch('en')}>
-                    <span>{lang === 'fr' && "Anglais"}{lang === 'en' && <strong>English</strong>}{lang === 'no' && "Engelsk"}</span><img src={uk} alt="Drapeau Royaume-Uni" />
+                    <span>{lang === 'fr' && "Anglais"}{lang === 'en' && <strong>English</strong>}{lang === 'nb' && "Engelsk"}</span><img src={uk} alt="UK flag" />
                 </li>}
-                {(display || lang === 'no') && <li onClick={() => langSwitch('no')}>
-                    <span>{lang === 'fr' && "Norvégien"}{lang === 'en' && "Norwegian"}{lang === 'no' && <strong>Norsk</strong>}</span><img src={no} alt="Drapeau Norvège" />
+                {(display || lang === 'nb') && <li onClick={() => langSwitch('nb')}>
+                    <span>{lang === 'fr' && "Norvégien"}{lang === 'en' && "Norwegian"}{lang === 'nb' && <strong>Norsk</strong>}</span><img src={no} alt="Norsk flagg" />
                 </li>}
             </ul>
         </div>

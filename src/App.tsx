@@ -5,9 +5,12 @@ import Footer from './Footer';
 import Header from './Header';
 import { useState } from 'react';
 
-
 const App = () => {
-  const [lang, setLang]: [string, (lang: string) => void] = useState('fr');
+  let language = navigator.language.slice(0, 2);
+
+  if (language !== 'fr' && language !== 'nb') language = 'en';
+
+  const [lang, setLang]: [string, (lang: string) => void] = useState(language);
 
   return (
     <>

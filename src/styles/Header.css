@@ -42,7 +42,7 @@ header {
     }
 }
 
-@media (max-width: 825px) {
+@media (max-width: 767px) {
     header {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
@@ -50,5 +50,9 @@ header {
             "name name"
             "desc desc"
             "short short";
+    }
+
+    .profile {
+        height: 250px;
     }
 }

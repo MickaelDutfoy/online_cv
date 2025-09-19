@@ -78,7 +78,7 @@ const Content = ({ lang }: { lang: string }) => {
               <h3>Aster</h3>
               <p>
                 Application web mobile-first dédiée aux associations de protection animale, permettant de gérer les membres, les animaux et les familles d'accueil.
-                À travers ce projet, j'ai pu toucher à ce à quoi j'aspire professionellement : une application web full-stack, avec gestion d'authentification, de données, de routes, d'UI, etc, le tout au service de la cause animale qui me tient à cœur.
+                À travers ce projet, j'ai pu toucher à ce à quoi j'aspire professionellement : une application web full-stack, avec authentification, données, routes, UI, etc, le tout au service de la cause animale qui me tient à cœur.
                 Ce projet, initialement écrit en React + Express + PostgreSQL, est en cours de reboot avec Next.js + Prisma. Il s'agit d'un outil concret déjà proposé à des associations et non d'une simple vitrine scolaire.
                 Démo hébergée sur Render (démarrage lent, fonctionnalités limitées).
               </p>

@@ -14,7 +14,7 @@ const TabBar = ({lang, tab, setTab}: {lang: string, tab: number, setTab: (tab: n
                 {lang === 'nb' && "Opplæring og kvalifikasjoner"}
             </button>
             <button onClick={() => setTab(3)}  className={tab === 3 ? 'active-tab' : 'unactive-tab'}>
-                {lang === 'fr' && "Qui suis-je ?"}
+                {lang === 'fr' && "Qui suis-je ?"}
                 {lang === 'en' && "Who am I?"}
                 {lang === 'nb' && "Hvem er jeg?"}
             </button>

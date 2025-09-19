@@ -79,7 +79,7 @@ const Content = ({ lang }: { lang: string }) => {
               <p>
                 Application web mobile-first dédiée aux associations de protection animale, permettant de gérer les membres, les animaux et les familles d'accueil.
                 À travers ce projet, j'ai pu toucher à ce à quoi j'aspire professionellement : une application web full-stack, avec gestion d'authentification, de données, de routes, d'UI, etc, le tout au service de la cause animale qui me tient à cœur.
-                Ce projet, initialement écrit en React + Express + PostgreSQL, est en cours de reboot avec Next.js + Prisma. Il s'agit d'un outil concret déjà proposé à des associations et non d'une simple vitrine scolaire.<br />
+                Ce projet, initialement écrit en React + Express + PostgreSQL, est en cours de reboot avec Next.js + Prisma. Il s'agit d'un outil concret déjà proposé à des associations et non d'une simple vitrine scolaire.
                 Démo hébergée sur Render (démarrage lent, fonctionnalités limitées).
               </p>
             </div>
@@ -186,8 +186,8 @@ const Content = ({ lang }: { lang: string }) => {
               <p>
                 Mobile-first web application for animal welfare organizations, allowing to manage members, animals, and foster families.
                 With this project, I worked on what I truly aspire to professionally: a full-stack web app covering authentication, data management, routing, UI and so on, all in service of a cause I deeply care about.
-                Originally built with React + Express + PostgreSQL, Aster is now being rebooted with Next.js + Prisma. It is a concrete tool already offered to some organizations, not just a school showcase.<br />
-                Demo hosted on Render (slow startup, limited features, French-only interface).
+                Originally built with React + Express + PostgreSQL, Aster is now being rebooted with Next.js + Prisma. It is a concrete tool already offered to some organizations, not just a school showcase.
+                Demo hosted on Render (slow startup, limited features).
               </p>
             </div>
             <a href="https://aster-05km.onrender.com/" target="_blank"><img src={aster} alt="Screenshot Aster" /></a>
@@ -299,8 +299,8 @@ const Content = ({ lang }: { lang: string }) => {
             <p>
               Mobiltilpasset webapplikasjon for dyrevernorganisasjoner, som gjør det mulig å administrere medlemmer, dyr og fosterhjem.
               Med dette prosjektet har jeg arbeidet med det jeg virkelig ønsker profesjonelt: en fullstack webapp som dekker autentisering, databehandling, routing, UI osv. — alt i tjeneste for en sak jeg bryr meg dypt om.
-              Opprinnelig bygget med React + Express + PostgreSQL, men nå under omarbeiding med Next.js + Prisma. Det er et konkret verktøy allerede tatt i bruk av noen organisasjoner, ikke bare et skoleprosjekt.<br />
-              Demo hostet på Render (treg oppstart, begrensede funksjoner, kun fransk grensesnitt).
+              Opprinnelig bygget med React + Express + PostgreSQL, men nå under omarbeiding med Next.js + Prisma. Det er et konkret verktøy allerede tatt i bruk av noen organisasjoner, ikke bare et skoleprosjekt.
+              Demo hostet på Render (treg oppstart, begrensede funksjoner).
             </p>
           </div>
           <a href="https://aster-05km.onrender.com/" target="_blank"><img src={aster} alt="Skjermbilde Aster" /></a>

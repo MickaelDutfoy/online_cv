@@ -80,7 +80,7 @@ const Content = ({ lang }: { lang: string }) => {
                 Application web mobile-first dédiée aux associations de protection animale, permettant de gérer les membres, les animaux et les familles d'accueil.
                 À travers ce projet, j'ai pu toucher à ce à quoi j'aspire professionellement : une application web full-stack, avec gestion d'authentification, de données, de routes, d'UI, etc, le tout au service de la cause animale qui me tient à cœur.
                 Ce projet, initialement écrit en React + Express + PostgreSQL, est en cours de reboot avec Next.js + Prisma. Il s'agit d'un outil concret déjà proposé à des associations et non d'une simple vitrine scolaire.<br />
-                Démo hébergée sur Render (démarrage lent, fonctionnalités limitées, interface française uniquement).
+                Démo hébergée sur Render (démarrage lent, fonctionnalités limitées).
               </p>
             </div>
             <a href="https://aster-05km.onrender.com/" target="_blank"><img src={aster} alt="Screenshot Aster" /></a>
@@ -201,8 +201,7 @@ const Content = ({ lang }: { lang: string }) => {
               <div>
                 <p>
                   A simple website built with HTML/CSS and a few JavaScript features (click-based popups, dynamic contact form).
-                  This project was an opportunity to put into practice fundamental skills in coding, design, UX, and SEO —
-                  all in support of an animal welfare cause I deeply care about.
+                  This project was an opportunity to put into practice fundamental skills in coding, design, UX, and SEO, all in support of an animal welfare cause I deeply care about.
                 </p>
               </div>
             </div>
@@ -315,8 +314,7 @@ const Content = ({ lang }: { lang: string }) => {
             <div>
               <p>
                 En enkel nettside bygget med HTML/CSS og noen få JavaScript-funksjoner (klikkbaserte popup-vinduer, dynamisk kontaktskjema).
-                Dette prosjektet var en anledning til å bruke grunnleggende ferdigheter innen koding, design, UX og SEO —
-                alt til støtte for en dyrevernsak jeg bryr meg dypt om.
+                Dette prosjektet var en anledning til å bruke grunnleggende ferdigheter innen koding, design, UX og SEO, alt til støtte for en dyrevernsak jeg bryr meg dypt om.
               </p>
             </div>
           </div>

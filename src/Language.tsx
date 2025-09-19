@@ -20,7 +20,7 @@ const Language = ({lang, setLang}: {lang:string; setLang: (lang: string) => void
         <div className="language">
             <ul>
                 <h4>
-                    {lang === 'fr' && "Changer de langue :"}
+                    {lang === 'fr' && "Changer de langue :"}
                     {lang === 'en' && "Change language:"}
                     {lang === 'nb' && "Endre språk:"}
                 </h4>

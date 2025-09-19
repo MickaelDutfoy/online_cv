@@ -39,6 +39,7 @@
 .portfolio-item img {
     display: block;
     height: 100%;
+    max-height: 500px;
     object-fit: cover;
     padding: 1px;
     border: 2px solid var(--border-shadow);

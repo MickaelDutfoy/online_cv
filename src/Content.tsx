@@ -28,7 +28,7 @@ const Content = ({ lang }: { lang: string }) => {
           </div>
           <div className="block">
             <h3 className="title date">2012 – 2024</h3><h3 className="title item">Professeur certifié de mathématiques</h3>
-            <p className="place">Éducation nationale<br />France</p>
+            <p className="place">Éducation Nationale<br />France</p>
             <p className="details">
               Douze années d’enseignement dans divers collèges (élèves de 11 à 15 ans).<br />
               Cours de mathématiques, suivi de classes comme professeur principal, accompagnement personnalisé d'élèves en difficulté, animation d'ateliers ludiques (jeux de société mathématiques).
@@ -245,7 +245,7 @@ const Content = ({ lang }: { lang: string }) => {
         </div>
         <div className="block">
           <h3 className="title date">2012 – 2024</h3><h3 className="title item">Sertifisert matematikklærer</h3>
-          <p className="place">Fransk utdanningsdepartement<br />Frankrike</p>
+          <p className="place">Fransk utdannings departement<br />Frankrike</p>
           <p className="details">
             Tolv år med undervisning i ulike ungdomsskoler (elever 11-15 år).<br />
             Matematikkundervisning, kontaktlærer for flere klasser, individuell oppfølging av elever med utfordringer, ledelse av læringsverksteder (matematiske brettspill).

@@ -14,7 +14,7 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="block">
-            <h3 className="title date">09/2025 – En cours</h3>
+            <h3 className="title date">09/2025 – 10/2025</h3>
             <h3 className="title item">Développeur web stagiaire</h3>
             <p className="place">
               Marcel SAS
@@ -284,7 +284,7 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="block">
-            <h3 className="title date">09/2025 – Ongoing</h3>
+            <h3 className="title date">09/2025 – 10/2025</h3>
             <h3 className="title item">Web Developer Intern</h3>
             <p className="place">
               Marcel SAS
@@ -546,7 +546,7 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="block">
-            <h3 className="title date">09/2025 – Nå</h3>
+            <h3 className="title date">09/2025 – 10/2025</h3>
             <h3 className="title item">Utviklerpraktikant (web)</h3>
             <p className="place">
               Marcel SAS

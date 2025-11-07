@@ -33,7 +33,7 @@ const Content = ({ lang }: { lang: string }) => {
                 Site web
               </a>
               ,{" "}
-              <a href="https://github.com/Marcel-SAS/Marcel" target="_blank">
+              <a href="https://github.com/Marcel-SAS/" target="_blank">
                 GitHub
               </a>
               .
@@ -159,7 +159,7 @@ const Content = ({ lang }: { lang: string }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Master "Métiers de l'Enseignement, de l'Education et de la
+                Master "Métiers de l'Enseignement, de l'Éducation et de la
                 Formation"
               </a>{" "}
               en mathématiques.
@@ -302,7 +302,7 @@ const Content = ({ lang }: { lang: string }) => {
                 Website
               </a>
               ,{" "}
-              <a href="https://github.com/Marcel-SAS/Marcel" target="_blank">
+              <a href="https://github.com/Marcel-SAS/" target="_blank">
                 GitHub
               </a>
               .
@@ -564,7 +564,7 @@ const Content = ({ lang }: { lang: string }) => {
                 Nettside
               </a>
               ,{" "}
-              <a href="https://github.com/Marcel-SAS/Marcel" target="_blank">
+              <a href="https://github.com/Marcel-SAS/" target="_blank">
                 GitHub
               </a>
               .

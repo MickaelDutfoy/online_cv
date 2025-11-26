@@ -648,7 +648,7 @@ const Content = ({ lang }: { lang: string }) => {
             <h3 className="title date">09/2012 – 08/2024</h3>
             <h3 className="title item">Lektor i matematikk</h3>
             <p className="place">
-              Det franske utdanningsdepartementet
+              Det franske utdannings departementet
               <br />
               Frankrike
             </p>

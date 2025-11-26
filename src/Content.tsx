@@ -28,7 +28,7 @@ const Content = ({ lang }: { lang: string }) => {
               <br />
               Stack : Next.js, TypeScript, Prisma, tRPC.
               <br />
-              Liens :{" "}
+              Liens :{" "}
               <a href="https://www.marcel.family/" target="_blank">
                 Site web
               </a>
@@ -54,7 +54,29 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2012 – 2024</h3>
+            <h3 className="title date">09/2021 – 08/2025</h3>
+            <h3 className="title item">
+              Professeur particulier de mathématiques
+            </h3>
+            <p className="place">
+              Auto-entrepreneur
+              <br />
+              France
+            </p>
+            <p className="details">
+              Quatre ans sous le statut d'auto-entrepreneur agréé "service à la
+              personne", pour effectuer des cours de mathématiques à domicile, à
+              mon compte.
+              <br />
+              Lien :{" "}
+              <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank">
+                Page Facebook
+              </a>
+              .
+            </p>
+          </div>
+          <div className="block">
+            <h3 className="title date">09/2012 – 08/2024</h3>
             <h3 className="title item">Professeur certifié de mathématiques</h3>
             <p className="place">
               Éducation Nationale
@@ -62,8 +84,8 @@ const Content = ({ lang }: { lang: string }) => {
               France
             </p>
             <p className="details">
-              Douze années d’enseignement dans divers collèges (élèves de 11 à
-              15 ans).
+              Onze années en collège (élèves de 11 à 15 ans) et une en lycée
+              (élèves de 16 à 18 ans).
               <br />
               Cours de mathématiques, suivi de classes comme professeur
               principal, accompagnement personnalisé d'élèves en difficulté,
@@ -77,7 +99,7 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="block">
-            <h3 className="title date">2024 – En cours</h3>
+            <h3 className="title date">10/2024 – En cours</h3>
             <h3 className="title item">
               Titre RNCP "Développeur Web et Web Mobile"
             </h3>
@@ -92,7 +114,7 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2024 – En cours</h3>
+            <h3 className="title date">10/2024 – En cours</h3>
             <h3 className="title item">Auto-formation</h3>
             <p className="place">
               En autonomie
@@ -135,7 +157,7 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2012</h3>
+            <h3 className="title date">08/2012</h3>
             <h3 className="title item">CAPES de Mathématiques</h3>
             <p className="place">
               Université Rennes 2<br />
@@ -146,7 +168,7 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2010 – 2012</h3>
+            <h3 className="title date">09/2010 – 08/2012</h3>
             <h3 className="title item">Master MEEF Mathématiques</h3>
             <p className="place">
               Université Rennes 2<br />
@@ -285,7 +307,7 @@ const Content = ({ lang }: { lang: string }) => {
         <>
           <div className="block">
             <h3 className="title date">09/2025 – 10/2025</h3>
-            <h3 className="title item">Web Developer Intern</h3>
+            <h3 className="title item">Web developer intern</h3>
             <p className="place">
               Marcel SAS
               <br />
@@ -322,20 +344,39 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2012 – 2024</h3>
-            <h3 className="title item">Certified Mathematics Teacher</h3>
+            <h3 className="title date">09/2021 – 08/2025</h3>
+            <h3 className="title item">Private math tutor</h3>
+            <p className="place">
+              Self-employed
+              <br />
+              France
+            </p>
+            <p className="details">
+              Four years as a self-employed, certified "personal-services
+              provider", delivering in-home mathematics tutoring.
+              <br />
+              Link:{" "}
+              <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank">
+                Facebook Page
+              </a>
+              .
+            </p>
+          </div>
+          <div className="block">
+            <h3 className="title date">09/2012 – 08/2024</h3>
+            <h3 className="title item">Certified mathematics teacher</h3>
             <p className="place">
               French Ministry of Education
               <br />
               France
             </p>
             <p className="details">
-              Twelve years of teaching in various middle schools (students aged
-              11 to 15).
+              Eleven years in middle school (students aged 11-15) and one year
+              in high school (students aged 16-18).
               <br />
-              Mathematics courses, head teacher for some classes, tailored
-              support for struggling students, and facilitation of educational
-              workshops (mathematics-based board games).
+              Mathematics instruction, homeroom teacher responsibilities,
+              individual support for struggling students, and facilitation of
+              educational board-game workshops.
             </p>
           </div>
         </>
@@ -345,7 +386,7 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="block">
-            <h3 className="title date">2024 – Ongoing</h3>
+            <h3 className="title date">10/2024 – Ongoing</h3>
             <h3 className="title item">
               Web and Mobile Web Developer Certificate
             </h3>
@@ -360,7 +401,7 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2024 – Ongoing</h3>
+            <h3 className="title date">10/2024 – Ongoing</h3>
             <h3 className="title item">Self-learning</h3>
             <p className="place">
               Self-paced
@@ -403,7 +444,7 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2012</h3>
+            <h3 className="title date">08/2012</h3>
             <h3 className="title item">
               National Teaching Certification in Mathematics (CAPES)
             </h3>
@@ -416,7 +457,7 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2010 – 2012</h3>
+            <h3 className="title date">09/2010 – 08/2012</h3>
             <h3 className="title item">
               Master's Degree in Mathematics Education (MEEF)
             </h3>
@@ -585,19 +626,39 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2012 – 2024</h3>
-            <h3 className="title item">Sertifisert matematikklærer</h3>
+            <h3 className="title date">09/2021 – 08/2025</h3>
+            <h3 className="title item">Privatlærer i matematikk</h3>
             <p className="place">
-              Fransk utdannings departement
+              Selvstendig næringsdrivende
               <br />
               Frankrike
             </p>
             <p className="details">
-              Tolv år med undervisning i ulike ungdomsskoler (elever 11-15 år).
+              Fire år som selvstendig næringsdrivende godkjent for "personlige
+              tjenester", med hjemmeundervisning i matematikk.
               <br />
-              Matematikkundervisning, kontaktlærer for flere klasser,
-              individuell oppfølging av elever med utfordringer, ledelse av
-              læringsverksteder (matematiske brettspill).
+              Lenke:{" "}
+              <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank">
+                Facebook-side
+              </a>
+              .
+            </p>
+          </div>
+          <div className="block">
+            <h3 className="title date">09/2012 – 08/2024</h3>
+            <h3 className="title item">Lektor i matematikk</h3>
+            <p className="place">
+              Det franske utdanningsdepartementet
+              <br />
+              Frankrike
+            </p>
+            <p className="details">
+              Elleve år på ungdomsskole (elever 11-15 år) og ett år på
+              videregående (elever 16-18 år).
+              <br />
+              Undervisning i matematikk, ansvar som kontaktlærer, individuell
+              støtte for elever som strever, og gjennomføring av faglige
+              spillverksteder.
             </p>
           </div>
         </>
@@ -607,7 +668,7 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="block">
-            <h3 className="title date">2024 – Nå</h3>
+            <h3 className="title date">10/2024 – Nå</h3>
             <h3 className="title item">Web- og Mobilutvikler Sertifikat</h3>
             <p className="place">
               ESECAD (nettbasert)
@@ -620,7 +681,7 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2024 – Nå</h3>
+            <h3 className="title date">10/2024 – Nå</h3>
             <h3 className="title item">Selvstudium</h3>
             <p className="place">
               Egen læring
@@ -663,7 +724,7 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2012</h3>
+            <h3 className="title date">08/2012</h3>
             <h3 className="title item">
               Nasjonal undervisningssertifisering i matematikk (CAPES)
             </h3>
@@ -675,7 +736,7 @@ const Content = ({ lang }: { lang: string }) => {
           </div>
 
           <div className="block">
-            <h3 className="title date">2010 – 2012</h3>
+            <h3 className="title date">09/2010 – 08/2012</h3>
             <h3 className="title item">Master i matematikkdidaktikk (MEEF)</h3>
             <p className="place">
               Université Rennes 2<br />
@@ -738,7 +799,7 @@ const Content = ({ lang }: { lang: string }) => {
           <p>
             <em>
               NB: Jeg lærer fortsatt norsk (B1). Denne teksten er oversatt med
-              litt hjelp — se gjerne den engelske versjonen for presisjon.
+              litt hjelp. Se gjerne den engelske versjonen for presisjon.
             </em>
           </p>
         </div>

@@ -8,9 +8,9 @@ const Header = ({lang, setLang}: {lang:string; setLang: (lang: string) => void})
             <img className='profile' src={profile} alt="Photo Mickaël Dutfoy" />
             <h1 className='title name'>Mickaël Dutfoy</h1>
             <h2 className='title desc'>
-                {lang === 'fr' && "Développeur TypeScript (Next.js) et Professeur de Mathématiques"}
-                {lang === 'en' && "TypeScript Developer (Next.js) and Math Teacher"}
-                {lang === 'nb' && "TypeScript-utvikler (Next.js) og Matematikklærer"}
+                {lang === 'fr' && "Développeur TypeScript / Next.js"}
+                {lang === 'en' && "TypeScript / Next.js Developer"}
+                {lang === 'nb' && "TypeScript / Next.js Utvikler"}
             </h2>
             <div className='box short'>
                 {lang === 'fr' && "Développeur full-stack, je recherche actuellement mon premier poste après un stage d’immersion en entreprise. Fort de douze années d'expérience comme professeur de mathématiques, j'ai gardé une nature rigoureuse et persévérante. Aujourd'hui, mon choix technique s'est porté sur Next.js pour sa vision d’ensemble, décloisonnée et moderne. Par curiosité, j’explore aussi Rust pour élargir ma culture technologique."}

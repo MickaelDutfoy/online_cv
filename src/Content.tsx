@@ -374,7 +374,7 @@ const Content = ({ lang }: { lang: string }) => {
               Eleven years in middle school (students aged 11-15) and one year
               in high school (students aged 16-18).
               <br />
-              Mathematics instruction, homeroom teacher responsibilities,
+              Mathematics teaching, homeroom teacher responsibilities,
               individual support for struggling students, and facilitation of
               educational board-game workshops.
             </p>
@@ -433,7 +433,7 @@ const Content = ({ lang }: { lang: string }) => {
                 Rustlings
               </a>
               .<br />
-              Daily practice in TypeScript and Rust via{" "}
+              Regular practice in TypeScript and Rust via{" "}
               <a
                 href="https://exercism.org/profiles/MickaelDutfoy"
                 target="_blank"
@@ -494,10 +494,11 @@ const Content = ({ lang }: { lang: string }) => {
             My professional experience has given me valuable soft skills:
             pedagogy, patience, organization, communication... Naturally
             persistent, I find real joy in coding, especially because it
-            reconnects me with what I always loved in math: rigor, pure logic,
-            and the elegance of a well-crafted solution. Teaching also taught me
-            to be both autonomous and collaborative: two precious assets in a
-            world where teamwork is key and self-sufficiency is golden.
+            reconnects me with what I always loved in mathematics: rigor, pure
+            logic, and the elegance of a well-crafted solution. Teaching also
+            taught me to be both autonomous and collaborative: two precious
+            assets in a world where teamwork is key and self-sufficiency is
+            golden.
           </p>
           <p>
             I value effort: whether it’s progressing in trail running, mountain
@@ -523,6 +524,9 @@ const Content = ({ lang }: { lang: string }) => {
       // Portfolio EN
       return (
         <>
+          <div className="portfolio-disclaimer">
+          Note: My projects are currently in French, but I’m working on English (and maybe Norwegian) versions of Aster for early 2026.
+          </div>
           <div className="portfolio-item reverse">
             <div className="portfolio-desc">
               <h3>Aster</h3>
@@ -621,8 +625,8 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
             <p className="details">
               Arbeidet med flere prosjekter parallelt med opplæringen for å
-              styrke mine ferdigheter i koding. Se portefølje-delen for mer
-              informasjon.
+              styrke mine ferdigheter i programmering. Se portefølje-delen for
+              mer informasjon.
             </p>
           </div>
           <div className="block">
@@ -676,7 +680,7 @@ const Content = ({ lang }: { lang: string }) => {
               Montrouge (Frankrike)
             </p>
             <p className="details">
-              Forventet fullføring: tidlig 2026. Teknologier dekket: HTML/CSS,
+              Forventet fullføring: tidlig 2026. Dekket teknologier: HTML/CSS,
               JavaScript, PHP, SQL, Python.
             </p>
           </div>
@@ -713,7 +717,7 @@ const Content = ({ lang }: { lang: string }) => {
                 Rustlings
               </a>
               .<br />
-              Daglige øvelser i TypeScript og Rust via{" "}
+              Regelmessige øvelser i TypeScript og Rust via{" "}
               <a
                 href="https://exercism.org/profiles/MickaelDutfoy"
                 target="_blank"
@@ -761,15 +765,15 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <div className="text-box">
           <p>
-            Etter tolv år som matematikklærer, en oppgave jeg alltid har hatt
-            nært til hjertet, valgte jeg å gi karrieren min en ny retning
-            gjennom en overgang til programvareutvikling. Jeg liker å lære,
-            utvikle meg og gå ut av komfortsonen min: dette skiftet gir meg
-            derfor ekte tilfredshet.
+            Etter tolv år som matematikklærer, en rolle jeg alltid har hatt nært
+            til hjertet, valgte jeg å gi karrieren min en ny retning gjennom en
+            overgang til programvareutvikling. Jeg liker å lære, utvikle meg og
+            gå ut av komfortsonen min: dette skiftet gir meg derfor ekte
+            tilfredshet.
           </p>
           <p>
             Min yrkeserfaring har gitt meg verdifulle <em>soft skills</em>:
-            pedagogikk, tålmodighet, organisasjon, kommunikasjon. Som en
+            pedagogikk, tålmodighet, organisering, kommunikasjon. Som en
             naturlig utholdende person finner jeg stor glede i koding, spesielt
             fordi jeg gjenfinner det jeg alltid har elsket i matematikk:
             nøyaktighet, ren logikk og elegansen i en godt konstruert løsning.
@@ -785,13 +789,13 @@ const Content = ({ lang }: { lang: string }) => {
             forstå heller enn å pugge — en filosofi jeg alltid har ønsket å
             formidle til elevene mine. I samme ånd foretrekker jeg å tilpasse
             verktøy til behovet og holde koden tydelig og effektiv, heller enn å
-            stable biblioteker og rammeverk uten å stille spørsmål ved deres
-            relevans. Dette kravet om klarhet preger også verktøyene jeg liker å
-            bruke eller utvikle: minimalisme, enkelhet og flyt er mine
+            stable biblioteker og rammeverk uten å stille spørsmål ved
+            relevansen. Dette kravet om klarhet preger også verktøyene jeg liker
+            å bruke eller utvikle: minimalisme, enkelhet og flyt er mine
             ledestjerner.
           </p>
           <p>
-            Jeg går frem uten pretensjoner, men med høye standarder: for meg
+            Jeg går fremover uten pretensjoner, men med høye standarder: for meg
             selv, for koden jeg skriver, og for virkningen jeg ønsker å ha. Min
             ambisjon? Å bygge elegante, effektive, diskrete og fremfor alt
             meningsfulle systemer.
@@ -808,6 +812,9 @@ const Content = ({ lang }: { lang: string }) => {
       // Portfolio NO
       return (
         <>
+          <div className="portfolio-disclaimer">
+          Note: Prosjektene mine er bare på fransk akkurat nå, men jeg jobber med en engelsk (og kanskje norsk) Aster versjon tidlig i 2026.
+          </div>
           <div className="portfolio-item reverse">
             <div className="portfolio-desc">
               <h3>Aster</h3>

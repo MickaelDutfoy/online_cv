@@ -16,7 +16,7 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 content = ['Activités de montagne (trail, VTT, ski de randonnée)', 'Jeux (vidéos, de société, de cartes à collectionner)', 'Engagement dans la protection animale'];
             } else if (title === 'remarks') {
                 header = 'Remarques';
-                content = ['Utilisateur quotidien de Linux (Ubuntu)', 'Handicap visuel (uniquement à longue distance)', "Bénéficiaire de l'obligation d'emploi (RQTH)"];
+                content = ['Utilisateur quotidien de Linux (Ubuntu)', 'Handicap visuel (uniquement à longue distance, sans impact pour travailler sur PC)', "Bénéficiaire de l'obligation d'emploi (RQTH)"];
             }
         } else if (lang === 'en') {
             if (title === 'contact') {
@@ -29,20 +29,20 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 content = ['Mountain activities (trail running, mountain biking, ski touring)', 'Games (video games, board games, trading card games)', 'Commitment to animal protection'];
             } else if (title === 'remarks') {
                 header = 'Remarks';
-                content = ['Daily Linux user (Ubuntu)', 'Visual impairment (only at long distance)'];
+                content = ['Daily Linux user (Ubuntu)', 'Visual impairment (only at long distance, no effect on PC work)'];
             }
         } else if (lang === 'nb') {
             if (title === 'contact') {
-                header = 'Kontakt informasjon';
+                header = 'Kontakt';
             } else if (title === 'skills') {
                 header = 'Ferdigheter';
-                content = ['Fransk morsmål', 'Engelsk C1-sertifisert', 'Norsk B1', 'TypeScript (Next.js/React) og Prisma', 'Git og Docker', 'Rust (nybegynner)', 'Universitetsnivå matematikk'];
+                content = ['Fransk morsmål', 'Engelsk C1-sertifisert', 'Norsk B1', 'TypeScript (Next.js/React) og Prisma', 'Git og Docker', 'Rust (nybegynner)', 'Matematikk på universitetsnivå'];
             } else if (title === 'hobbies') {
                 header = 'Hobbyer og lidenskaper';
-                content = ['Fjellaktiviteter (løping, terrengsykling, tur på ski)', 'Spill (videospill, brettspill, samlekortspill)', 'Engasjement for dyrevern'];
+                content = ['Fjellaktiviteter (løping, terrengsykling, skitur)', 'Spill (videospill, brettspill, samlekortspill)', 'Engasjement for dyrevern'];
             } else if (title === 'remarks') {
                 header = 'Merknader';
-                content = ['Daglig Linux-bruker (Ubuntu)', 'Synshemning (bare på lang avstand)'];
+                content = ['Daglig Linux-bruker (Ubuntu)', 'Synshemming (påvirker bare langdistanse, ingen effekt på PC-arbeid)'];
             }
         }
         return {header, content};

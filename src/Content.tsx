@@ -813,7 +813,7 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="portfolio-disclaimer">
-          Note: Prosjektene mine er bare på fransk akkurat nå, men jeg jobber med en engelsk (og kanskje norsk) Aster versjon tidlig i 2026.
+          Note: Prosjektene mine er bare på fransk akkurat nå, men jeg jobber med en engelsk (og kanskje norsk) Aster-versjon tidlig i 2026.
           </div>
           <div className="portfolio-item reverse">
             <div className="portfolio-desc">

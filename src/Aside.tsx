@@ -10,10 +10,10 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 header = 'Coordonnées';
             } else if (title === 'skills') {
                 header = 'Compétences';
-                content = ['Français langue maternelle', 'Anglais certifié C1', 'Norvégien B1', 'TypeScript (Next.js/React) et Prisma', 'Git et Docker', 'Rust (débutant)', 'Mathématiques universitaires'];
+                content = ['Français langue maternelle', 'Anglais certifié C1', 'Norvégien B1/B2', 'TypeScript (Next.js/React) et Prisma', 'Git et Docker', 'Rust (débutant)', 'Mathématiques universitaires'];
             } else if (title === 'hobbies') {
-                header = 'Loisirs et passions';
-                content = ['Activités de montagne (trail, VTT, ski de randonnée)', 'Jeux (vidéos, de société, de cartes à collectionner)', 'Engagement dans la protection animale'];
+                header = 'Loisirs';
+                content = ['Activités de montagne (trail, VTT, ski de randonnée)', 'Jeux (vidéos, de société, de cartes à collectionner)', 'Engagement dans la protection animale', 'Apprentissage des langues'];
             } else if (title === 'remarks') {
                 header = 'Remarques';
                 content = ['Utilisateur quotidien de Linux (Ubuntu)', 'Handicap visuel (uniquement à longue distance, sans impact pour travailler sur PC)', "Bénéficiaire de l'obligation d'emploi (RQTH)"];
@@ -23,10 +23,10 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 header = 'Contact information';
             } else if (title === 'skills') {
                 header = 'Skills';
-                content = ['Native French speaker', 'English certified C1', 'TypeScript (Next.js/React) and Prisma', 'Git and Docker', 'Rust (beginner)', 'University-level mathematics'];
+                content = ['Native French speaker', 'English certified C1', 'Norwegian B1/B2', 'TypeScript (Next.js/React) and Prisma', 'Git and Docker', 'Rust (beginner)', 'University-level mathematics'];
             } else if (title === 'hobbies') {
-                header = 'Hobbies and passions';
-                content = ['Mountain activities (trail running, mountain biking, ski touring)', 'Games (video games, board games, trading card games)', 'Commitment to animal protection'];
+                header = 'Hobbies';
+                content = ['Mountain activities (trail running, mountain biking, ski touring)', 'Games (video games, board games, trading card games)', 'Commitment to animal protection', 'Language learning'];
             } else if (title === 'remarks') {
                 header = 'Remarks';
                 content = ['Daily Linux user (Ubuntu)', 'Visual impairment (only at long distance, no effect on PC work)'];
@@ -36,10 +36,10 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 header = 'Kontakt';
             } else if (title === 'skills') {
                 header = 'Ferdigheter';
-                content = ['Fransk morsmål', 'Engelsk C1-sertifisert', 'Norsk B1', 'TypeScript (Next.js/React) og Prisma', 'Git og Docker', 'Rust (nybegynner)', 'Matematikk på universitetsnivå'];
+                content = ['Fransk morsmål', 'Engelsk C1-sertifisert', 'Norsk B1/B2', 'TypeScript (Next.js/React) og Prisma', 'Git og Docker', 'Rust (nybegynner)', 'Matematikk på universitetsnivå'];
             } else if (title === 'hobbies') {
-                header = 'Hobbyer og lidenskaper';
-                content = ['Fjellaktiviteter (løping, terrengsykling, skitur)', 'Spill (videospill, brettspill, samlekortspill)', 'Engasjement for dyrevern'];
+                header = 'Hobbyer';
+                content = ['Fjellaktiviteter (løping, terrengsykling, skitur)', 'Spill (videospill, brettspill, samlekortspill)', 'Engasjement for dyrevern', 'Språklæring'];
             } else if (title === 'remarks') {
                 header = 'Merknader';
                 content = ['Daglig Linux-bruker (Ubuntu)', 'Synshemming (påvirker bare langdistanse, ingen effekt på PC-arbeid)'];

@@ -525,7 +525,8 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="portfolio-disclaimer">
-          Note: My projects are currently in French, but I’m working on English (and maybe Norwegian) versions of Aster for early 2026.
+            Note: My projects are currently in French, but I’m working on
+            English (and maybe Norwegian) versions of Aster for early 2026.
           </div>
           <div className="portfolio-item reverse">
             <div className="portfolio-desc">
@@ -617,7 +618,7 @@ const Content = ({ lang }: { lang: string }) => {
           </div>
           <div className="block">
             <h3 className="title date">2025</h3>
-            <h3 className="title item">Aspirerende utvikler</h3>
+            <h3 className="title item">Utvikler under opplæring</h3>
             <p className="place">
               Egne prosjekter
               <br />
@@ -638,8 +639,8 @@ const Content = ({ lang }: { lang: string }) => {
               Frankrike
             </p>
             <p className="details">
-              Fire år som selvstendig næringsdrivende godkjent for "personlige
-              tjenester", med hjemmeundervisning i matematikk.
+              Fire år som selvstendig næringsdrivende godkjent for
+              "privatundervisning", med hjemmeundervisning i matematikk.
               <br />
               Lenke:{" "}
               <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank">
@@ -661,7 +662,7 @@ const Content = ({ lang }: { lang: string }) => {
               videregående (elever 16-18 år).
               <br />
               Undervisning i matematikk, ansvar som kontaktlærer, individuell
-              støtte for elever som strever, og gjennomføring av faglige
+              støtte for elever med utfordringer, og gjennomføring av faglige
               spillverksteder.
             </p>
           </div>
@@ -768,41 +769,40 @@ const Content = ({ lang }: { lang: string }) => {
             Etter tolv år som matematikklærer, en rolle jeg alltid har hatt nært
             til hjertet, valgte jeg å gi karrieren min en ny retning gjennom en
             overgang til programvareutvikling. Jeg liker å lære, utvikle meg og
-            gå ut av komfortsonen min: dette skiftet gir meg derfor ekte
+            gå ut av komfortsonen min: Dette skiftet gir meg derfor ekte
             tilfredshet.
           </p>
           <p>
             Min yrkeserfaring har gitt meg verdifulle <em>soft skills</em>:
             pedagogikk, tålmodighet, organisering, kommunikasjon. Som en
             naturlig utholdende person finner jeg stor glede i koding, spesielt
-            fordi jeg gjenfinner det jeg alltid har elsket i matematikk:
+            fordi jeg gjenfinner det jeg alltid har likt best i matematikk:
             nøyaktighet, ren logikk og elegansen i en godt konstruert løsning.
             Undervisning har også lært meg å være både selvstendig og
             samarbeidsvillig: to viktige kvaliteter i en verden der samarbeid er
             nøkkelen og selvstendighet er gull verdt.
           </p>
           <p>
-            Jeg setter pris på innsats: enten det gjelder framgang i terrengløp,
-            på sykkel, i norsk, TypeScript eller Rust, liker jeg å gå i dybden
-            og stadig utfordre meg selv. Jeg nøyer meg ikke med det
-            grunnleggende: jeg utforsker, dekonstruerer og streber etter å
-            forstå heller enn å pugge — en filosofi jeg alltid har ønsket å
-            formidle til elevene mine. I samme ånd foretrekker jeg å tilpasse
-            verktøy til behovet og holde koden tydelig og effektiv, heller enn å
-            stable biblioteker og rammeverk uten å stille spørsmål ved
-            relevansen. Dette kravet om klarhet preger også verktøyene jeg liker
-            å bruke eller utvikle: minimalisme, enkelhet og flyt er mine
-            ledestjerner.
+            Jeg setter pris på innsats, enten det gjelder framgang i terrengløp,
+            på sykkel, i norsk, TypeScript eller Rust, og liker å gå i dybden og
+            stadig utfordre meg selv. Jeg nøyer meg ikke med det grunnleggende:
+            Jeg utforsker, dekonstruerer og streber etter å forstå heller enn å
+            pugge — en filosofi jeg alltid har ønsket å formidle til elevene
+            mine. I samme ånd foretrekker jeg å tilpasse verktøy til behovet og
+            holde koden tydelig og effektiv, heller enn å stable biblioteker og
+            rammeverk uten å stille spørsmål ved relevansen. Dette kravet om
+            klarhet preger også verktøyene jeg liker å bruke eller utvikle:
+            Minimalisme, enkelhet og flyt er mine ledestjerner.
           </p>
           <p>
-            Jeg går fremover uten pretensjoner, men med høye standarder: for meg
-            selv, for koden jeg skriver, og for virkningen jeg ønsker å ha. Min
+            Jeg jobber uten store ord, men med høye standarder: for meg selv,
+            for koden jeg skriver, og for virkningen jeg ønsker å ha. Min
             ambisjon? Å bygge elegante, effektive, diskrete og fremfor alt
             meningsfulle systemer.
           </p>
           <p>
             <em>
-              NB: Jeg lærer fortsatt norsk (B1). Denne teksten er oversatt med
+              NB: Jeg lærer fortsatt norsk (B1/B2). Denne teksten er oversatt med
               litt hjelp. Se gjerne den engelske versjonen for presisjon.
             </em>
           </p>
@@ -813,7 +813,8 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="portfolio-disclaimer">
-          Note: Prosjektene mine er bare på fransk akkurat nå, men jeg jobber med en engelsk (og kanskje norsk) Aster-versjon tidlig i 2026.
+            Note: Prosjektene mine er bare på fransk akkurat nå, men jeg jobber
+            med en engelsk (og kanskje norsk) Aster-versjon tidlig i 2026.
           </div>
           <div className="portfolio-item reverse">
             <div className="portfolio-desc">

@@ -249,7 +249,7 @@ const Content = ({ lang }: { lang: string }) => {
                 (authentification, gestion de données, routes, UI).
                 L'application est pensée mobile-first et déployée en PWA
                 installable sur Android. Un clic sur la miniature ouvre la
-                version de production hébergée sur Vercel.
+                version de production hébergée sur Vercel (Compte de test : demo@aster.app / AsterDemo2026!).
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">
@@ -541,7 +541,7 @@ const Content = ({ lang }: { lang: string }) => {
                 (authentication, data management, routes, UI). The app is
                 mobile-first and deployed as a PWA installable on Android.
                 Clicking the thumbnail opens the production version hosted on
-                Vercel.
+                Vercel (Test account : demo@aster.app / AsterDemo2026!).
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">
@@ -829,7 +829,7 @@ const Content = ({ lang }: { lang: string }) => {
                 full-stack-arkitektur (autentisering, databehandling, ruter,
                 grensesnitt). Appen er mobil-først og distribuert som en PWA som
                 kan installeres på Android. Et klikk på miniatyren åpner
-                produksjonsversjonen som ligger på Vercel.
+                produksjonsversjonen som ligger på Vercel (Testkonto : demo@aster.app / AsterDemo2026!).
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">

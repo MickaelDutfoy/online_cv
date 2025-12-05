@@ -240,7 +240,7 @@ const Content = ({ lang }: { lang: string }) => {
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                Application web destinée aux associations de protection animale,
+                Application web <u>en cours de développement</u> destinée aux associations de protection animale,
                 Aster permet de gérer les membres, les animaux et les familles
                 d'accueil. Conçu comme un outil réel et non un projet scolaire,
                 il est déjà proposé à des associations partenaires. Entièrement
@@ -532,7 +532,7 @@ const Content = ({ lang }: { lang: string }) => {
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                A web application designed for animal protection associations,
+                A web application <u>currently in development</u> designed for animal protection associations,
                 Aster helps manage members, animals, and foster families. Built
                 as a real, usable tool rather than a school project, it is
                 already being offered to partner associations. Fully developed
@@ -820,7 +820,7 @@ const Content = ({ lang }: { lang: string }) => {
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                En nettapplikasjon laget for dyrevernorganisasjoner, Aster
+                En nettapplikasjon <u>under utvikling</u> laget for dyrevernorganisasjoner, Aster
                 hjelper med å administrere medlemmer, dyr og fosterhjem.
                 Prosjektet er utviklet som et reelt verktøy, ikke bare et
                 skoleprosjekt, og tilbys allerede til samarbeidende

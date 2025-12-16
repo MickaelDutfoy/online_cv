@@ -240,16 +240,17 @@ const Content = ({ lang }: { lang: string }) => {
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                Application web <u>en cours de développement</u> destinée aux associations de protection animale,
-                Aster permet de gérer les membres, les animaux et les familles
-                d'accueil. Conçu comme un outil réel et non un projet scolaire,
-                il est déjà proposé à des associations partenaires. Entièrement
-                développé en TypeScript avec Next.js et Prisma, Aster allie
-                rigueur et flexibilité dans une architecture full-stack moderne
-                (authentification, gestion de données, routes, UI).
-                L'application est pensée mobile-first et déployée en PWA
-                installable sur Android. Un clic sur la miniature ouvre la
-                version de production hébergée sur Vercel (Compte de test : demo@aster.app / AsterDemo2026!).
+                Application web <u>en cours de développement</u> destinée aux
+                associations de protection animale, Aster permet de gérer les
+                membres, les animaux et les familles d'accueil. Conçu comme un
+                outil réel et non un projet scolaire, il est déjà proposé à des
+                associations partenaires. Entièrement développé en TypeScript
+                avec Next.js et Prisma, Aster allie rigueur et flexibilité dans
+                une architecture full-stack moderne (authentification, gestion
+                de données, routes, UI). L'application est pensée mobile-first
+                et déployée en PWA installable sur Android. Un clic sur la
+                miniature ouvre la version de production hébergée sur Vercel
+                (Compte de test : demo@aster.app / AsterDemo2026!).
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">
@@ -524,24 +525,21 @@ const Content = ({ lang }: { lang: string }) => {
       // Portfolio EN
       return (
         <>
-          <div className="portfolio-disclaimer">
-            Note: My projects are currently in French, but I’m working on
-            English (and maybe Norwegian) versions of Aster for early 2026.
-          </div>
           <div className="portfolio-item reverse">
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                A web application <u>currently in development</u> designed for animal protection associations,
-                Aster helps manage members, animals, and foster families. Built
-                as a real, usable tool rather than a school project, it is
-                already being offered to partner associations. Fully developed
-                in TypeScript with Next.js and Prisma, Aster combines rigor and
-                flexibility within a modern full-stack architecture
-                (authentication, data management, routes, UI). The app is
-                mobile-first and deployed as a PWA installable on Android.
-                Clicking the thumbnail opens the production version hosted on
-                Vercel (Test account : demo@aster.app / AsterDemo2026!).
+                A web application <u>currently in development</u> designed for
+                animal protection associations, Aster helps manage members,
+                animals, and foster families. Built as a real, usable tool
+                rather than a school project, it is already being offered to
+                partner associations. Fully developed in TypeScript with Next.js
+                and Prisma, Aster combines rigor and flexibility within a modern
+                full-stack architecture (authentication, data management,
+                routes, UI). The app is mobile-first and deployed as a PWA
+                installable on Android. Clicking the thumbnail opens the
+                production version hosted on Vercel (Test account :
+                demo@aster.app / AsterDemo2026!).
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">
@@ -802,8 +800,8 @@ const Content = ({ lang }: { lang: string }) => {
           </p>
           <p>
             <em>
-              NB: Jeg lærer fortsatt norsk (B1/B2). Denne teksten er oversatt med
-              litt hjelp. Se gjerne den engelske versjonen for presisjon.
+              NB: Jeg lærer fortsatt norsk (B1/B2). Denne teksten er oversatt
+              med litt hjelp. Se gjerne den engelske versjonen for presisjon.
             </em>
           </p>
         </div>
@@ -812,24 +810,21 @@ const Content = ({ lang }: { lang: string }) => {
       // Portfolio NO
       return (
         <>
-          <div className="portfolio-disclaimer">
-            Note: Prosjektene mine er bare på fransk akkurat nå, men jeg jobber
-            med en engelsk (og kanskje norsk) Aster-versjon tidlig i 2026.
-          </div>
           <div className="portfolio-item reverse">
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                En nettapplikasjon <u>under utvikling</u> laget for dyrevernorganisasjoner, Aster
-                hjelper med å administrere medlemmer, dyr og fosterhjem.
-                Prosjektet er utviklet som et reelt verktøy, ikke bare et
-                skoleprosjekt, og tilbys allerede til samarbeidende
-                organisasjoner. Fullt utviklet i TypeScript med Next.js og
-                Prisma, kombinerer Aster struktur og fleksibilitet i en moderne
-                full-stack-arkitektur (autentisering, databehandling, ruter,
-                grensesnitt). Appen er mobil-først og distribuert som en PWA som
-                kan installeres på Android. Et klikk på miniatyren åpner
-                produksjonsversjonen som ligger på Vercel (Testkonto : demo@aster.app / AsterDemo2026!).
+                En nettapplikasjon <u>under utvikling</u> laget for
+                dyrevernorganisasjoner, Aster hjelper med å administrere
+                medlemmer, dyr og fosterhjem. Prosjektet er utviklet som et
+                reelt verktøy, ikke bare et skoleprosjekt, og tilbys allerede
+                til samarbeidende organisasjoner. Fullt utviklet i TypeScript
+                med Next.js og Prisma, kombinerer Aster struktur og
+                fleksibilitet i en moderne full-stack-arkitektur (autentisering,
+                databehandling, ruter, grensesnitt). Appen er mobil-først og
+                distribuert som en PWA som kan installeres på Android. Et klikk
+                på miniatyren åpner produksjonsversjonen som ligger på Vercel
+                (Testkonto : demo@aster.app / AsterDemo2026!).
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">

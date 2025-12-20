@@ -109,7 +109,7 @@ const Content = ({ lang }: { lang: string }) => {
               Montrouge (92)
             </p>
             <p className="details">
-              Objectif d'obtention du titre début 2026. Technologies abordées :
+              Terminée, en attente de passage de l'examen au premier trimestre 2026. Technologies abordées :
               HTML/CSS, JavaScript, PHP, SQL, Python.
             </p>
           </div>
@@ -135,7 +135,7 @@ const Content = ({ lang }: { lang: string }) => {
                 Mimo
               </a>{" "}
               (mai 2025). Technologies abordées : HTML/CSS, TypeScript, SQL,
-              React, Express.
+              React, ExpressJS.
               <br />
               Apprentissage de Rust à titre personnel avec{" "}
               <a href="https://doc.rust-lang.org/book/" target="_blank">
@@ -146,7 +146,7 @@ const Content = ({ lang }: { lang: string }) => {
                 Rustlings
               </a>
               .<br />
-              Entraînement quotidien sur TypeScript et Rust avec{" "}
+              Entraînement régulier sur TypeScript et Rust avec{" "}
               <a
                 href="https://exercism.org/profiles/MickaelDutfoy"
                 target="_blank"
@@ -397,7 +397,7 @@ const Content = ({ lang }: { lang: string }) => {
               Montrouge (France)
             </p>
             <p className="details">
-              Target graduation: early 2026. Technologies covered: HTML/CSS,
+              Completed, with final exam scheduled for Q1 2026. Technologies covered: HTML/CSS,
               JavaScript, PHP, SQL, Python.
             </p>
           </div>
@@ -423,7 +423,7 @@ const Content = ({ lang }: { lang: string }) => {
                 Mimo
               </a>{" "}
               (May 2025). Technologies covered: HTML/CSS, TypeScript, SQL,
-              React, Express.
+              React, ExpressJS.
               <br />
               Learning Rust independently using{" "}
               <a href="https://doc.rust-lang.org/book/" target="_blank">
@@ -679,7 +679,7 @@ const Content = ({ lang }: { lang: string }) => {
               Montrouge (Frankrike)
             </p>
             <p className="details">
-              Forventet fullføring: tidlig 2026. Dekket teknologier: HTML/CSS,
+              Fullført, med avsluttende eksamen planlagt i første kvartal 2026. Dekket teknologier: HTML/CSS,
               JavaScript, PHP, SQL, Python.
             </p>
           </div>
@@ -705,7 +705,7 @@ const Content = ({ lang }: { lang: string }) => {
                 Mimo
               </a>{" "}
               (mai 2025). Teknologier: HTML/CSS, TypeScript, SQL, React,
-              Express.
+              ExpressJS.
               <br />
               Lærer Rust selvstendig med{" "}
               <a href="https://doc.rust-lang.org/book/" target="_blank">

@@ -99,7 +99,7 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="block">
-            <h3 className="title date">10/2024 – En cours</h3>
+            <h3 className="title date">10/2024 – 02/2026</h3>
             <h3 className="title item">
               Titre RNCP "Développeur Web et Web Mobile"
             </h3>
@@ -109,7 +109,7 @@ const Content = ({ lang }: { lang: string }) => {
               Montrouge (92)
             </p>
             <p className="details">
-              Terminée, en attente de passage de l'examen au premier trimestre 2026. Technologies abordées :
+              Terminée, en attente de passage de l'examen le 13/02/2026. Technologies abordées :
               HTML/CSS, JavaScript, PHP, SQL, Python.
             </p>
           </div>
@@ -387,7 +387,7 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="block">
-            <h3 className="title date">10/2024 – Ongoing</h3>
+            <h3 className="title date">10/2024 – 02/2026</h3>
             <h3 className="title item">
               Web and Mobile Web Developer Certificate
             </h3>
@@ -397,7 +397,7 @@ const Content = ({ lang }: { lang: string }) => {
               Montrouge (France)
             </p>
             <p className="details">
-              Completed, with final exam scheduled for Q1 2026. Technologies covered: HTML/CSS,
+              Completed, with final exam scheduled on 13/02/2026. Technologies covered: HTML/CSS,
               JavaScript, PHP, SQL, Python.
             </p>
           </div>
@@ -671,7 +671,7 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="block">
-            <h3 className="title date">10/2024 – Nå</h3>
+            <h3 className="title date">10/2024 – 02/2026</h3>
             <h3 className="title item">Web- og Mobilutvikler Sertifikat</h3>
             <p className="place">
               ESECAD (nettbasert)
@@ -679,7 +679,7 @@ const Content = ({ lang }: { lang: string }) => {
               Montrouge (Frankrike)
             </p>
             <p className="details">
-              Fullført, med avsluttende eksamen planlagt i første kvartal 2026. Dekket teknologier: HTML/CSS,
+              Fullført, med avsluttende eksamen planlagt på 13/02/2026. Dekket teknologier: HTML/CSS,
               JavaScript, PHP, SQL, Python.
             </p>
           </div>

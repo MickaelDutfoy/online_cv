@@ -679,7 +679,7 @@ const Content = ({ lang }: { lang: string }) => {
               Montrouge (Frankrike)
             </p>
             <p className="details">
-              Fullført, med avsluttende eksamen planlagt på 13/02/2026. Dekket teknologier: HTML/CSS,
+              Fullført, med avsluttende eksamen planlagt 13/02/2026. Dekket teknologier: HTML/CSS,
               JavaScript, PHP, SQL, Python.
             </p>
           </div>

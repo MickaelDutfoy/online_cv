@@ -11,6 +11,11 @@ header {
     justify-content: space-around;
 }
 
+header p {
+    padding: 0 5px;
+    text-align: justify;
+}
+
 .profile {
     grid-area: profile;
     height: 310px;

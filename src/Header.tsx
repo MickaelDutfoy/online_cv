@@ -21,15 +21,15 @@ const Header = ({
       <div className="box short">
         <p>
           {lang === "fr" &&
-            "Développeur full-stack, je recherche actuellement mon premier poste après un stage d’immersion en entreprise. Fort de douze années d'expérience comme professeur de mathématiques, j'ai gardé une nature rigoureuse et persévérante. Aujourd'hui, mon choix technique s'est porté sur Next.js pour sa vision d’ensemble, décloisonnée et moderne. Par curiosité, j’explore aussi Rust pour élargir ma culture technologique."}
+            "Développeur TypeScript / Next.js, je recherche un premier poste après 2 mois d’expérience en entreprise et 12 années d’enseignement des mathématiques. Je développe et maintiens Aster, une application Next.js en production pour les associations de protection animale."}
         </p>
         <p>
           {lang === "en" &&
-            "Full-stack developer, I'm currently looking for my first position following a hands-on internship experience. With twelve years of experience as a mathematics teacher, I have kept a rigorous and persistent mindset. Today, I have chosen Next.js for its comprehensive, modern, and uncloistered approach. Out of curiosity, I also explore Rust to broaden my technological horizon."}
+            "TypeScript / Next.js developer, I am seeking my first full-time position after 2 months of experience in a company and 12 years as a mathematics teacher. I develop and maintain Aster, a Next.js application in production for animal welfare organizations."}
         </p>
         <p>
           {lang === "nb" &&
-            "Som fullstack-utvikler søker jeg min første jobb etter et praksisopphold i en bedrift. Med tolv års erfaring som matematikklærer har jeg beholdt et fokus preget av nøyaktighet og utholdenhet. I dag har jeg valgt Next.js for dets helhetlige, moderne og åpne tilnærming. Av nysgjerrighet utforsker jeg også Rust for å utvide mitt teknologiske perspektiv."}
+            "TypeScript / Next.js-utvikler, jeg søker min første faste stilling etter 2 måneders erfaring fra arbeidslivet og 12 års erfaring som matematikklærer. Jeg utvikler og vedlikeholder Aster, en Next.js-applikasjon i produksjon for dyrevernorganisasjoner."}
         </p>
       </div>
       <Language lang={lang} setLang={setLang} />

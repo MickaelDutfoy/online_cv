@@ -40,20 +40,6 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2025</h3>
-            <h3 className="title item">Aspirant développeur</h3>
-            <p className="place">
-              Projets personnels
-              <br />
-              Guillestre (05)
-            </p>
-            <p className="details">
-              Réalisation de plusieurs projets en parallèle de ma formation,
-              afin de consolider ma maîtrise du code. Pour les découvrir,
-              rendez-vous dans la section Portfolio.
-            </p>
-          </div>
-          <div className="block">
             <h3 className="title date">09/2021 – 08/2025</h3>
             <h3 className="title item">
               Professeur particulier de mathématiques
@@ -100,17 +86,23 @@ const Content = ({ lang }: { lang: string }) => {
         <>
           <div className="block">
             <h3 className="title date">10/2024 – 02/2026</h3>
-            <h3 className="title item">
-              Titre RNCP "Développeur Web et Web Mobile"
-            </h3>
+            <h3 className="title item">Formation DWWM</h3>
             <p className="place">
               ESECAD (distanciel)
               <br />
               Montrouge (92)
             </p>
             <p className="details">
-              Terminée, en attente de passage de l'examen le 13/02/2026. Technologies abordées :
-              HTML/CSS, JavaScript, PHP, SQL, Python.
+              Obtention du{" "}
+              <a
+                href="./docs/DWWM.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="DWWM"
+              >
+                Titre RNCP "Développeur web et web mobile"
+              </a>
+              . Technologies abordées : HTML/CSS, JavaScript, PHP, SQL, Python.
             </p>
           </div>
           <div className="block">
@@ -144,14 +136,6 @@ const Content = ({ lang }: { lang: string }) => {
               et{" "}
               <a href="https://github.com/rust-lang/rustlings" target="_blank">
                 Rustlings
-              </a>
-              .<br />
-              Entraînement régulier sur TypeScript et Rust avec{" "}
-              <a
-                href="https://exercism.org/profiles/MickaelDutfoy"
-                target="_blank"
-              >
-                Exercism
               </a>
               .
             </p>
@@ -240,17 +224,16 @@ const Content = ({ lang }: { lang: string }) => {
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                Application web <u>en cours de développement</u> destinée aux
+                Application web en développement continu destinée aux
                 associations de protection animale, Aster permet de gérer les
-                membres, les animaux et les familles d'accueil. Conçu comme un
-                outil réel et non un projet scolaire, il est déjà proposé à des
-                associations partenaires. Entièrement développé en TypeScript
-                avec Next.js et Prisma, Aster allie rigueur et flexibilité dans
-                une architecture full-stack moderne (authentification, gestion
-                de données, routes, UI). L'application est pensée mobile-first
-                et déployée en PWA installable sur Android. Un clic sur la
-                miniature ouvre la version de production hébergée sur Vercel
-                (Compte de test : demo@aster.app / AsterDemo2026!).
+                membres, les animaux et les lieux d’accueil. Déjà utilisé par
+                des associations partenaires, elle est entièrement développée en
+                TypeScript avec Next.js et Prisma. L’application intègre
+                notamment l’authentification, la gestion des données et une
+                interface mobile-first. Elle est déployée en production sur
+                Vercel et disponible en PWA installable sur Android et iPhone.
+                Un clic sur la miniature ouvre la version en ligne (Compte de
+                test : demo@aster.app / AsterDemo2026!).
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">
@@ -332,19 +315,6 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2025</h3>
-            <h3 className="title item">Aspiring developer</h3>
-            <p className="place">
-              Personal projects
-              <br />
-              Guillestre (France)
-            </p>
-            <p className="details">
-              Working on several projects alongside my training to strengthen my
-              coding skills. Check out the Portfolio section to learn more.
-            </p>
-          </div>
-          <div className="block">
             <h3 className="title date">09/2021 – 08/2025</h3>
             <h3 className="title item">Private math tutor</h3>
             <p className="place">
@@ -353,8 +323,8 @@ const Content = ({ lang }: { lang: string }) => {
               France
             </p>
             <p className="details">
-              Four years as a self-employed, certified "personal-services
-              provider", delivering in-home mathematics tutoring.
+              Four years as a self-employed teacher, delivering in-home
+              mathematics tutoring.
               <br />
               Link:{" "}
               <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank">
@@ -388,17 +358,23 @@ const Content = ({ lang }: { lang: string }) => {
         <>
           <div className="block">
             <h3 className="title date">10/2024 – 02/2026</h3>
-            <h3 className="title item">
-              Web and Mobile Web Developer Certificate
-            </h3>
+            <h3 className="title item">Web and mobile developer course</h3>
             <p className="place">
               ESECAD (online)
               <br />
               Montrouge (France)
             </p>
             <p className="details">
-              Completed, with final exam scheduled on 13/02/2026. Technologies covered: HTML/CSS,
-              JavaScript, PHP, SQL, Python.
+              Earned the{" "}
+              <a
+                href="./docs/DWWM.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="DWWM"
+              >
+                "Web and mobile developer" diploma
+              </a>
+              . Technologies covered: HTML/CSS, JavaScript, PHP, SQL, Python.
             </p>
           </div>
           <div className="block">
@@ -416,7 +392,7 @@ const Content = ({ lang }: { lang: string }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                "Full-stack Developer" certificate
+                "Full-stack developer" certificate
               </a>{" "}
               from{" "}
               <a href="https://mimo.org/" target="_blank">
@@ -433,21 +409,13 @@ const Content = ({ lang }: { lang: string }) => {
               <a href="https://github.com/rust-lang/rustlings" target="_blank">
                 Rustlings
               </a>
-              .<br />
-              Regular practice in TypeScript and Rust via{" "}
-              <a
-                href="https://exercism.org/profiles/MickaelDutfoy"
-                target="_blank"
-              >
-                Exercism
-              </a>
               .
             </p>
           </div>
           <div className="block">
             <h3 className="title date">08/2012</h3>
             <h3 className="title item">
-              National Teaching Certification in Mathematics (CAPES)
+              National teaching certification in mathematics (CAPES)
             </h3>
             <p className="place">
               University of Rennes 2<br />
@@ -460,7 +428,7 @@ const Content = ({ lang }: { lang: string }) => {
           <div className="block">
             <h3 className="title date">09/2010 – 08/2012</h3>
             <h3 className="title item">
-              Master's Degree in Mathematics Education (MEEF)
+              Master's Degree in mathematics education
             </h3>
             <p className="place">
               University of Rennes 2<br />
@@ -473,7 +441,7 @@ const Content = ({ lang }: { lang: string }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Master’s Degree in Teaching, Education, and Training
+                Master’s Degree in "Teaching, Education, and Training"
               </a>{" "}
               with a specialization in mathematics.
             </p>
@@ -529,16 +497,14 @@ const Content = ({ lang }: { lang: string }) => {
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                A web application <u>currently in development</u> designed for
-                animal protection associations, Aster helps manage members,
-                animals, and foster families. Built as a real, usable tool
-                rather than a school project, it is already being offered to
-                partner associations. Fully developed in TypeScript with Next.js
-                and Prisma, Aster combines rigor and flexibility within a modern
-                full-stack architecture (authentication, data management,
-                routes, UI). The app is mobile-first and deployed as a PWA
-                installable on Android. Clicking the thumbnail opens the
-                production version hosted on Vercel (Test account :
+                Web application in continuous development designed for animal
+                welfare organizations, Aster allows the management of members,
+                animals and foster locations. Already used by partner organizations,
+                it is fully developed in TypeScript with Next.js and Prisma. The
+                application includes authentication, data management and a
+                mobile-first interface. It is deployed in production on Vercel
+                and available as an installable PWA on Android and iPhone.
+                Clicking the thumbnail opens the live version (Test account:
                 demo@aster.app / AsterDemo2026!).
               </p>
             </div>
@@ -615,20 +581,6 @@ const Content = ({ lang }: { lang: string }) => {
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">2025</h3>
-            <h3 className="title item">Utvikler under opplæring</h3>
-            <p className="place">
-              Egne prosjekter
-              <br />
-              Guillestre (Frankrike)
-            </p>
-            <p className="details">
-              Arbeidet med flere prosjekter parallelt med opplæringen for å
-              styrke mine ferdigheter i programmering. Se portefølje-delen for
-              mer informasjon.
-            </p>
-          </div>
-          <div className="block">
             <h3 className="title date">09/2021 – 08/2025</h3>
             <h3 className="title item">Privatlærer i matematikk</h3>
             <p className="place">
@@ -637,8 +589,8 @@ const Content = ({ lang }: { lang: string }) => {
               Frankrike
             </p>
             <p className="details">
-              Fire år som selvstendig næringsdrivende godkjent for
-              "privatundervisning", med hjemmeundervisning i matematikk.
+              Fire år som selvstendig lærer, med hjemmeundervisning i
+              matematikk.
               <br />
               Lenke:{" "}
               <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank">
@@ -660,7 +612,7 @@ const Content = ({ lang }: { lang: string }) => {
               videregående (elever 16-18 år).
               <br />
               Undervisning i matematikk, ansvar som kontaktlærer, individuell
-              støtte for elever med utfordringer, og gjennomføring av faglige
+              støtte for elever med utfordringer og gjennomføring av faglige
               spillverksteder.
             </p>
           </div>
@@ -672,15 +624,23 @@ const Content = ({ lang }: { lang: string }) => {
         <>
           <div className="block">
             <h3 className="title date">10/2024 – 02/2026</h3>
-            <h3 className="title item">Web- og Mobilutvikler Sertifikat</h3>
+            <h3 className="title item">Web- og mobilutvikler utdanning</h3>
             <p className="place">
               ESECAD (nettbasert)
               <br />
               Montrouge (Frankrike)
             </p>
             <p className="details">
-              Fullført, med avsluttende eksamen planlagt 13/02/2026. Dekket teknologier: HTML/CSS,
-              JavaScript, PHP, SQL, Python.
+              Oppnådde{" "}
+              <a
+                href="./docs/DWWM.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="DWWM"
+              >
+                diplomet «Web- og mobilutvikler»
+              </a>
+              . Teknologier: HTML/CSS, JavaScript, PHP, SQL, Python.
             </p>
           </div>
           <div className="block">
@@ -692,13 +652,13 @@ const Content = ({ lang }: { lang: string }) => {
               Guillestre (Frankrike)
             </p>
             <p className="details">
-              Fullførte{" "}
+              Oppnådde{" "}
               <a
                 href="./docs/Mimo.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                «Full-stack Developer»-sertifikatet
+                «Full-stack utvikler»-sertifikatet
               </a>{" "}
               fra{" "}
               <a href="https://mimo.org/" target="_blank">
@@ -715,14 +675,6 @@ const Content = ({ lang }: { lang: string }) => {
               <a href="https://github.com/rust-lang/rustlings" target="_blank">
                 Rustlings
               </a>
-              .<br />
-              Regelmessige øvelser i TypeScript og Rust via{" "}
-              <a
-                href="https://exercism.org/profiles/MickaelDutfoy"
-                target="_blank"
-              >
-                Exercism
-              </a>
               .
             </p>
           </div>
@@ -732,7 +684,7 @@ const Content = ({ lang }: { lang: string }) => {
               Nasjonal undervisningssertifisering i matematikk (CAPES)
             </h3>
             <p className="place">
-              Université Rennes 2<br />
+              Universitet i Rennes 2<br />
               Rennes (Frankrike)
             </p>
             <p className="details">Nasjonal rangering: 222.</p>
@@ -740,19 +692,19 @@ const Content = ({ lang }: { lang: string }) => {
 
           <div className="block">
             <h3 className="title date">09/2010 – 08/2012</h3>
-            <h3 className="title item">Master i matematikkdidaktikk (MEEF)</h3>
+            <h3 className="title item">Master i matematikkdidaktikk</h3>
             <p className="place">
-              Université Rennes 2<br />
+              Universitet i Rennes 2<br />
               Rennes (Frankrike)
             </p>
             <p className="details">
-              Fullførte{" "}
+              Oppnådde{" "}
               <a
                 href="./docs/Master.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Mastergrad i undervisning, utdanning og opplæring
+                Mastergrad i «undervisning, utdanning og opplæring»
               </a>{" "}
               med spesialisering i matematikk.
             </p>
@@ -814,17 +766,15 @@ const Content = ({ lang }: { lang: string }) => {
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                En nettapplikasjon <u>under utvikling</u> laget for
-                dyrevernorganisasjoner, Aster hjelper med å administrere
-                medlemmer, dyr og fosterhjem. Prosjektet er utviklet som et
-                reelt verktøy, ikke bare et skoleprosjekt, og tilbys allerede
-                til samarbeidende organisasjoner. Fullt utviklet i TypeScript
-                med Next.js og Prisma, kombinerer Aster struktur og
-                fleksibilitet i en moderne full-stack-arkitektur (autentisering,
-                databehandling, ruter, grensesnitt). Appen er mobil-først og
-                distribuert som en PWA som kan installeres på Android. Et klikk
-                på miniatyren åpner produksjonsversjonen som ligger på Vercel
-                (Testkonto : demo@aster.app / AsterDemo2026!).
+                Nettapplikasjon i kontinuerlig utvikling for
+                dyrevernorganisasjoner. Aster gjør det mulig å administrere
+                medlemmer, dyr og omsorgssteder. Den brukes allerede av
+                samarbeidende organisasjoner og er fullt utviklet i TypeScript
+                med Next.js og Prisma. Applikasjonen inkluderer autentisering,
+                databehandling og et mobile-first-grensesnitt. Den er satt i
+                produksjon på Vercel og tilgjengelig som installérbar PWA på
+                Android og iPhone. Et klikk på miniatyren åpner den publiserte
+                versjonen (Testkonto: demo@aster.app / AsterDemo2026!).
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">

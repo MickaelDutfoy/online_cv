@@ -6,7 +6,7 @@ import TabBar from "./TabBar";
 import { useState, type JSX } from "react";
 
 const Content = ({ lang }: { lang: string }) => {
-  const [tab, setTab]: [number, (tab: number) => void] = useState(1);
+  const [tab, setTab]: [number, (tab: number) => void] = useState(4);
 
   const generateContent = (lang: string, tab: number): JSX.Element => {
     if (lang === "fr" && tab === 1) {
@@ -684,7 +684,7 @@ const Content = ({ lang }: { lang: string }) => {
               Nasjonal undervisningssertifisering i matematikk (CAPES)
             </h3>
             <p className="place">
-              Universitet i Rennes 2<br />
+              Universitetet i Rennes 2<br />
               Rennes (Frankrike)
             </p>
             <p className="details">Nasjonal rangering: 222.</p>
@@ -694,7 +694,7 @@ const Content = ({ lang }: { lang: string }) => {
             <h3 className="title date">09/2010 – 08/2012</h3>
             <h3 className="title item">Master i matematikkdidaktikk</h3>
             <p className="place">
-              Universitet i Rennes 2<br />
+              Universitetet i Rennes 2<br />
               Rennes (Frankrike)
             </p>
             <p className="details">

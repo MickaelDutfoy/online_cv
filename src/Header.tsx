@@ -1,5 +1,5 @@
 import "./styles/Header.css";
-import profile from "./img/profile.jpg";
+import profile from "./img/profile.png";
 import Language from "./Language";
 
 const Header = ({

@@ -53,12 +53,6 @@ const Content = ({ lang }: { lang: string }) => {
               Quatre ans sous le statut d'auto-entrepreneur agréé "service à la
               personne", pour effectuer des cours de mathématiques à domicile, à
               mon compte.
-              <br />
-              Lien :{" "}
-              <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank">
-                Page Facebook
-              </a>
-              .
             </p>
           </div>
           <div className="block">
@@ -325,12 +319,6 @@ const Content = ({ lang }: { lang: string }) => {
             <p className="details">
               Four years as a self-employed teacher, delivering in-home
               mathematics tutoring.
-              <br />
-              Link:{" "}
-              <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank">
-                Facebook Page
-              </a>
-              .
             </p>
           </div>
           <div className="block">
@@ -591,12 +579,6 @@ const Content = ({ lang }: { lang: string }) => {
             <p className="details">
               Fire år som selvstendig lærer, med hjemmeundervisning i
               matematikk.
-              <br />
-              Lenke:{" "}
-              <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank">
-                Facebook-side
-              </a>
-              .
             </p>
           </div>
           <div className="block">

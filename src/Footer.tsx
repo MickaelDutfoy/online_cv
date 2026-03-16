@@ -1,5 +1,4 @@
 import './styles/Footer.css';
-import fb from './img/facebook.png';
 import gh from './img/github.png';
 import li from './img/linkedin.png';
 
@@ -12,7 +11,6 @@ const Footer = ({lang}: {lang: string}) => {
                     {lang === 'en' && "Find me on social media:"}
                     {lang === 'nb' && "Finn meg på sosiale medier:"}
                 </span>
-                <a href="https://www.facebook.com/m.dutfoy.prof" target="_blank"><img src={fb} alt="Logo Facebook" /></a>
                 <a href="https://github.com/MickaelDutfoy" target="_blank"><img src={gh} alt="Logo GitHub" /></a>
                 <a href="https://www.linkedin.com/in/mickaeldutfoy" target="_blank"><img src={li} alt="Logo LinkedIn" /></a>
             </div>

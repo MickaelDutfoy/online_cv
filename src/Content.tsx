@@ -233,6 +233,16 @@ const Content = ({ lang }: { lang: string }) => {
                 Un clic sur la miniature ouvre la version en ligne (compte de
                 test : demo@aster.app / AsterDemo2026).
               </p>
+              <p>
+                Lien :{" "}
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.quietforge.aster"
+                  target="blank"
+                >
+                  Page Google Play
+                </a>
+                .
+              </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">
               <img src={aster} alt="Capture d’écran Aster" />
@@ -507,6 +517,16 @@ const Content = ({ lang }: { lang: string }) => {
               <p>
                 Click the preview to open the live version (test account:
                 demo@aster.app / AsterDemo2026).
+              </p>
+              <p>
+                Link:{" "}
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.quietforge.aster"
+                  target="blank"
+                >
+                  Google Play page
+                </a>
+                .
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">
@@ -787,6 +807,16 @@ const Content = ({ lang }: { lang: string }) => {
               <p>
                 Klikk på forhåndsvisningen for å åpne live-versjonen (testkonto:
                 demo@aster.app / AsterDemo2026).
+              </p>
+              <p>
+                Lenke:{" "}
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.quietforge.aster"
+                  target="blank"
+                >
+                  Google Play-side
+                </a>
+                .
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">

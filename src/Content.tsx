@@ -218,16 +218,20 @@ const Content = ({ lang }: { lang: string }) => {
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                Application web en développement continu destinée aux
-                associations de protection animale, Aster permet de gérer les
-                membres, les animaux et les lieux d’accueil. Déjà utilisé par
-                des associations partenaires, elle est entièrement développée en
-                TypeScript avec Next.js et Prisma. L’application intègre
-                notamment l’authentification, la gestion des données et une
-                interface mobile-first. Elle est déployée en production sur
-                Vercel et disponible en PWA installable sur Android et iPhone.
-                Un clic sur la miniature ouvre la version en ligne (Compte de
-                test : demo@aster.app / AsterDemo2026!).
+                Application web (mobile-first) en développement continu destinée
+                aux associations de protection animale, Aster permet de gérer
+                les membres, les animaux et les lieux d’accueil.
+              </p>
+
+              <p>
+                Développée en TypeScript avec Next.js et Prisma, elle est
+                déployée en production, publiée sur Google Play et utilisée par
+                des associations partenaires.
+              </p>
+
+              <p>
+                Un clic sur la miniature ouvre la version en ligne (compte de
+                test : demo@aster.app / AsterDemo2026).
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">
@@ -243,14 +247,16 @@ const Content = ({ lang }: { lang: string }) => {
               <h3>Les Hauts Chat'lpins</h3>
               <div>
                 <p>
-                  Réalisation d'un site Web simple en HTML/CSS avec quelques
-                  fonctions JavaScript (pop-ups on click, formulaire de contact
-                  dynamique). Ce projet a été pour moi l'occasion de mettre en
-                  pratique des connaissances de base à la fois en termes de
-                  code, de design, d'UX ou de SEO, toujours au service de la
-                  cause animale qui me tient à cœur. Cliquez la vignette pour
-                  accéder au site.
+                  Réalisation d’un site web vitrine pour une association de
+                  protection animale, avec HTML, CSS et JavaScript.
                 </p>
+
+                <p>
+                  Ce projet m’a permis de mettre en pratique des bases concrètes
+                  en intégration, UX et SEO, tout en servant la cause animale.
+                </p>
+
+                <p>Un clic sur la miniature ouvre le site en ligne.</p>
               </div>
             </div>
           </div>
@@ -259,15 +265,17 @@ const Content = ({ lang }: { lang: string }) => {
               <h3>WorldRoots</h3>
               <div>
                 <p>
-                  Réalisation d'un RPG old-school textuel, 100% JavaScript
-                  vanilla en navigateur. On y joue une équipe de trois
-                  personnages et le but est d'avancer le plus loin possible.
-                  Sorts élémentaires, capacités, potions, buffs/debuffs, et même
-                  invocations : j'ai eu à cœur de mettre les mécaniques
-                  classiques du genre. Je souhaite à l'avenir repenser le code
-                  en TypeScript avec de nombreuses optimisations et faire une UI
-                  en React, plus dynamique et fun. Cliquez et combattez !
+                  Développement d’un RPG textuel en JavaScript vanilla, jouable
+                  en navigateur, avec mécaniques classiques (combat, sorts,
+                  buffs/debuffs).
                 </p>
+
+                <p>
+                  Ce projet m’a permis de structurer du code côté front et de
+                  manipuler le DOM en JavaScript.
+                </p>
+
+                <p>Un clic sur la miniature lance le jeu.</p>
               </div>
             </div>
             <a
@@ -485,15 +493,20 @@ const Content = ({ lang }: { lang: string }) => {
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                Web application in continuous development designed for animal
-                welfare organizations, Aster allows the management of members,
-                animals and foster locations. Already used by partner organizations,
-                it is fully developed in TypeScript with Next.js and Prisma. The
-                application includes authentication, data management and a
-                mobile-first interface. It is deployed in production on Vercel
-                and available as an installable PWA on Android and iPhone.
-                Clicking the thumbnail opens the live version (Test account:
-                demo@aster.app / AsterDemo2026!).
+                Mobile-first web application in continuous development for
+                animal welfare organizations. Aster allows management of
+                members, animals and foster locations.
+              </p>
+
+              <p>
+                Built with TypeScript, Next.js and Prisma, it is deployed in
+                production, published on Google Play and used by partner
+                organizations.
+              </p>
+
+              <p>
+                Click the preview to open the live version (test account:
+                demo@aster.app / AsterDemo2026).
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">
@@ -507,28 +520,40 @@ const Content = ({ lang }: { lang: string }) => {
             </a>
             <div className="portfolio-desc">
               <h3>Les Hauts Chat'lpins</h3>
-              <p>
-                Creation of a simple HTML/CSS website with a few JavaScript
-                features (on-click popups, dynamic contact form). This project
-                allowed me to apply basic knowledge in code, design, UX, and
-                SEO, always serving the animal welfare cause I care deeply
-                about. Click the thumbnail to visit the site.
-              </p>
+              <div>
+                <p>
+                  Development of a simple showcase website for an animal welfare
+                  organization using HTML, CSS and JavaScript.
+                </p>
+
+                <p>
+                  This project allowed me to apply practical fundamentals in
+                  integration, UX and SEO, while supporting a cause I care
+                  about.
+                </p>
+
+                <p>Click the preview to open the website.</p>
+              </div>
             </div>
           </div>
 
           <div className="portfolio-item reverse">
             <div className="portfolio-desc">
               <h3>WorldRoots</h3>
-              <p>
-                A retro text-based RPG built entirely with vanilla JavaScript in
-                the browser. You control a team of three characters and aim to
-                progress as far as possible. Elemental spells, abilities,
-                potions, buffs/debuffs, even summons: I wanted to recreate the
-                classic mechanics of the genre. In the future, I plan to rebuild
-                the codebase in TypeScript with major optimizations and a more
-                dynamic React UI. Click and fight!
-              </p>
+              <div>
+                <p>
+                  Development of a text-based RPG in vanilla JavaScript,
+                  playable in the browser, with classic mechanics (combat,
+                  spells, buffs/debuffs).
+                </p>
+
+                <p>
+                  This project helped me structure front-end code and work
+                  directly with the DOM in JavaScript.
+                </p>
+
+                <p>Click the preview to launch the game.</p>
+              </div>
             </div>
             <a
               href="https://mickaeldutfoy.github.io/worldroots/"
@@ -748,19 +773,24 @@ const Content = ({ lang }: { lang: string }) => {
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                Nettapplikasjon i kontinuerlig utvikling for
+                Mobil-først webapplikasjon i kontinuerlig utvikling, laget for
                 dyrevernorganisasjoner. Aster gjør det mulig å administrere
-                medlemmer, dyr og omsorgssteder. Den brukes allerede av
-                samarbeidende organisasjoner og er fullt utviklet i TypeScript
-                med Next.js og Prisma. Applikasjonen inkluderer autentisering,
-                databehandling og et mobile-first-grensesnitt. Den er satt i
-                produksjon på Vercel og tilgjengelig som installérbar PWA på
-                Android og iPhone. Et klikk på miniatyren åpner den publiserte
-                versjonen (Testkonto: demo@aster.app / AsterDemo2026!).
+                medlemmer, dyr og fosterhjem.
+              </p>
+
+              <p>
+                Utviklet med TypeScript, Next.js og Prisma, er den distribuert i
+                produksjon, publisert på Google Play og brukt av samarbeidende
+                organisasjoner.
+              </p>
+
+              <p>
+                Klikk på forhåndsvisningen for å åpne live-versjonen (testkonto:
+                demo@aster.app / AsterDemo2026).
               </p>
             </div>
             <a href="https://aster-pearl.vercel.app" target="_blank">
-              <img src={aster} alt="Skjermbilde av Aster" />
+              <img src={aster} alt="Aster skjermbilde" />
             </a>
           </div>
 
@@ -768,41 +798,51 @@ const Content = ({ lang }: { lang: string }) => {
             <a href="https://www.leshautschatlpins.fr/" target="_blank">
               <img
                 src={hautsChatlpins}
-                alt="Skjermbilde av Les Hauts Chat'lpins"
+                alt="Les Hauts Chat'lpins skjermbilde"
               />
             </a>
             <div className="portfolio-desc">
               <h3>Les Hauts Chat'lpins</h3>
-              <p>
-                En enkel nettside laget i HTML/CSS med litt
-                JavaScript-funksjonalitet (pop-ups ved klikk, dynamisk
-                kontaktskjema). Dette prosjektet ga meg muligheten til å bruke
-                grunnleggende kunnskap innen kode, design, brukeropplevelse og
-                SEO, alltid i tjeneste for dyrevelferdssaken som står meg nær.
-                Klikk på miniatyren for å åpne siden.
-              </p>
+              <div>
+                <p>
+                  Utvikling av et enkelt presentasjonsnettsted for en
+                  dyrevernorganisasjon, med HTML, CSS og JavaScript.
+                </p>
+
+                <p>
+                  Dette prosjektet lot meg anvende konkrete grunnleggende
+                  ferdigheter i integrasjon, UX og SEO, samtidig som det støtter
+                  dyrevern.
+                </p>
+
+                <p>Klikk på forhåndsvisningen for å åpne nettstedet.</p>
+              </div>
             </div>
           </div>
 
           <div className="portfolio-item reverse">
             <div className="portfolio-desc">
               <h3>WorldRoots</h3>
-              <p>
-                Et retro tekstbasert rollespill laget helt i vanilla JavaScript
-                i nettleseren. Du styrer et lag på tre figurer og målet er å
-                komme så langt som mulig. Elementære trylleformler, evner,
-                potions, buffs/debuffs og til og med innkallinger: jeg ønsket å
-                gjenskape de klassiske mekanikkene i sjangeren. I fremtiden
-                planlegger jeg å skrive om koden i TypeScript med flere
-                optimaliseringer og et mer dynamisk React-grensesnitt. Klikk og
-                kjemp!
-              </p>
+              <div>
+                <p>
+                  Utvikling av et tekstbasert RPG i ren JavaScript, spillbart i
+                  nettleseren, med klassiske mekanikker (kamp, trylleformler,
+                  buffs/debuffs).
+                </p>
+
+                <p>
+                  Dette prosjektet lot meg strukturere kode på frontend og
+                  manipulere DOM i JavaScript.
+                </p>
+
+                <p>Klikk på forhåndsvisningen for å starte spillet.</p>
+              </div>
             </div>
             <a
               href="https://mickaeldutfoy.github.io/worldroots/"
               target="_blank"
             >
-              <img src={worldroots} alt="Skjermbilde av WorldRoots" />
+              <img src={worldroots} alt="WorldRoots skjermbilde" />
             </a>
           </div>
         </>

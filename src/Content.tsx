@@ -244,7 +244,7 @@ const Content = ({ lang }: { lang: string }) => {
                 .
               </p>
             </div>
-            <a href="https://aster-pearl.vercel.app" target="_blank">
+            <a href="https://aster-app.eu" target="_blank">
               <img src={aster} alt="Capture d’écran Aster" />
             </a>
           </div>
@@ -529,7 +529,7 @@ const Content = ({ lang }: { lang: string }) => {
                 .
               </p>
             </div>
-            <a href="https://aster-pearl.vercel.app" target="_blank">
+            <a href="https://aster-app.eu" target="_blank">
               <img src={aster} alt="Aster screenshot" />
             </a>
           </div>
@@ -819,7 +819,7 @@ const Content = ({ lang }: { lang: string }) => {
                 .
               </p>
             </div>
-            <a href="https://aster-pearl.vercel.app" target="_blank">
+            <a href="https://aster-app.eu" target="_blank">
               <img src={aster} alt="Aster skjermbilde" />
             </a>
           </div>

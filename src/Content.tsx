@@ -234,10 +234,10 @@ const Content = ({ lang }: { lang: string }) => {
                 test : demo@aster.app / AsterDemo2026).
               </p>
               <p>
-                Lien :{" "}
-                <a
+                Liens :{" "}
+                <a href="https://aster-app.eu/discover" target="_blank">Page de présentation</a>, <a
                   href="https://play.google.com/store/apps/details?id=com.quietforge.aster"
-                  target="blank"
+                  target="_blank"
                 >
                   Page Google Play
                 </a>
@@ -519,8 +519,8 @@ const Content = ({ lang }: { lang: string }) => {
                 demo@aster.app / AsterDemo2026).
               </p>
               <p>
-                Link:{" "}
-                <a
+                Links:{" "}
+                <a href="https://aster-app.eu/discover" target="_blank">Overview page</a>, <a
                   href="https://play.google.com/store/apps/details?id=com.quietforge.aster"
                   target="blank"
                 >
@@ -809,8 +809,8 @@ const Content = ({ lang }: { lang: string }) => {
                 demo@aster.app / AsterDemo2026).
               </p>
               <p>
-                Lenke:{" "}
-                <a
+                Lenker:{" "}
+                <a href="https://aster-app.eu/discover" target="_blank">Presentasjonsside</a>, <a
                   href="https://play.google.com/store/apps/details?id=com.quietforge.aster"
                   target="blank"
                 >

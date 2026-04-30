@@ -53,9 +53,12 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
         <h3 className="title">{generateContent(lang, title).header}</h3>
         {title === 'contact' ?
         <address>
-            1 Allée de la Selve<br/>
-            05600 Guillestre<br/>
-            France<br/>
+            Steinanvegen 44<br/>
+            7049 Trondheim<br/>
+            {lang === 'fr' && "Norvège"}
+            {lang === 'en' && "Norway"}
+            {lang === 'nb' && "Norge"}
+            <br/>
             <a href="tel:+33682506341">(+33)06.82.50.63.41</a><br/>
             <a href="mailto:m.dutfoy@gmail.com" target="_blank">m.dutfoy@gmail.com</a>
         </address> : <ul className="aside-list">{generateContent(lang, title).content.map(item => <li key={item}>{item}</li>)}</ul>}

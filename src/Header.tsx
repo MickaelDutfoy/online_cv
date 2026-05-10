@@ -29,7 +29,7 @@ const Header = ({
         </p>
         <p>
           {lang === "nb" &&
-            "TypeScript / Next.js-utvikler, jeg søker min første faste stilling etter to måneders erfaring i bransjen og tolv år som matematikklærer. Utholdende, detaljorientert og kreativ utvikler jeg for tiden Aster, en Next.js-applikasjon i produksjon for dyrevernorganisasjoner."}
+            "TypeScript / Next.js Utvikler, jeg søker min første faste stilling etter to måneders erfaring i bransjen og tolv år som matematikklærer. Utholdende, detaljorientert og kreativ utvikler jeg for tiden Aster, en Next.js-applikasjon i produksjon for dyrevernorganisasjoner."}
         </p>
       </div>
       <Language lang={lang} setLang={setLang} />

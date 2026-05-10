@@ -2,6 +2,7 @@ import "./styles/Content.css";
 import hautsChatlpins from "./img/hauts_chatlpins.png";
 import worldroots from "./img/worldroots.jpg";
 import aster from "./img/aster.png";
+import nordrail from "./img/nordrail.png";
 import TabBar from "./TabBar";
 import { useState, type JSX } from "react";
 
@@ -235,7 +236,11 @@ const Content = ({ lang }: { lang: string }) => {
               </p>
               <p>
                 Liens :{" "}
-                <a href="https://aster-app.eu/discover" target="_blank">Page de présentation</a>, <a
+                <a href="https://aster-app.eu/discover" target="_blank">
+                  Page de présentation
+                </a>
+                ,{" "}
+                <a
                   href="https://play.google.com/store/apps/details?id=com.quietforge.aster"
                   target="_blank"
                 >
@@ -248,11 +253,32 @@ const Content = ({ lang }: { lang: string }) => {
               <img src={aster} alt="Capture d’écran Aster" />
             </a>
           </div>
-
           <div className="portfolio-item">
-            <a href="https://www.leshautschatlpins.fr/" target="_blank">
-              <img src={hautsChatlpins} alt="Screenshot Les Hauts Chat'lpins" />
+            <a
+              href="https://gray-pebble-0725c0803.7.azurestaticapps.net/"
+              target="_blank"
+            >
+              <img src={nordrail} alt="Capture d'écran de NordRail" />
             </a>
+            <div className="portfolio-desc">
+              <h3>NordRail</h3>
+
+              <p>
+                Application web de démonstration permettant de rechercher des
+                trajets ferroviaires entre plusieurs villes norvégiennes, puis
+                de réserver et d’annuler des billets.
+              </p>
+
+              <p>
+                Développée avec React, TypeScript, C#, ASP.NET Core et Entity
+                Framework Core, elle est déployée sur Microsoft Azure avec une
+                base de données SQL.
+              </p>
+
+              <p>Un clic sur la miniature ouvre la version en ligne.</p>
+            </div>
+          </div>
+          <div className="portfolio-item reverse">
             <div className="portfolio-desc">
               <h3>Les Hauts Chat'lpins</h3>
               <div>
@@ -269,8 +295,17 @@ const Content = ({ lang }: { lang: string }) => {
                 <p>Un clic sur la miniature ouvre le site en ligne.</p>
               </div>
             </div>
+            <a href="https://www.leshautschatlpins.fr/" target="_blank">
+              <img src={hautsChatlpins} alt="Screenshot Les Hauts Chat'lpins" />
+            </a>
           </div>
-          <div className="portfolio-item reverse">
+          <div className="portfolio-item">
+            <a
+              href="https://mickaeldutfoy.github.io/worldroots/"
+              target="_blank"
+            >
+              <img src={worldroots} alt="Screenshot WorldRoots" />
+            </a>
             <div className="portfolio-desc">
               <h3>WorldRoots</h3>
               <div>
@@ -288,12 +323,6 @@ const Content = ({ lang }: { lang: string }) => {
                 <p>Un clic sur la miniature lance le jeu.</p>
               </div>
             </div>
-            <a
-              href="https://mickaeldutfoy.github.io/worldroots/"
-              target="_blank"
-            >
-              <img src={worldroots} alt="Screenshot WorldRoots" />
-            </a>
           </div>
         </>
       );
@@ -520,7 +549,11 @@ const Content = ({ lang }: { lang: string }) => {
               </p>
               <p>
                 Links:{" "}
-                <a href="https://aster-app.eu/discover" target="_blank">Overview page</a>, <a
+                <a href="https://aster-app.eu/discover" target="_blank">
+                  Overview page
+                </a>
+                ,{" "}
+                <a
                   href="https://play.google.com/store/apps/details?id=com.quietforge.aster"
                   target="blank"
                 >
@@ -533,11 +566,32 @@ const Content = ({ lang }: { lang: string }) => {
               <img src={aster} alt="Aster screenshot" />
             </a>
           </div>
-
           <div className="portfolio-item">
-            <a href="https://www.leshautschatlpins.fr/" target="_blank">
-              <img src={hautsChatlpins} alt="Les Hauts Chat'lpins screenshot" />
+            <a
+              href="https://gray-pebble-0725c0803.7.azurestaticapps.net/"
+              target="_blank"
+            >
+              <img src={nordrail} alt="Screenshot of NordRail" />
             </a>
+            <div className="portfolio-desc">
+              <h3>NordRail</h3>
+
+              <p>
+                Demonstration web application for searching railway journeys
+                between several Norwegian cities, and for booking and cancelling
+                tickets.
+              </p>
+
+              <p>
+                Developed with React, TypeScript, C#, ASP.NET Core and Entity
+                Framework Core, it is deployed on Microsoft Azure with a SQL
+                database.
+              </p>
+
+              <p>Clicking the thumbnail opens the live application.</p>
+            </div>
+          </div>
+          <div className="portfolio-item reverse">
             <div className="portfolio-desc">
               <h3>Les Hauts Chat'lpins</h3>
               <div>
@@ -555,9 +609,18 @@ const Content = ({ lang }: { lang: string }) => {
                 <p>Click the preview to open the website.</p>
               </div>
             </div>
+            <a href="https://www.leshautschatlpins.fr/" target="_blank">
+              <img src={hautsChatlpins} alt="Les Hauts Chat'lpins screenshot" />
+            </a>
           </div>
 
-          <div className="portfolio-item reverse">
+          <div className="portfolio-item">
+            <a
+              href="https://mickaeldutfoy.github.io/worldroots/"
+              target="_blank"
+            >
+              <img src={worldroots} alt="WorldRoots screenshot" />
+            </a>
             <div className="portfolio-desc">
               <h3>WorldRoots</h3>
               <div>
@@ -575,12 +638,6 @@ const Content = ({ lang }: { lang: string }) => {
                 <p>Click the preview to launch the game.</p>
               </div>
             </div>
-            <a
-              href="https://mickaeldutfoy.github.io/worldroots/"
-              target="_blank"
-            >
-              <img src={worldroots} alt="WorldRoots screenshot" />
-            </a>
           </div>
         </>
       );
@@ -810,7 +867,11 @@ const Content = ({ lang }: { lang: string }) => {
               </p>
               <p>
                 Lenker:{" "}
-                <a href="https://aster-app.eu/discover" target="_blank">Presentasjonsside</a>, <a
+                <a href="https://aster-app.eu/discover" target="_blank">
+                  Presentasjonsside
+                </a>
+                ,{" "}
+                <a
                   href="https://play.google.com/store/apps/details?id=com.quietforge.aster"
                   target="blank"
                 >
@@ -823,14 +884,31 @@ const Content = ({ lang }: { lang: string }) => {
               <img src={aster} alt="Aster skjermbilde" />
             </a>
           </div>
-
           <div className="portfolio-item">
-            <a href="https://www.leshautschatlpins.fr/" target="_blank">
-              <img
-                src={hautsChatlpins}
-                alt="Les Hauts Chat'lpins skjermbilde"
-              />
+            <a
+              href="https://gray-pebble-0725c0803.7.azurestaticapps.net/"
+              target="_blank"
+            >
+              <img src={nordrail} alt="Skjermbilde av NordRail" />
             </a>
+            <div className="portfolio-desc">
+              <h3>NordRail</h3>
+
+              <p>
+                Demonstrasjonsapplikasjon for å søke etter togreiser mellom
+                flere norske byer, samt for å bestille og avbestille billetter.
+              </p>
+
+              <p>
+                Utviklet med React, TypeScript, C#, ASP.NET Core og Entity
+                Framework Core. Applikasjonen er distribuert på Microsoft Azure
+                med en SQL-database.
+              </p>
+
+              <p>Et klikk på miniatyrbildet åpner applikasjonen på nett.</p>
+            </div>
+          </div>
+          <div className="portfolio-item reverse">
             <div className="portfolio-desc">
               <h3>Les Hauts Chat'lpins</h3>
               <div>
@@ -848,9 +926,21 @@ const Content = ({ lang }: { lang: string }) => {
                 <p>Klikk på forhåndsvisningen for å åpne nettstedet.</p>
               </div>
             </div>
+            <a href="https://www.leshautschatlpins.fr/" target="_blank">
+              <img
+                src={hautsChatlpins}
+                alt="Les Hauts Chat'lpins skjermbilde"
+              />
+            </a>
           </div>
 
-          <div className="portfolio-item reverse">
+          <div className="portfolio-item">
+            <a
+              href="https://mickaeldutfoy.github.io/worldroots/"
+              target="_blank"
+            >
+              <img src={worldroots} alt="WorldRoots skjermbilde" />
+            </a>
             <div className="portfolio-desc">
               <h3>WorldRoots</h3>
               <div>
@@ -868,12 +958,6 @@ const Content = ({ lang }: { lang: string }) => {
                 <p>Klikk på forhåndsvisningen for å starte spillet.</p>
               </div>
             </div>
-            <a
-              href="https://mickaeldutfoy.github.io/worldroots/"
-              target="_blank"
-            >
-              <img src={worldroots} alt="WorldRoots skjermbilde" />
-            </a>
           </div>
         </>
       );

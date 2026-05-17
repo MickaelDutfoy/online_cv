@@ -265,7 +265,7 @@ const Content = ({ lang }: { lang: string }) => {
 
               <p>
                 Application web de démonstration permettant de rechercher des
-                trajets ferroviaires entre plusieurs villes norvégiennes, puis
+                trajets ferroviaires fictifs entre plusieurs villes norvégiennes, puis
                 de réserver et d’annuler des billets.
               </p>
 
@@ -577,7 +577,7 @@ const Content = ({ lang }: { lang: string }) => {
               <h3>NordRail</h3>
 
               <p>
-                Demonstration web application for searching railway journeys
+                Demonstration web application for searching fictional railway journeys
                 between several Norwegian cities, and for booking and cancelling
                 tickets.
               </p>
@@ -895,7 +895,7 @@ const Content = ({ lang }: { lang: string }) => {
               <h3>NordRail</h3>
 
               <p>
-                Demonstrasjonsapplikasjon for å søke etter togreiser mellom
+                Demonstrasjonsapplikasjon for å søke etter fiktive togreiser mellom
                 flere norske byer, samt for å bestille og avbestille billetter.
               </p>
 

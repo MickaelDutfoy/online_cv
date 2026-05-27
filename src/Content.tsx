@@ -3,12 +3,19 @@ import hautsChatlpins from "./img/hauts_chatlpins.png";
 import worldroots from "./img/worldroots.jpg";
 import aster from "./img/aster.png";
 import nordrail from "./img/nordrail.png";
+import elegia from "./img/elegia.png";
 import TabBar from "./TabBar";
-import { useState, type JSX } from "react";
+import { type JSX } from "react";
 
-const Content = ({ lang }: { lang: string }) => {
-  const [tab, setTab]: [number, (tab: number) => void] = useState(4);
-
+const Content = ({
+  lang,
+  tab,
+  setTab,
+}: {
+  lang: string;
+  tab: number;
+  setTab: (tab: number) => void;
+}) => {
   const generateContent = (lang: string, tab: number): JSX.Element => {
     if (lang === "fr" && tab === 1) {
       // Exp FR
@@ -97,17 +104,13 @@ const Content = ({ lang }: { lang: string }) => {
               >
                 Titre RNCP "Développeur web et web mobile"
               </a>
-              . Technologies abordées : HTML/CSS, JavaScript, PHP, SQL, Python.
+              . Technologies abordées : HTML/CSS, JavaScript, PHP, SQL, Python.
             </p>
           </div>
           <div className="block">
             <h3 className="title date">10/2024 – En cours</h3>
             <h3 className="title item">Auto-formation</h3>
-            <p className="place">
-              En autonomie
-              <br />
-              Guillestre (05)
-            </p>
+            <p className="place">En autonomie</p>
             <p className="details">
               Obtention du{" "}
               <a
@@ -216,6 +219,9 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="portfolio-item reverse">
+            <a href="https://aster-app.eu" target="_blank">
+              <img src={aster} alt="Capture d’écran Aster" />
+            </a>
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
@@ -249,11 +255,32 @@ const Content = ({ lang }: { lang: string }) => {
                 .
               </p>
             </div>
-            <a href="https://aster-app.eu" target="_blank">
-              <img src={aster} alt="Capture d’écran Aster" />
-            </a>
           </div>
+
           <div className="portfolio-item">
+            <a href="https://github.com/MickaelDutfoy/elegia" target="_blank">
+              <img src={elegia} alt="Capture d'écran d'Elegia" />
+            </a>
+            <div className="portfolio-desc">
+              <h3>Elegia</h3>
+
+              <p>
+                Jeu de plateau tactique actuellement en développement, construit
+                entièrement en Rust, avec Macroquad pour l'UI.
+              </p>
+
+              <p>
+                Ce projet me permet d’explorer de nouvelles problématiques par
+                rapport à mes autres projets, notamment l’architecture moteur,
+                les tests automatisés, la construction d’un système de règles et
+                une approche très différente du rendu graphique.
+              </p>
+
+              <p>Un clic sur la miniature ouvre le dépôt GitHub.</p>
+            </div>
+          </div>
+
+          <div className="portfolio-item reverse">
             <a
               href="https://gray-pebble-0725c0803.7.azurestaticapps.net/"
               target="_blank"
@@ -265,8 +292,8 @@ const Content = ({ lang }: { lang: string }) => {
 
               <p>
                 Application web de démonstration permettant de rechercher des
-                trajets ferroviaires fictifs entre plusieurs villes norvégiennes, puis
-                de réserver et d’annuler des billets.
+                trajets ferroviaires fictifs entre plusieurs villes
+                norvégiennes, puis de réserver et d’annuler des billets.
               </p>
 
               <p>
@@ -278,7 +305,10 @@ const Content = ({ lang }: { lang: string }) => {
               <p>Un clic sur la miniature ouvre la version en ligne.</p>
             </div>
           </div>
-          <div className="portfolio-item reverse">
+          <div className="portfolio-item">
+            <a href="https://www.leshautschatlpins.fr/" target="_blank">
+              <img src={hautsChatlpins} alt="Screenshot Les Hauts Chat'lpins" />
+            </a>
             <div className="portfolio-desc">
               <h3>Les Hauts Chat'lpins</h3>
               <div>
@@ -295,11 +325,8 @@ const Content = ({ lang }: { lang: string }) => {
                 <p>Un clic sur la miniature ouvre le site en ligne.</p>
               </div>
             </div>
-            <a href="https://www.leshautschatlpins.fr/" target="_blank">
-              <img src={hautsChatlpins} alt="Screenshot Les Hauts Chat'lpins" />
-            </a>
           </div>
-          <div className="portfolio-item">
+          <div className="portfolio-item reverse">
             <a
               href="https://mickaeldutfoy.github.io/worldroots/"
               target="_blank"
@@ -409,17 +436,14 @@ const Content = ({ lang }: { lang: string }) => {
               >
                 "Web and mobile developer" diploma
               </a>
-              . Technologies covered: HTML/CSS, JavaScript, PHP, SQL, Python.
+              . State-recognized qualification in France. Technologies covered:
+              HTML/CSS, JavaScript, PHP, SQL, Python.
             </p>
           </div>
           <div className="block">
             <h3 className="title date">10/2024 – Ongoing</h3>
             <h3 className="title item">Self-learning</h3>
-            <p className="place">
-              Self-paced
-              <br />
-              Guillestre (France)
-            </p>
+            <p className="place">Self-paced</p>
             <p className="details">
               Earned the{" "}
               <a
@@ -529,6 +553,9 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="portfolio-item reverse">
+            <a href="https://aster-app.eu" target="_blank">
+              <img src={aster} alt="Aster screenshot" />
+            </a>
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
@@ -562,11 +589,32 @@ const Content = ({ lang }: { lang: string }) => {
                 .
               </p>
             </div>
-            <a href="https://aster-app.eu" target="_blank">
-              <img src={aster} alt="Aster screenshot" />
-            </a>
           </div>
           <div className="portfolio-item">
+            <a href="https://github.com/MickaelDutfoy/elegia" target="_blank">
+              <img src={elegia} alt="Screenshot of Elegia" />
+            </a>
+
+            <div className="portfolio-desc">
+              <h3>Elegia</h3>
+
+              <p>
+                Tactical board game currently in development, built entirely in
+                Rust, with Macroquad for the UI.
+              </p>
+
+              <p>
+                This project allows me to explore new technical challenges
+                compared to my other projects, including engine architecture,
+                automated testing, rule systems and a very different approach to
+                graphical rendering.
+              </p>
+
+              <p>Clicking the preview opens the GitHub repository.</p>
+            </div>
+          </div>
+
+          <div className="portfolio-item reverse">
             <a
               href="https://gray-pebble-0725c0803.7.azurestaticapps.net/"
               target="_blank"
@@ -577,9 +625,9 @@ const Content = ({ lang }: { lang: string }) => {
               <h3>NordRail</h3>
 
               <p>
-                Demonstration web application for searching fictional railway journeys
-                between several Norwegian cities, and for booking and cancelling
-                tickets.
+                Demonstration web application for searching fictional railway
+                journeys between several Norwegian cities, and for booking and
+                cancelling tickets.
               </p>
 
               <p>
@@ -591,7 +639,10 @@ const Content = ({ lang }: { lang: string }) => {
               <p>Clicking the thumbnail opens the live application.</p>
             </div>
           </div>
-          <div className="portfolio-item reverse">
+          <div className="portfolio-item">
+            <a href="https://www.leshautschatlpins.fr/" target="_blank">
+              <img src={hautsChatlpins} alt="Les Hauts Chat'lpins screenshot" />
+            </a>
             <div className="portfolio-desc">
               <h3>Les Hauts Chat'lpins</h3>
               <div>
@@ -609,12 +660,9 @@ const Content = ({ lang }: { lang: string }) => {
                 <p>Click the preview to open the website.</p>
               </div>
             </div>
-            <a href="https://www.leshautschatlpins.fr/" target="_blank">
-              <img src={hautsChatlpins} alt="Les Hauts Chat'lpins screenshot" />
-            </a>
           </div>
 
-          <div className="portfolio-item">
+          <div className="portfolio-item reverse">
             <a
               href="https://mickaeldutfoy.github.io/worldroots/"
               target="_blank"
@@ -724,17 +772,14 @@ const Content = ({ lang }: { lang: string }) => {
               >
                 diplomet «Web- og mobilutvikler»
               </a>
-              . Teknologier: HTML/CSS, JavaScript, PHP, SQL, Python.
+              . Statlig anerkjent utdanning i Frankrike. Teknologier: HTML/CSS,
+              JavaScript, PHP, SQL, Python.
             </p>
           </div>
           <div className="block">
             <h3 className="title date">10/2024 – Nå</h3>
             <h3 className="title item">Selvstudium</h3>
-            <p className="place">
-              Egen læring
-              <br />
-              Guillestre (Frankrike)
-            </p>
+            <p className="place">Egen læring</p>
             <p className="details">
               Oppnådde{" "}
               <a
@@ -847,6 +892,9 @@ const Content = ({ lang }: { lang: string }) => {
       return (
         <>
           <div className="portfolio-item reverse">
+            <a href="https://aster-app.eu" target="_blank">
+              <img src={aster} alt="Aster skjermbilde" />
+            </a>
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
@@ -880,11 +928,32 @@ const Content = ({ lang }: { lang: string }) => {
                 .
               </p>
             </div>
-            <a href="https://aster-app.eu" target="_blank">
-              <img src={aster} alt="Aster skjermbilde" />
-            </a>
           </div>
+
           <div className="portfolio-item">
+            <a href="https://github.com/MickaelDutfoy/elegia" target="_blank">
+              <img src={elegia} alt="Skjermbilde av Elegia" />
+            </a>
+
+            <div className="portfolio-desc">
+              <h3>Elegia</h3>
+
+              <p>
+                Taktisk brettspill som for tiden er under utvikling, bygget helt
+                i Rust, med Macroquad for UI.
+              </p>
+
+              <p>
+                Dette prosjektet lar meg utforske nye tekniske problemstillinger
+                sammenlignet med de andre prosjektene mine, blant annet
+                motorarkitektur, automatiserte tester, regelsystemer og en svært
+                annerledes tilnærming til grafisk rendering.
+              </p>
+
+              <p>Et klikk på forhåndsvisningen åpner repoet på GitHub.</p>
+            </div>
+          </div>
+          <div className="portfolio-item reverse">
             <a
               href="https://gray-pebble-0725c0803.7.azurestaticapps.net/"
               target="_blank"
@@ -895,8 +964,9 @@ const Content = ({ lang }: { lang: string }) => {
               <h3>NordRail</h3>
 
               <p>
-                Demonstrasjonsapplikasjon for å søke etter fiktive togreiser mellom
-                flere norske byer, samt for å bestille og avbestille billetter.
+                Demonstrasjonsapplikasjon for å søke etter fiktive togreiser
+                mellom flere norske byer, samt for å bestille og avbestille
+                billetter.
               </p>
 
               <p>
@@ -908,7 +978,13 @@ const Content = ({ lang }: { lang: string }) => {
               <p>Et klikk på miniatyrbildet åpner applikasjonen på nett.</p>
             </div>
           </div>
-          <div className="portfolio-item reverse">
+          <div className="portfolio-item">
+            <a href="https://www.leshautschatlpins.fr/" target="_blank">
+              <img
+                src={hautsChatlpins}
+                alt="Les Hauts Chat'lpins skjermbilde"
+              />
+            </a>
             <div className="portfolio-desc">
               <h3>Les Hauts Chat'lpins</h3>
               <div>
@@ -926,15 +1002,9 @@ const Content = ({ lang }: { lang: string }) => {
                 <p>Klikk på forhåndsvisningen for å åpne nettstedet.</p>
               </div>
             </div>
-            <a href="https://www.leshautschatlpins.fr/" target="_blank">
-              <img
-                src={hautsChatlpins}
-                alt="Les Hauts Chat'lpins skjermbilde"
-              />
-            </a>
           </div>
 
-          <div className="portfolio-item">
+          <div className="portfolio-item reverse">
             <a
               href="https://mickaeldutfoy.github.io/worldroots/"
               target="_blank"

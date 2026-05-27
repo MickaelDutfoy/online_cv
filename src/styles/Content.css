@@ -34,14 +34,20 @@
 .portfolio-item {
   font-size: 1.1rem;
   display: flex;
+  flex-direction: row;
   margin-bottom: 10px;
 }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
 
 .portfolio-item a {
   color: var(--link);
   align-self: center;
   height: 250px;
 }
+
 .portfolio-item a:hover {
   color: var(--link-hover);
   text-decoration: underline;

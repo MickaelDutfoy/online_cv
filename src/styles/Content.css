@@ -86,7 +86,7 @@
   }
 
   .portfolio-item {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .reverse {

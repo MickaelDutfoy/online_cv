@@ -227,7 +227,7 @@ const Content = ({
               <p>
                 Application web (mobile-first) en développement continu destinée
                 aux associations de protection animale, Aster permet de gérer
-                les membres, les animaux et les lieux d’accueil.
+                les membres, la trésorerie, les animaux et les lieux d’accueil.
               </p>
 
               <p>
@@ -561,7 +561,7 @@ const Content = ({
               <p>
                 Mobile-first web application in continuous development for
                 animal welfare organizations. Aster allows management of
-                members, animals and foster locations.
+                members, treasury, animals and foster locations.
               </p>
 
               <p>
@@ -900,7 +900,7 @@ const Content = ({
               <p>
                 Mobil-først webapplikasjon i kontinuerlig utvikling, laget for
                 dyrevernorganisasjoner. Aster gjør det mulig å administrere
-                medlemmer, dyr og fosterhjem.
+                medlemmer, økonomi, dyr og fosterhjem.
               </p>
 
               <p>

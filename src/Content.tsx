@@ -321,7 +321,10 @@ const Content = ({
                   Ce projet m’a permis de mettre en pratique des bases concrètes
                   en intégration, UX et SEO, tout en servant la cause animale.
                 </p>
-
+                <p>
+                  À noter : le site utilise Aster pour sa page d'animaux à
+                  l'adoption.
+                </p>
                 <p>Un clic sur la miniature ouvre le site en ligne.</p>
               </div>
             </div>
@@ -656,7 +659,7 @@ const Content = ({
                   integration, UX and SEO, while supporting a cause I care
                   about.
                 </p>
-
+                <p>Fun fact: the adoption page is powered by Aster.</p>
                 <p>Click the preview to open the website.</p>
               </div>
             </div>
@@ -998,6 +1001,7 @@ const Content = ({
                   ferdigheter i integrasjon, UX og SEO, samtidig som det støtter
                   dyrevern.
                 </p>
+                <p>Forresten: den adopsjonssiden drives av Aster.</p>
 
                 <p>Klikk på forhåndsvisningen for å åpne nettstedet.</p>
               </div>

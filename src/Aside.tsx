@@ -59,8 +59,8 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
             {lang === 'en' && "Norway"}
             {lang === 'nb' && "Norge"}
             <br/>
-            <a href="tel:+33682506341">(+33)06.82.50.63.41</a><br/>
-            <a href="mailto:m.dutfoy@gmail.com" target="_blank">m.dutfoy@gmail.com</a>
+            <a className="aside-link" href="tel:+33682506341">(+33)06.82.50.63.41</a><br/>
+            <a className="aside-link" href="mailto:m.dutfoy@gmail.com" target="_blank">m.dutfoy@gmail.com</a>
         </address> : <ul className="aside-list">{generateContent(lang, title).content.map(item => <li key={item}>{item}</li>)}</ul>}
       </aside>
     );

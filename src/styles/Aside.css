@@ -11,6 +11,10 @@ address {
     line-height: 1.5;
 }
 
+.aside-link {
+    text-decoration: underline;
+}
+
 .aside-list {
     list-style: none;
 }

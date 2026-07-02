@@ -238,7 +238,7 @@ const Content = ({
 
               <p>
                 Un clic sur la miniature ouvre la version en ligne (compte de
-                test : demo@aster.app / AsterDemo2026).
+                test : demo@aster.app / AsterDemo2026!).
               </p>
               <p>
                 Liens :{" "}
@@ -575,7 +575,7 @@ const Content = ({
 
               <p>
                 Click the preview to open the live version (test account:
-                demo@aster.app / AsterDemo2026).
+                demo@aster.app / AsterDemo2026!).
               </p>
               <p>
                 Links:{" "}
@@ -914,7 +914,7 @@ const Content = ({
 
               <p>
                 Klikk på forhåndsvisningen for å åpne live-versjonen (testkonto:
-                demo@aster.app / AsterDemo2026).
+                demo@aster.app / AsterDemo2026!).
               </p>
               <p>
                 Lenker:{" "}

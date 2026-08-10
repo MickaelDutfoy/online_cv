@@ -13,7 +13,7 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 content = ['Français langue maternelle', 'Anglais C1', 'Norvégien B1/B2', 'TypeScript (Next.js/React) et Prisma', 'Git et Docker', 'C#/.NET (débutant)', 'Rust (débutant)', 'Mathématiques universitaires'];
             } else if (title === 'hobbies') {
                 header = 'Loisirs';
-                content = ['Activités de montagne (trail, VTT, ski de randonnée)', 'Jeux (vidéos, de société, de cartes à collectionner)', 'Engagement dans la protection animale', 'Apprentissage des langues'];
+                content = ['Activités de montagne (trail, VTT, ski de randonnée)', 'Jeux (vidéos, de société, de cartes à collectionner)', 'Bénévole pour «Hjelp mæ å hjelpe» et «Dyrebeskyttelsen Sør-Trøndelag» (Trondheim)'];
             } else if (title === 'remarks') {
                 header = 'Remarques';
                 content = ['Utilisateur quotidien de Linux (Ubuntu)', 'Handicap visuel (uniquement à longue distance, sans impact pour travailler sur PC)', "Bénéficiaire de l'obligation d'emploi (RQTH)"];
@@ -26,7 +26,7 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 content = ['Native French speaker', 'English C1', 'Norwegian B1/B2', 'TypeScript (Next.js/React) and Prisma', 'Git and Docker', 'C#/.NET (beginner)', 'Rust (beginner)', 'University-level mathematics'];
             } else if (title === 'hobbies') {
                 header = 'Hobbies';
-                content = ['Mountain activities (trail running, mountain biking, ski touring)', 'Games (video games, board games, trading card games)', 'Commitment to animal protection', 'Language learning'];
+                content = ['Mountain activities (trail running, mountain biking, ski touring)', 'Games (video games, board games, trading card games)', 'Volunteer in «Hjelp mæ å hjelpe» and «Dyrebeskyttelsen Sør-Trøndelag» (Trondheim)'];
             } else if (title === 'remarks') {
                 header = 'Remarks';
                 content = ['Daily Linux user (Ubuntu)', 'Visual impairment (only at long distance, no effect on PC work)'];
@@ -39,7 +39,7 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 content = ['Fransk morsmål', 'Engelsk C1', 'Norsk B1/B2', 'TypeScript (Next.js/React) og Prisma', 'Git og Docker', 'C#/.NET (nybegynner)', 'Rust (nybegynner)', 'Matematikk på universitetsnivå'];
             } else if (title === 'hobbies') {
                 header = 'Hobbyer';
-                content = ['Fjellaktiviteter (løping, terrengsykling, skitur)', 'Spill (videospill, brettspill, samlekortspill)', 'Engasjement for dyrevern', 'Språklæring'];
+                content = ['Fjellaktiviteter (løping, terrengsykling, skitur)', 'Spill (videospill, brettspill, samlekortspill)', 'Frivillig i «Hjelp mæ å hjelpe» og «Dyrebeskyttelsen Sør-Trøndelag» (Trondheim)'];
             } else if (title === 'remarks') {
                 header = 'Merknader';
                 content = ['Daglig Linux-bruker (Ubuntu)', 'Synshemming (påvirker bare langdistanse, ingen effekt på PC-arbeid)'];

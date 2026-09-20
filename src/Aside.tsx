@@ -10,39 +10,36 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
                 header = 'Coordonnées';
             } else if (title === 'skills') {
                 header = 'Compétences';
-                content = ['Français langue maternelle', 'Anglais C1', 'Norvégien B2', 'TypeScript (Next.js/React) et Prisma', 'Git et Docker', 'C#/.NET (débutant)', 'Rust (débutant)', 'Mathématiques universitaires'];
+                content = ['Français langue maternelle', 'Norvégien très bon niveau', 'Anglais courant', 'TypeScript, Next.js et React', 'Prisma et PostgreSQL', 'SCSS, Git et Docker', 'Rust (bases)', 'C#/.NET (bases)'];
             } else if (title === 'hobbies') {
                 header = 'Loisirs';
-                content = ['Activités de montagne (trail, VTT, ski de randonnée)', 'Jeux (vidéos, de société, de cartes à collectionner)', 'Bénévole pour «Hjelp mæ å hjelpe» et «Dyrebeskyttelsen Sør-Trøndelag» (Trondheim)'];
+                content = ['Activités de montagne', 'Jeux, protection animale et apprentissage des langues', 'Bénévole pour «Hjelp mæ å hjelpe» et «Dyrebeskyttelsen Sør-Trøndelag» (Trondheim)'];
             } else if (title === 'remarks') {
-                header = 'Remarques';
-                content = ['Utilisateur quotidien de Linux (Ubuntu)', 'Handicap visuel (uniquement à longue distance, sans impact pour travailler sur PC)', "Bénéficiaire de l'obligation d'emploi (RQTH)"];
+                header = 'Références';
             }
         } else if (lang === 'en') {
             if (title === 'contact') {
                 header = 'Contact information';
             } else if (title === 'skills') {
                 header = 'Skills';
-                content = ['Native French speaker', 'English C1', 'Norwegian B2', 'TypeScript (Next.js/React) and Prisma', 'Git and Docker', 'C#/.NET (beginner)', 'Rust (beginner)', 'University-level mathematics'];
+                content = ['Native French speaker', 'Very good Norwegian', 'Fluent English', 'TypeScript, Next.js and React', 'Prisma and PostgreSQL', 'SCSS, Git and Docker', 'Rust (basics)', 'C#/.NET (basics)'];
             } else if (title === 'hobbies') {
                 header = 'Hobbies';
-                content = ['Mountain activities (trail running, mountain biking, ski touring)', 'Games (video games, board games, trading card games)', 'Volunteer in «Hjelp mæ å hjelpe» and «Dyrebeskyttelsen Sør-Trøndelag» (Trondheim)'];
+                content = ['Mountain activities', 'Games, animal welfare and language learning', 'Volunteer with «Hjelp mæ å hjelpe» and «Dyrebeskyttelsen Sør-Trøndelag» (Trondheim)'];
             } else if (title === 'remarks') {
-                header = 'Remarks';
-                content = ['Daily Linux user (Ubuntu)', 'Visual impairment (only at long distance, no effect on PC work)'];
+                header = 'References';
             }
         } else if (lang === 'nb') {
             if (title === 'contact') {
                 header = 'Kontakt';
             } else if (title === 'skills') {
                 header = 'Ferdigheter';
-                content = ['Fransk morsmål', 'Engelsk C1', 'Norsk B2', 'TypeScript (Next.js/React) og Prisma', 'Git og Docker', 'C#/.NET (nybegynner)', 'Rust (nybegynner)', 'Matematikk på universitetsnivå'];
+                content = ['Fransk morsmål', 'Norsk meget god', 'Engelsk flytende', 'TypeScript, Next.js og React', 'Prisma og PostgreSQL', 'SCSS, Git og Docker', 'Rust (basics)', 'C#/.NET (basics)'];
             } else if (title === 'hobbies') {
                 header = 'Hobbyer';
-                content = ['Fjellaktiviteter (løping, terrengsykling, skitur)', 'Spill (videospill, brettspill, samlekortspill)', 'Frivillig i «Hjelp mæ å hjelpe» og «Dyrebeskyttelsen Sør-Trøndelag» (Trondheim)'];
+                content = ['Fjellaktiviteter', 'Spill, dyrevern og språklæring', 'Frivillig i «Hjelp mæ å hjelpe» og «Dyrebeskyttelsen Sør-Trøndelag» (Trondheim)'];
             } else if (title === 'remarks') {
-                header = 'Merknader';
-                content = ['Daglig Linux-bruker (Ubuntu)', 'Synshemming (påvirker bare langdistanse, ingen effekt på PC-arbeid)'];
+                header = 'Referanser';
             }
         }
         return {header, content};
@@ -59,9 +56,19 @@ const Aside = ({lang, title}: {lang: string; title: string}) => {
             {lang === 'en' && "Norway"}
             {lang === 'nb' && "Norge"}
             <br/>
-            <a className="aside-link" href="tel:+33682506341">(+47)484.04.203</a><br/>
+            <a className="aside-link" href="tel:+4748404203">+47 484 04 203</a><br/>
             <a className="aside-link" href="mailto:m.dutfoy@gmail.com" target="_blank">m.dutfoy@gmail.com</a>
-        </address> : <ul className="aside-list">{generateContent(lang, title).content.map(item => <li key={item}>{item}</li>)}</ul>}
+        </address> : title === 'remarks' ?
+        <ul className="aside-list">
+            <li>
+                Tom Gueneau – CTO, Marcel SAS –<br/>
+                <a className="aside-link" href="mailto:tom@marcel.family">tom@marcel.family</a>
+            </li>
+            <li>
+                Marthe Øyangen – {lang === 'fr' ? 'Directrice' : lang === 'en' ? 'General manager' : 'Daglig leder'}, Hjelp mæ å hjelpe –<br/>
+                <a className="aside-link" href="tel:+4741631406">+47 416 31 406</a>
+            </li>
+        </ul> : <ul className="aside-list">{generateContent(lang, title).content.map(item => <li key={item}>{item}</li>)}</ul>}
       </aside>
     );
   };

@@ -1,5 +1,5 @@
 import "./styles/Header.css";
-import profile from "./img/profile.png";
+import profile from "./img/profile.jpg";
 import Language from "./Language";
 
 const Header = ({
@@ -12,26 +12,31 @@ const Header = ({
   return (
     <header>
       <img className="profile" src={profile} alt="Photo Mickaël Dutfoy" />
+
       <h1 className="title name">Mickaël Dutfoy</h1>
+
       <h2 className="title desc">
-        {lang === "fr" && "Développeur TypeScript / Next.js"}
-        {lang === "en" && "TypeScript / Next.js Developer"}
-        {lang === "nb" && "TypeScript / Next.js Utvikler"}
+        {lang === "fr" &&
+          "Développeur fullstack et professeur de mathématiques"}
+        {lang === "en" &&
+          "Full-stack developer and mathematics teacher"}
+        {lang === "nb" &&
+          "Fullstackutvikler og matematikklærer"}
       </h2>
+
       <div className="box short">
         <p>
           {lang === "fr" &&
-            "Développeur TypeScript / Next.js, je recherche un premier poste après 2 mois d’expérience en entreprise et 12 années d’enseignement des mathématiques. Persévérant, attentif aux détails et créatif, je développe actuellement Aster, une application Next.js en production pour les associations de protection animale."}
-        </p>
-        <p>
+            "Les mathématiques m’ont appris à résoudre des problèmes, l’enseignement à rendre les choses complexes compréhensibles pour les autres, et le développement à construire de vrais produits. Aujourd’hui, je mets tout cela à profit, que ce soit avec des élèves ou des utilisateurs."}
+
           {lang === "en" &&
-            "TypeScript / Next.js developer, I am seeking a first full-time role after two months of industry experience and twelve years teaching mathematics. Persistent, detail-oriented and creative, I am currently developing Aster, a production Next.js application for animal welfare organizations."}
-        </p>
-        <p>
+            "Mathematics taught me to solve problems, teaching to make complex things understandable to others, and software development to build real products. Today I put all of that to use, whether working with students or users."}
+
           {lang === "nb" &&
-            "TypeScript / Next.js Utvikler, jeg søker min første faste stilling etter to måneders erfaring i bransjen og tolv år som matematikklærer. Utholdende, detaljorientert og kreativ utvikler jeg for tiden Aster, en Next.js-applikasjon i produksjon for dyrevernorganisasjoner."}
+            "Matematikken har lært meg å løse problemer, undervisningen å gjøre komplekse ting forståelige for andre, og utviklerarbeidet å bygge ekte produkter. I dag bruker jeg alt dette, enten med elever eller brukere."}
         </p>
       </div>
+
       <Language lang={lang} setLang={setLang} />
     </header>
   );

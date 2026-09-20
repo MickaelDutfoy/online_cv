@@ -22,49 +22,96 @@ const Content = ({
       return (
         <>
           <div className="block">
-            <h3 className="title date">09/2025 – 10/2025</h3>
-            <h3 className="title item">Développeur web stagiaire</h3>
-            <p className="place">
-              Marcel SAS
-              <br />
-              Mulhouse (68)
-            </p>
+            <h3 className="title date">05/2025 – Aujourd’hui</h3>
+            <h3 className="title item">Développeur fullstack</h3>
+            <p className="place">Aster (produit personnel)</p>
             <p className="details">
-              Participation au développement d'une application web visant à
-              faciliter l'accompagnement des personnes atteintes de troubles
-              cognitifs.
+              Développement et maintenance d’Aster, de l’idée à la production :
+              une application web et mobile publiée sur Google Play et utilisée
+              par des associations de protection animale en France et en
+              Norvège.
               <br />
-              Stack : Next.js, TypeScript, Prisma, tRPC.
+              Responsable du frontend, du backend, du modèle de données, du
+              déploiement, des correctifs et des évolutions selon les besoins
+              des utilisateurs.
               <br />
-              Liens :{" "}
-              <a href="https://www.marcel.family/" target="_blank">
+              Stack: Next.js, TypeScript, Prisma, PostgreSQL.
+              <br />
+              Liens :{" "}
+              <a
+                href="https://aster-app.eu/discover/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Site web
               </a>
               ,{" "}
-              <a href="https://github.com/Marcel-SAS/" target="_blank">
+              <a
+                href="https://github.com/MickaelDutfoy/aster-next"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 GitHub
               </a>
               .
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">09/2021 – 08/2025</h3>
-            <h3 className="title item">
-              Professeur particulier de mathématiques
-            </h3>
+            <h3 className="title date">09/2025 – 10/2025</h3>
+            <h3 className="title item">Développeur fullstack (stage)</h3>
             <p className="place">
-              Auto-entrepreneur
+              Marcel SAS
               <br />
-              France
+              Mulhouse (France)
             </p>
             <p className="details">
-              Quatre ans sous le statut d'auto-entrepreneur agréé "service à la
-              personne", pour effectuer des cours de mathématiques à domicile, à
-              mon compte.
+              Développement frontend et backend au sein d’une petite équipe
+              agile, pour une application accompagnant les personnes atteintes
+              de troubles cognitifs et leurs aidants.
+              <br />
+              Stack: Next.js, TypeScript, Prisma, tRPC.
+              <br />
+              Liens :{" "}
+              <a
+                href="https://www.marcel.family/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Site web
+              </a>
+              ,{" "}
+              <a
+                href="https://github.com/Marcel-SAS/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              .
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">09/2012 – 08/2024</h3>
+            <h3 className="title date">
+              09/2020 – 08/2025
+              <br />
+              09/2026 – Aujourd’hui
+            </h3>
+            <h3 className="title item">
+              Cours particuliers de mathématiques et de français
+            </h3>
+            <p className="place">
+              À mon compte
+              <br />
+              France / Trondheim
+            </p>
+            <p className="details">
+              Cours de mathématiques à domicile en France sous le statut
+              d’auto-entrepreneur (09/2020–08/2025). Depuis septembre 2026,
+              cours particuliers de mathématiques et de français à Trondheim.
+            </p>
+          </div>
+          <div className="block">
+            <h3 className="title date">09/2012 – 08/2025</h3>
             <h3 className="title item">Professeur certifié de mathématiques</h3>
             <p className="place">
               Éducation Nationale
@@ -72,12 +119,12 @@ const Content = ({
               France
             </p>
             <p className="details">
-              Onze années en collège (élèves de 11 à 15 ans) et une en lycée
-              (élèves de 16 à 18 ans).
+              Treize années d’enseignement des mathématiques au collège et au
+              lycée en France (élèves de 11 à 17 ans).
               <br />
-              Cours de mathématiques, suivi de classes comme professeur
-              principal, accompagnement personnalisé d'élèves en difficulté,
-              animation d'ateliers ludiques (jeux de société mathématiques).
+              Suivi de classes comme professeur principal, accompagnement
+              personnalisé d’élèves en difficulté et animation d’ateliers
+              ludiques autour des mathématiques.
             </p>
           </div>
         </>
@@ -88,85 +135,68 @@ const Content = ({
         <>
           <div className="block">
             <h3 className="title date">10/2024 – 02/2026</h3>
-            <h3 className="title item">Formation DWWM</h3>
+            <h3 className="title item">Développeur web et web mobile (DWWM)</h3>
             <p className="place">
               ESECAD (distanciel)
               <br />
-              Montrouge (92)
+              Montrouge (France)
             </p>
             <p className="details">
-              Obtention du{" "}
+              Titre professionnel français reconnu par l’État (RNCP niveau 5,
+              bac+2).
+              <br />
+              Formation au frontend, au backend et aux bases de données :
+              HTML/CSS, JavaScript, PHP, SQL et Python.
+              <br />
+              Voir le diplôme :{" "}
               <a
                 href="./docs/DWWM.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="DWWM"
               >
-                Titre RNCP "Développeur web et web mobile"
-              </a>
-              . Technologies abordées : HTML/CSS, JavaScript, PHP, SQL, Python.
-            </p>
-          </div>
-          <div className="block">
-            <h3 className="title date">10/2024 – En cours</h3>
-            <h3 className="title item">Auto-formation</h3>
-            <p className="place">En autonomie</p>
-            <p className="details">
-              Obtention du{" "}
-              <a
-                href="./docs/Mimo.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Certificat "Développeur full-stack"
-              </a>{" "}
-              sur{" "}
-              <a href="https://mimo.org/" target="_blank">
-                Mimo
-              </a>{" "}
-              (mai 2025). Technologies abordées : HTML/CSS, TypeScript, SQL,
-              React, ExpressJS.
-              <br />
-              Apprentissage de Rust à titre personnel avec{" "}
-              <a href="https://doc.rust-lang.org/book/" target="_blank">
-                The Rust Book
-              </a>{" "}
-              et{" "}
-              <a href="https://github.com/rust-lang/rustlings" target="_blank">
-                Rustlings
+                Titre DWWM
               </a>
               .
             </p>
           </div>
           <div className="block">
             <h3 className="title date">08/2012</h3>
-            <h3 className="title item">CAPES de Mathématiques</h3>
+            <h3 className="title item">CAPES de mathématiques</h3>
             <p className="place">
-              Université Rennes 2<br />
-              Rennes (35)
+              Éducation Nationale
+              <br />
+              France
             </p>
             <p className="details">
-              Classement : 222<sup>e</sup>.
+              Classement national : 222<sup>e</sup>.
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">09/2010 – 08/2012</h3>
-            <h3 className="title item">Master MEEF Mathématiques</h3>
+            <h3 className="title date">09/2010 – 06/2012</h3>
+            <h3 className="title item">
+              Master en mathématiques et applications
+            </h3>
             <p className="place">
-              Université Rennes 2<br />
-              Rennes (35)
+              Université de Rennes
+              <br />
+              Rennes (France)
             </p>
             <p className="details">
-              Obtention du{" "}
+              Spécialité Mathématiques et métiers de l’enseignement.
+              <br />
+              Mathématiques avancées, didactique et formation au métier
+              d’enseignant : analyse, algèbre, géométrie et stages
+              d’enseignement.
+              <br />
+              Voir le diplôme :{" "}
               <a
                 href="./docs/Master.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Master "Métiers de l'Enseignement, de l'Éducation et de la
-                Formation"
-              </a>{" "}
-              en mathématiques.
+                Master Maths MEEF
+              </a>
+              .
             </p>
           </div>
         </>
@@ -176,41 +206,48 @@ const Content = ({
       return (
         <div className="text-box">
           <p>
-            Après avoir enseigné les mathématiques pendant douze ans, mission
-            que j'ai toujours eue à coeur, j'ai choisi de donner un nouveau cap
-            à ma vie professionnelle avec une reconversion dans le monde du
-            développement. J'aime apprendre, évoluer, sortir de ma zone de
-            confort : ce changement de direction me satisfait donc pleinement.
+            En tant que développeur, je travaille principalement avec TypeScript
+            et React (Next.js). J’ai développé et mis en production Aster, une
+            application web et mobile utilisée par des associations de
+            protection animale en Norvège et en France. Ce projet m’a amené à
+            travailler sur l’ensemble de la stack, à faire des choix techniques
+            à partir des retours concrets des utilisateurs et à apprendre à
+            explorer de nouvelles problématiques en autonomie. J’utilise
+            également des outils d’IA pour explorer différentes approches,
+            apprendre et élargir mes compétences, en gardant toujours un regard
+            critique sur les résultats.
           </p>
+
           <p>
-            Mon expérience professionnelle m'a laissé des <em>soft skills</em>{" "}
-            précieuses : pédagogie, patience, organisation, communication... De
-            nature persévérante, l'apprentissage du code est un réel plaisir,
-            d'autant plus que j'y retrouve ce que j'ai toujours aimé dans les
-            mathématiques : la rigueur, la logique pure, l'élégance d'une
-            solution bien construite. En outre, l'enseignement m'a rendu à la
-            fois autonome et capable de travailler en équipe : des atouts
-            précieux dans un monde où la collaboration est clé, et où
-            l'auto-suffisance est d'or.
+            Lors de mon stage chez Marcel en France, j’ai travaillé au sein
+            d’une petite équipe agile, sur le frontend et le backend d’une
+            application destinée aux personnes atteintes de troubles cognitifs
+            et à leurs aidants. On m’a progressivement confié davantage de
+            responsabilités : des corrections de bugs et de petites
+            modifications les premiers jours, jusqu’au développement d’une
+            fonctionnalité fullstack complète en fin de stage. J’ai également
+            commencé à explorer les bases de C# et de .NET en autonomie, ces
+            technologies étant largement utilisées sur le marché norvégien.
           </p>
+
           <p>
-            J'ai le goût de l'effort : que ce soit dans les progrès en trail, en
-            VTT, en norvégien, en TypeScript ou en Rust, j'aime aller au fond
-            des choses et me surpasser en permanence. Je ne me contente pas des
-            bases : j'approfondis, je déconstruis les notions, je fais l'effort
-            de comprendre plutôt que d'apprendre — philosophie que j'ai
-            d'ailleurs toujours tenu à transmettre à mes élèves. À ce titre, je
-            préfère développer en adaptant les outils au besoin et garder un
-            code lisible et performant, plutôt qu'empiler bibliothèques et
-            frameworks sans questionner leur pertinence. Ce souci de clarté se
-            retrouve dans tous les outils que j'aime utiliser ou concevoir : le
-            minimalisme, la sobriété et la fluidité sont des piliers pour moi.
+            Mon parcours de professeur de mathématiques influence ma façon de
+            travailler : les mathématiques m’ont appris à résoudre des
+            problèmes, tandis que l’enseignement m’a appris à rendre les choses
+            complexes compréhensibles pour les autres et à tenir compte des
+            besoins de l’utilisateur. À bien des égards, un bon enseignement est
+            aussi une forme d’UX !
           </p>
+
           <p>
-            Je suis quelqu'un qui avance sans prétention mais avec exigence : de
-            l'exigence envers moi-même, envers le code que j'écris, envers
-            l'impact que je veux avoir. Mon ambition ? Élaborer des systèmes
-            élégants, performants, discrets, et surtout porteurs de sens.
+            Ma reconversion, mon travail sur Aster, mon stage et l’apprentissage
+            du norvégien à partir de zéro reflètent quelque chose de fondamental
+            chez moi : apprendre en continu occupe une place centrale dans mon
+            évolution, tant professionnelle que personnelle. J’aime aborder de
+            nouveaux domaines, les explorer en autonomie et en construire
+            progressivement une compréhension plus profonde. C’est aussi cet
+            état d’esprit qui m’a conduit à m’installer en Norvège pour y
+            construire mon avenir personnel et professionnel.
           </p>
         </div>
       );
@@ -225,15 +262,17 @@ const Content = ({
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                Application web (mobile-first) en développement continu destinée
-                aux associations de protection animale, Aster permet de gérer
-                les membres, la trésorerie, les animaux et les lieux d’accueil.
+                Aster est une application web et mobile pour les associations de
+                protection animale. Elle permet de gérer les membres, la
+                trésorerie, les animaux et les lieux d’accueil, et même de
+                mettre à jour le site d’adoption de l’association depuis son
+                téléphone.
               </p>
 
               <p>
-                Développée en TypeScript avec Next.js et Prisma, elle est
-                déployée en production, publiée sur Google Play et utilisée par
-                des associations partenaires.
+                Développée en TypeScript avec Next.js et Prisma, elle évolue en
+                continu, est publiée sur Google Play et utilisée par un nombre
+                croissant d’associations en France et en Norvège.
               </p>
 
               <p>
@@ -263,7 +302,6 @@ const Content = ({
             </a>
             <div className="portfolio-desc">
               <h3>Elegia</h3>
-
               <p>
                 Jeu de plateau tactique actuellement en développement, construit
                 entièrement en Rust, avec Macroquad pour l'UI.
@@ -361,45 +399,93 @@ const Content = ({
       return (
         <>
           <div className="block">
-            <h3 className="title date">09/2025 – 10/2025</h3>
-            <h3 className="title item">Web developer intern</h3>
-            <p className="place">
-              Marcel SAS
-              <br />
-              Mulhouse (France)
-            </p>
+            <h3 className="title date">05/2025 – Present</h3>
+            <h3 className="title item">Full-stack developer</h3>
+            <p className="place">Aster (own product)</p>
             <p className="details">
-              Contributing to the development of a web application designed to
-              support people helping those with cognitive impairments.
+              Developing and maintaining Aster from idea to production: a web
+              and mobile application published on Google Play and used by animal
+              welfare organizations in Norway and France.
               <br />
-              Stack: Next.js, TypeScript, Prisma, tRPC.
+              Responsible for frontend, backend, data modeling, deployment, bug
+              fixes and ongoing development based on user needs.
               <br />
-              Links:{" "}
-              <a href="https://www.marcel.family/" target="_blank">
+              Stack: Next.js, TypeScript, Prisma, PostgreSQL.
+              <br />
+              Links :{" "}
+              <a
+                href="https://aster-app.eu/discover/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Website
               </a>
               ,{" "}
-              <a href="https://github.com/Marcel-SAS/" target="_blank">
+              <a
+                href="https://github.com/MickaelDutfoy/aster-next"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 GitHub
               </a>
               .
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">09/2021 – 08/2025</h3>
-            <h3 className="title item">Private math tutor</h3>
+            <h3 className="title date">09/2025 – 10/2025</h3>
+            <h3 className="title item">Full-stack developer (internship)</h3>
             <p className="place">
-              Self-employed
+              Marcel SAS
               <br />
-              France
+              Mulhouse (France)
             </p>
             <p className="details">
-              Four years as a self-employed teacher, delivering in-home
-              mathematics tutoring.
+              Developed frontend and backend features in a small agile team for
+              an application supporting people with cognitive impairments and
+              their caregivers.
+              <br />
+              Stack: Next.js, TypeScript, Prisma, tRPC.
+              <br />
+              Links:{" "}
+              <a
+                href="https://www.marcel.family/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Website
+              </a>
+              ,{" "}
+              <a
+                href="https://github.com/Marcel-SAS/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              .
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">09/2012 – 08/2024</h3>
+            <h3 className="title date">
+              09/2020 – 08/2025
+              <br />
+              09/2026 – Present
+            </h3>
+            <h3 className="title item">Private mathematics and French tutor</h3>
+            <p className="place">
+              Independent tutoring
+              <br />
+              France / Trondheim
+            </p>
+            <p className="details">
+              Provided in-home mathematics tutoring as a registered
+              self-employed tutor in France (09/2020–08/2025). Since September
+              2026, providing private mathematics and French lessons in
+              Trondheim.
+            </p>
+          </div>
+          <div className="block">
+            <h3 className="title date">09/2012 – 08/2025</h3>
             <h3 className="title item">Certified mathematics teacher</h3>
             <p className="place">
               French Ministry of Education
@@ -407,12 +493,11 @@ const Content = ({
               France
             </p>
             <p className="details">
-              Eleven years in middle school (students aged 11-15) and one year
-              in high school (students aged 16-18).
+              Thirteen years teaching mathematics in French secondary schools
+              (students aged 11–17).
               <br />
-              Mathematics teaching, homeroom teacher responsibilities,
-              individual support for struggling students, and facilitation of
-              educational board-game workshops.
+              Homeroom teacher responsibilities, individual support for
+              struggling students and educational mathematics game workshops.
             </p>
           </div>
         </>
@@ -423,53 +508,26 @@ const Content = ({
         <>
           <div className="block">
             <h3 className="title date">10/2024 – 02/2026</h3>
-            <h3 className="title item">Web and mobile developer course</h3>
+            <h3 className="title item">Web and mobile web developer (DWWM)</h3>
             <p className="place">
               ESECAD (online)
               <br />
               Montrouge (France)
             </p>
             <p className="details">
-              Earned the{" "}
+              French state-recognized vocational qualification (RNCP level 5,
+              bac+2: two years of post-secondary education).
+              <br />
+              Covered frontend, backend and databases: HTML/CSS, JavaScript,
+              PHP, SQL and Python.
+              <br />
+              View diploma:{" "}
               <a
                 href="./docs/DWWM.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="DWWM"
               >
-                "Web and mobile developer" diploma
-              </a>
-              . State-recognized qualification in France. Technologies covered:
-              HTML/CSS, JavaScript, PHP, SQL, Python.
-            </p>
-          </div>
-          <div className="block">
-            <h3 className="title date">10/2024 – Ongoing</h3>
-            <h3 className="title item">Self-learning</h3>
-            <p className="place">Self-paced</p>
-            <p className="details">
-              Earned the{" "}
-              <a
-                href="./docs/Mimo.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                "Full-stack developer" certificate
-              </a>{" "}
-              from{" "}
-              <a href="https://mimo.org/" target="_blank">
-                Mimo
-              </a>{" "}
-              (May 2025). Technologies covered: HTML/CSS, TypeScript, SQL,
-              React, ExpressJS.
-              <br />
-              Learning Rust independently using{" "}
-              <a href="https://doc.rust-lang.org/book/" target="_blank">
-                The Rust Book
-              </a>{" "}
-              and{" "}
-              <a href="https://github.com/rust-lang/rustlings" target="_blank">
-                Rustlings
+                DWWM qualification
               </a>
               .
             </p>
@@ -477,35 +535,42 @@ const Content = ({
           <div className="block">
             <h3 className="title date">08/2012</h3>
             <h3 className="title item">
-              National teaching certification in mathematics (CAPES)
+              French national teaching certification in mathematics (CAPES)
             </h3>
             <p className="place">
-              University of Rennes 2<br />
-              Rennes (France)
+              French Ministry of Education
+              <br />
+              France
             </p>
             <p className="details">
               National ranking: 222<sup>nd</sup>.
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">09/2010 – 08/2012</h3>
+            <h3 className="title date">09/2010 – 06/2012</h3>
             <h3 className="title item">
-              Master's Degree in mathematics education
+              Master’s degree in mathematics and applications
             </h3>
             <p className="place">
-              University of Rennes 2<br />
+              Université de Rennes
+              <br />
               Rennes (France)
             </p>
             <p className="details">
-              Earned the{" "}
+              Specialization in mathematics and teacher education.
+              <br />
+              Advanced mathematics, mathematics education and teacher training:
+              analysis, algebra, geometry and teaching placements.
+              <br />
+              View diploma:{" "}
               <a
                 href="./docs/Master.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Master’s Degree in "Teaching, Education, and Training"
-              </a>{" "}
-              with a specialization in mathematics.
+                Master’s degree in Mathematics (MEEF)
+              </a>
+              .
             </p>
           </div>
         </>
@@ -515,39 +580,42 @@ const Content = ({
       return (
         <div className="text-box">
           <p>
-            After teaching mathematics for twelve years, a mission I always
-            cared deeply about, I chose to give my career a new direction
-            through a reconversion into software development. I love learning,
-            evolving, and stepping out of my comfort zone: this change truly
-            fulfills me.
+            As a developer, I mainly work with TypeScript and React (Next.js). I
+            built and launched Aster, a web and mobile application used by
+            animal welfare organizations in Norway and France. Through this
+            project, I have worked across the entire stack, made technical
+            decisions based on real user feedback, and learned to explore new
+            challenges independently. I also use AI tools to help me explore
+            different approaches, learn, and broaden my skills, while always
+            critically assessing their output.
           </p>
+
           <p>
-            My professional experience has given me valuable soft skills:
-            pedagogy, patience, organization, communication... Naturally
-            persistent, I find real joy in coding, especially because it
-            reconnects me with what I always loved in mathematics: rigor, pure
-            logic, and the elegance of a well-crafted solution. Teaching also
-            taught me to be both autonomous and collaborative: two precious
-            assets in a world where teamwork is key and self-sufficiency is
-            golden.
+            During an internship at Marcel in France, I worked in a small agile
+            team on both the frontend and backend of an application for people
+            with cognitive impairments and their caregivers. I gradually took on
+            more responsibility, progressing from bug fixes and small changes in
+            the first few days to developing a complete full-stack feature by
+            the end of the internship. I have also started exploring the
+            fundamentals of C# and .NET independently, as these technologies are
+            widely used in the Norwegian market.
           </p>
+
           <p>
-            I value effort: whether it’s progressing in trail running, mountain
-            biking, Norwegian, TypeScript, or Rust, I like to go deep and
-            constantly push myself. I don’t settle for the basics: I explore,
-            deconstruct, and strive to understand rather than just memorize — a
-            philosophy I always aimed to pass on to my students. In that spirit,
-            I prefer adapting tools to the actual needs and keep code clear and
-            efficient, rather than piling up libraries and frameworks without
-            questioning their relevance. This drive for clarity also shapes the
-            tools I enjoy using or designing: minimalism, sobriety, and
-            smoothness are my guiding principles.
+            My background as a mathematics teacher shapes the way I work:
+            mathematics taught me to solve problems, while teaching taught me to
+            make complex things understandable to others and to consider the
+            user’s needs. In many ways, good teaching is also a form of UX!
           </p>
+
           <p>
-            I move forward without pretension but with high standards: for
-            myself, for the code I write, and for the impact I want to have. My
-            ambition? To build elegant, efficient, discreet, and above all
-            meaningful systems.
+            My career change, my work on Aster, my internship, and learning
+            Norwegian from scratch all reflect something fundamental about me:
+            continuous learning is central to how I grow, both professionally
+            and personally. I enjoy venturing into new areas, exploring them
+            independently, and gradually building a deeper understanding. That
+            same mindset also led me to move to Norway to build my personal and
+            professional future here.
           </p>
         </div>
       );
@@ -562,15 +630,16 @@ const Content = ({
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                Mobile-first web application in continuous development for
-                animal welfare organizations. Aster allows management of
-                members, treasury, animals and foster locations.
+                Aster is a web and mobile application for animal welfare
+                organizations. It lets them manage members, finances, animals
+                and foster locations, and even update their adoption website
+                straight from a phone.
               </p>
 
               <p>
-                Built with TypeScript, Next.js and Prisma, it is deployed in
-                production, published on Google Play and used by partner
-                organizations.
+                Built with TypeScript, Next.js and Prisma, it is continuously
+                improved, published on Google Play and used by a growing number
+                of organizations in France and Norway.
               </p>
 
               <p>
@@ -697,58 +766,106 @@ const Content = ({
       return (
         <>
           <div className="block">
-            <h3 className="title date">09/2025 – 10/2025</h3>
-            <h3 className="title item">Utviklerpraktikant (web)</h3>
-            <p className="place">
-              Marcel SAS
-              <br />
-              Mulhouse (Frankrike)
-            </p>
+            <h3 className="title date">05/2025 – D.D.</h3>
+            <h3 className="title item">Fullstackutvikler</h3>
+            <p className="place">Aster (eget produkt)</p>
             <p className="details">
-              Bidrar til utviklingen av en webapplikasjon laget for å støtte
-              personer med kognitive utfordringer.
+              Utvikler og drifter Aster fra idé til produksjon, en web- og
+              mobilapplikasjon publisert på Google Play og brukt av
+              dyrevernorganisasjoner i Norge og Frankrike.
               <br />
-              Stack: Next.js, TypeScript, Prisma, tRPC.
+              Ansvar for frontend, backend, datamodell, utrulling, feilretting
+              og videreutvikling basert på brukerbehov.
               <br />
-              Lenker:{" "}
-              <a href="https://www.marcel.family/" target="_blank">
+              Stack: Next.js, TypeScript, Prisma, PostgreSQL.
+              <br />
+              Lenker :{" "}
+              <a
+                href="https://aster-app.eu/discover/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Nettside
               </a>
               ,{" "}
-              <a href="https://github.com/Marcel-SAS/" target="_blank">
+              <a
+                href="https://github.com/MickaelDutfoy/aster-next"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 GitHub
               </a>
               .
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">09/2021 – 08/2025</h3>
-            <h3 className="title item">Privatlærer i matematikk</h3>
+            <h3 className="title date">09/2025 – 10/2025</h3>
+            <h3 className="title item">Fullstackutvikler (praksis)</h3>
             <p className="place">
-              Selvstendig næringsdrivende
+              Marcel SAS
               <br />
-              Frankrike
+              Mulhouse (Frankrike)
             </p>
             <p className="details">
-              Fire år som selvstendig lærer, med hjemmeundervisning i
-              matematikk.
+              Utviklet frontend og backend i et lite agilt team for en løsning
+              som støtter personer med kognitive utfordringer og deres
+              omsorgspersoner.
+              <br />
+              Stack: Next.js, TypeScript, Prisma, tRPC.
+              <br />
+              Lenker:{" "}
+              <a
+                href="https://www.marcel.family/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Nettside
+              </a>
+              ,{" "}
+              <a
+                href="https://github.com/Marcel-SAS/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              .
             </p>
           </div>
           <div className="block">
-            <h3 className="title date">09/2012 – 08/2024</h3>
-            <h3 className="title item">Lektor i matematikk</h3>
+            <h3 className="title date">
+              09/2020 – 08/2025
+              <br />
+              09/2026 – D.D.
+            </h3>
+            <h3 className="title item">Privatlærer i matematikk og fransk</h3>
             <p className="place">
-              Det franske utdannings departementet
+              Privatlærer
+              <br />
+              Frankrike / Trondheim
+            </p>
+            <p className="details">
+              Privatundervisning i matematikk hjemme hos elever i Frankrike som
+              selvstendig næringsdrivende (09/2020–08/2025). Tilbyr siden
+              september 2026 privatundervisning i matematikk og fransk i
+              Trondheim.
+            </p>
+          </div>
+          <div className="block">
+            <h3 className="title date">09/2012 – 08/2025</h3>
+            <h3 className="title item">Matematikklærer</h3>
+            <p className="place">
+              Éducation Nationale
               <br />
               Frankrike
             </p>
             <p className="details">
-              Elleve år på ungdomsskole (elever 11-15 år) og ett år på
-              videregående (elever 16-18 år).
+              Tretten år med matematikkundervisning på ungdomsskole og
+              videregående i Frankrike (elever fra 11 til 17 år).
               <br />
-              Undervisning i matematikk, ansvar som kontaktlærer, individuell
-              støtte for elever med utfordringer og gjennomføring av faglige
-              spillverksteder.
+              Ansvar som kontaktlærer, individuell støtte for elever med
+              utfordringer og gjennomføring av spillverksteder med matematisk
+              innhold.
             </p>
           </div>
         </>
@@ -759,53 +876,26 @@ const Content = ({
         <>
           <div className="block">
             <h3 className="title date">10/2024 – 02/2026</h3>
-            <h3 className="title item">Web- og mobilutvikler utdanning</h3>
+            <h3 className="title item">Web- og mobilutvikler (DWWM)</h3>
             <p className="place">
               ESECAD (nettbasert)
               <br />
               Montrouge (Frankrike)
             </p>
             <p className="details">
-              Oppnådde{" "}
+              Statlig fransk yrkeskvalifikasjon (RNCP nivå 5). Fransk bac+2-nivå
+              (to år etter videregående opplæring).
+              <br />
+              Omfattet frontend, backend og databaser: HTML/CSS, JavaScript,
+              PHP, SQL og Python.
+              <br />
+              Se vitnemål:{" "}
               <a
                 href="./docs/DWWM.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="DWWM"
               >
-                diplomet «Web- og mobilutvikler»
-              </a>
-              . Statlig anerkjent utdanning i Frankrike. Teknologier: HTML/CSS,
-              JavaScript, PHP, SQL, Python.
-            </p>
-          </div>
-          <div className="block">
-            <h3 className="title date">10/2024 – Nå</h3>
-            <h3 className="title item">Selvstudium</h3>
-            <p className="place">Egen læring</p>
-            <p className="details">
-              Oppnådde{" "}
-              <a
-                href="./docs/Mimo.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                «Full-stack utvikler»-sertifikatet
-              </a>{" "}
-              fra{" "}
-              <a href="https://mimo.org/" target="_blank">
-                Mimo
-              </a>{" "}
-              (mai 2025). Teknologier: HTML/CSS, TypeScript, SQL, React,
-              ExpressJS.
-              <br />
-              Lærer Rust selvstendig med{" "}
-              <a href="https://doc.rust-lang.org/book/" target="_blank">
-                The Rust Book
-              </a>{" "}
-              og{" "}
-              <a href="https://github.com/rust-lang/rustlings" target="_blank">
-                Rustlings
+                DWWM-kvalifikasjon
               </a>
               .
             </p>
@@ -813,32 +903,39 @@ const Content = ({
           <div className="block">
             <h3 className="title date">08/2012</h3>
             <h3 className="title item">
-              Nasjonal undervisningssertifisering i matematikk (CAPES)
+              Fransk nasjonal lærerkvalifikasjon i matematikk (CAPES)
             </h3>
             <p className="place">
-              Universitetet i Rennes 2<br />
-              Rennes (Frankrike)
+              Éducation Nationale
+              <br />
+              Frankrike
             </p>
             <p className="details">Nasjonal rangering: 222.</p>
           </div>
-
           <div className="block">
-            <h3 className="title date">09/2010 – 08/2012</h3>
-            <h3 className="title item">Master i matematikkdidaktikk</h3>
+            <h3 className="title date">09/2010 – 06/2012</h3>
+            <h3 className="title item">Master i matematikk og anvendelser</h3>
             <p className="place">
-              Universitetet i Rennes 2<br />
+              Université de Rennes
+              <br />
               Rennes (Frankrike)
             </p>
             <p className="details">
-              Oppnådde{" "}
+              Spesialisering i matematikk og lærerutdanning.
+              <br />
+              Omfattet avansert matematikk, matematikkdidaktikk og
+              lærerutdanning: analyse, algebra, geometri og
+              undervisningspraksis.
+              <br />
+              Se vitnemål:{" "}
               <a
                 href="./docs/Master.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Mastergrad i «undervisning, utdanning og opplæring»
-              </a>{" "}
-              med spesialisering i matematikk.
+                Master i matematikk (MEEF)
+              </a>
+              .
             </p>
           </div>
         </>
@@ -848,45 +945,43 @@ const Content = ({
       return (
         <div className="text-box">
           <p>
-            Etter tolv år som matematikklærer, en rolle jeg alltid har hatt nært
-            til hjertet, valgte jeg å gi karrieren min en ny retning gjennom en
-            overgang til programvareutvikling. Jeg liker å lære, utvikle meg og
-            gå ut av komfortsonen min: Dette skiftet gir meg derfor ekte
-            tilfredshet.
+            Som utvikler jobber jeg hovedsakelig med TypeScript og React
+            (Next.js), og har utviklet og satt i produksjon Aster, en web- og
+            mobilapplikasjon som brukes av dyrevernorganisasjoner i Norge og
+            Frankrike. Gjennom prosjektet har jeg jobbet med hele stacken, tatt
+            tekniske valg basert på faktiske tilbakemeldinger fra brukerne og
+            lært å utforske nye problemstillinger selvstendig. Jeg bruker også
+            KI-verktøy som støtte for å utforske ulike tilnærminger, lære og
+            utvide kompetansen min, alltid med et kritisk blikk på resultatene.
           </p>
+
           <p>
-            Min yrkeserfaring har gitt meg verdifulle <em>soft skills</em>:
-            pedagogikk, tålmodighet, organisering, kommunikasjon. Som en
-            naturlig utholdende person finner jeg stor glede i koding, spesielt
-            fordi jeg gjenfinner det jeg alltid har likt best i matematikk:
-            nøyaktighet, ren logikk og elegansen i en godt konstruert løsning.
-            Undervisning har også lært meg å være både selvstendig og
-            samarbeidsvillig: to viktige kvaliteter i en verden der samarbeid er
-            nøkkelen og selvstendighet er gull verdt.
+            Under en praksisperiode hos Marcel i Frankrike jobbet jeg i et lite
+            agilt team med både frontend og backend på en applikasjon for
+            personer med kognitive utfordringer og deres omsorgspersoner. Jeg
+            fikk gradvis mer ansvar: fra feilretting og mindre endringer de
+            første dagene til å utvikle en komplett fullstack-funksjonalitet mot
+            slutten av perioden. Jeg har også begynt å utforske det
+            grunnleggende i C# og .NET på egen hånd, ettersom disse teknologiene
+            er mye brukt på det norske markedet.
           </p>
+
           <p>
-            Jeg setter pris på innsats, enten det gjelder framgang i terrengløp,
-            på sykkel, i norsk, TypeScript eller Rust, og liker å gå i dybden og
-            stadig utfordre meg selv. Jeg nøyer meg ikke med det grunnleggende:
-            Jeg utforsker, dekonstruerer og streber etter å forstå heller enn å
-            pugge — en filosofi jeg alltid har ønsket å formidle til elevene
-            mine. I samme ånd foretrekker jeg å tilpasse verktøy til behovet og
-            holde koden tydelig og effektiv, heller enn å stable biblioteker og
-            rammeverk uten å stille spørsmål ved relevansen. Dette kravet om
-            klarhet preger også verktøyene jeg liker å bruke eller utvikle:
-            Minimalisme, enkelhet og flyt er mine ledestjerner.
+            Bakgrunnen min som matematikklærer påvirker måten jeg jobber på:
+            matematikken har lært meg å løse problemer, mens undervisningen har
+            lært meg å gjøre komplekse ting forståelige for andre og å tenke på
+            brukerens behov – på mange måter er god undervisning også en form
+            for UX!
           </p>
+
           <p>
-            Jeg jobber uten store ord, men med høye standarder: for meg selv,
-            for koden jeg skriver, og for virkningen jeg ønsker å ha. Min
-            ambisjon? Å bygge elegante, effektive, diskrete og fremfor alt
-            meningsfulle systemer.
-          </p>
-          <p>
-            <em>
-              NB: Jeg lærer fortsatt norsk (B1/B2). Denne teksten er oversatt
-              med litt hjelp. Se gjerne den engelske versjonen for presisjon.
-            </em>
+            Karriereskiftet mitt, arbeidet med Aster, praksisperioden og det å
+            lære norsk fra bunnen av gjenspeiler noe grunnleggende ved meg:
+            kontinuerlig læring er en sentral del av hvordan jeg utvikler meg,
+            både faglig og personlig. Jeg liker å gå inn i nye områder, utforske
+            dem selvstendig og gradvis bygge en dypere forståelse. Det er også
+            denne innstillingen som fikk meg til å flytte til Norge for å bygge
+            min personlige og profesjonelle fremtid her.
           </p>
         </div>
       );
@@ -901,19 +996,20 @@ const Content = ({
             <div className="portfolio-desc">
               <h3>Aster</h3>
               <p>
-                Mobil-først webapplikasjon i kontinuerlig utvikling, laget for
-                dyrevernorganisasjoner. Aster gjør det mulig å administrere
-                medlemmer, økonomi, dyr og fosterhjem.
+                Aster er en web- og mobilapplikasjon for dyrevernorganisasjoner.
+                Den gjør det mulig å administrere medlemmer, økonomi, dyr og
+                omsorgssteder, og til og med oppdatere organisasjonens nettside
+                for adopsjon rett fra mobilen.
               </p>
 
               <p>
-                Utviklet med TypeScript, Next.js og Prisma, er den distribuert i
-                produksjon, publisert på Google Play og brukt av samarbeidende
-                organisasjoner.
+                Applikasjonen er utviklet med TypeScript, Next.js og Prisma,
+                videreutvikles kontinuerlig, er publisert på Google Play og
+                brukes av stadig flere organisasjoner i Norge og Frankrike.
               </p>
 
               <p>
-                Klikk på forhåndsvisningen for å åpne live-versjonen (testkonto:
+                Klikk på forhåndsvisningen for å åpne nettversjonen (testkonto:
                 demo@aster.app / AsterDemo2026!).
               </p>
               <p>

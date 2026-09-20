@@ -15,9 +15,9 @@ const TabBar = ({
         onClick={() => setTab(1)}
         className={tab === 1 ? "active-tab" : "unactive-tab"}
       >
-        {lang === "fr" && "Expérience professionnelle"}
-        {lang === "en" && "Professional experience"}
-        {lang === "nb" && "Yrkeserfaring"}
+        {lang === "fr" && "Expérience"}
+        {lang === "en" && "Experience"}
+        {lang === "nb" && "Erfaring"}
       </button>
       <button
         onClick={() => setTab(2)}
@@ -27,14 +27,14 @@ const TabBar = ({
         {lang === "en" && "Training and qualifications"}
         {lang === "nb" && "Opplæring og kvalifikasjoner"}
       </button>
-      {/* <button
+      <button
         onClick={() => setTab(3)}
         className={tab === 3 ? "active-tab" : "unactive-tab"}
       >
         {lang === "fr" && "Qui suis-je ?"}
         {lang === "en" && "Who am I?"}
         {lang === "nb" && "Hvem er jeg?"}
-      </button> */}
+      </button>
       <button
         onClick={() => setTab(4)}
         className={tab === 4 ? "active-tab" : "unactive-tab"}

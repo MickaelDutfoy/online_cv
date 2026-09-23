@@ -22,6 +22,25 @@ const Content = ({
       return (
         <>
           <div className="block">
+            <h3 className="title date">09/2026 – Aujourd’hui</h3>
+            <h3 className="title item">Développeur (stage)</h3>
+            <p className="place">
+              Hope Spot Organization
+              <br />
+              Trondheim (Norvège)
+            </p>
+            <p className="details">
+              Conception et développement d’une nouvelle solution technique pour
+              le site web de Hope Spot, des choix techniques à la mise en œuvre.
+              <br />
+              Priorité au multilinguisme, à la gestion des contenus et à
+              l’amélioration de l’expérience utilisateur.
+              <br />
+              Participation aux réunions, aux cours et aux autres activités de
+              l’association.
+            </p>
+          </div>
+          <div className="block">
             <h3 className="title date">05/2025 – Aujourd’hui</h3>
             <h3 className="title item">Développeur fullstack</h3>
             <p className="place">Aster (produit personnel)</p>
@@ -399,6 +418,25 @@ const Content = ({
       return (
         <>
           <div className="block">
+            <h3 className="title date">09/2026 – Present</h3>
+            <h3 className="title item">Developer (internship)</h3>
+            <p className="place">
+              Hope Spot Organization
+              <br />
+              Trondheim (Norway)
+            </p>
+            <p className="details">
+              Planning and developing a new technical solution for Hope Spot’s
+              website, from technical decisions to implementation.
+              <br />
+              Focus on multilingual support, content management and improving
+              the user experience.
+              <br />
+              Taking part in meetings, courses and other activities within the
+              organization.
+            </p>
+          </div>
+          <div className="block">
             <h3 className="title date">05/2025 – Present</h3>
             <h3 className="title item">Full-stack developer</h3>
             <p className="place">Aster (own product)</p>
@@ -765,6 +803,24 @@ const Content = ({
       // Exp NO
       return (
         <>
+          <div className="block">
+            <h3 className="title date">09/2026 – D.D.</h3>
+            <h3 className="title item">Utvikler (praksis)</h3>
+            <p className="place">
+              Hope Spot Organization
+              <br />
+              Trondheim (Norge)
+            </p>
+            <p className="details">
+              Planlegger og utvikler en ny teknisk løsning for Hope Spots
+              nettsider, fra tekniske valg til implementasjon.
+              <br />
+              Fokus på flerspråklighet, innholdshåndtering og bedre
+              brukeropplevelse.
+              <br />
+              Deltar også i møter, kurs og andre aktiviteter i organisasjonen.
+            </p>
+          </div>
           <div className="block">
             <h3 className="title date">05/2025 – D.D.</h3>
             <h3 className="title item">Fullstackutvikler</h3>
